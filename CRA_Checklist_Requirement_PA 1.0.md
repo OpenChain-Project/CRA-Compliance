@@ -312,7 +312,7 @@ Evaluating vulnerability exploitability in context: reachability, environment, s
 | :---- | :---- | :---- | :---- |
 | 4.2.1 | A documented VEX (Vulnerability Exploitability eXchange) process exists, covering assessment of reachability, exploitability, and environmental context. | VEX process document; assessment criteria checklist. | ☐  Yes ☐  No ☐  Partial |
 | 4.2.2 | VEX statements are issued in machine-readable format (CycloneDX VEX or OpenVEX) for all products in active support. | Sample VEX document; tooling used (e.g., Interlynk vexctl, CycloneDX CLI). | ☐  Yes ☐  No ☐  Partial |
-| 4.2.3 | VEX justifications align with standard status values: not\_affected, affected, fixed, under\_investigation. | VEX status mapping table; sample justified statements. | ☐  Yes ☐  No ☐  Partial |
+| 4.2.3 | VEX justifications align with standard status values: not\_affected, affected, fixed, under\_investigation, false\_positive. | VEX status mapping table; sample justified statements. | ☐  Yes ☐  No ☐  Partial |
 | 4.2.4 | VEX statements are versioned, timestamped, and retained as part of the product's technical documentation. | VEX archive; version control history. | ☐  Yes ☐  No ☐  Partial |
 | 4.2.5 | A Safety Relevance classification is applied to components where functional safety or AI/autonomous system context applies (e.g., SRIL/SRAP framework or equivalent). | Safety relevance scoring methodology; component classification register. | ☐  Yes ☐  No ☐  Partial |
 
