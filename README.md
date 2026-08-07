@@ -17,8 +17,8 @@ This framework is:
 
 | File | Description |
 |---|---|
-| `CRA_Checklist_Requirement_PA 1.0.md` | CRA Compliance Checklist and Requirements - PA3 (156 checklist items) |
-| `CRA_Requirement_Checklist.docx` | Word version of the compliance checklist |
+| `versions` | Archive directory for Checklist versions |
+| `CRA_Checklist_Requirement_latest.md` | CRA Compliance Checklist and Requirements latest version (156 checklist items) |
 
 ## Checklist Structure
 
@@ -47,7 +47,7 @@ The checklist covers 9 sections and 156 requirements:
 
 ## Status
 
-Current version: **PA3 (Pre-Approval Draft)**
+Current version: **PA5 (Pre-Approval Draft)**
 
 The document is under active development. Contributions and feedback are welcome via pull requests and issues.
 
@@ -61,3 +61,6 @@ CC0-1.0 - See [LICENSE](LICENSE) for details.
 |---|---|
 | Devashri Datta | Independent Researcher / OpenSSF SBOM Everywhere SIG |
 | Mary Meixia Wang | OpenChain Project |
+| Ummo Schwarting | Open Source Consultant / Chairman, OpenChain Business Operations Study Group |
+
+For checklist contributions see [Contributors section in the Checklist document](CRA_Checklist_Requirement_latest.md#Contributors)
