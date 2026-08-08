@@ -12,12 +12,12 @@
 | :---- | :---- |
 | **Document Type** | Self-Certification / Governance Framework |
 | **Current Version** | PA4 |
-| **Date** | July 31, 2026 |
+| **Date** | 31 Jul 2026 |
 | **Status** | DRAFT \- Pre-Approval (PA) |
 | **Review Cycle** | Annual; additionally triggered by major releases, significant dependency changes, or regulatory guidance updates (see §2.4.2) |
 | **Document Owner** | Devashri Datta (Chairman) |
 | **Standards Alignment** | ISO/IEC 18974 \- EU CRA (Reg. 2024/2847) \- OpenChain ISO/IEC 5230 |
-| **CRA Art. 14 Reporting Deadline** | September 11, 2026 \- see §4.4-4.5 for mandatory actions |
+| **CRA Art. 14 Reporting Deadline** | 11 Sep 2026 \- see §4.4-4.5 for mandatory actions |
 
    
 **Abstract**
@@ -45,9 +45,9 @@
 
 | Version / Date | Description | Author |
 | :---- | :---- | :---- |
-| PA1 / Jul 21, 2026 | 1st draft \- 5-section structure, Art. 14 cascade, RACI | Devashri Datta |
-| PA3 / Jul 29, 2026 | Full normative rewrite (SHALL/SHOULD/MAY); all Bitsea and Daniel Thompson-Yvetot technical corrections; §8.5 CRA and eIDAS added; Annex D Adopters added. Total items: 156\. | Devashri Datta |
-| PA4 / Jul 31, 2026 | All community feedback incorporated: CRA Art. 3 role definitions; §2.1 policy corrections (Recital 76, Annex I Part II(5)); §2.5 Art. 32(5) FOSS pathway added as new item 2.5.9; IR 2025/2392 and Annex VIII Part 1 referenced; substantial modification terminology corrected; §2.6.3 corrected per EC FAQ 6.1; §3.1.1 SBOM wording corrected to CRA original text; §3.1.5 GOOD PRACTICE label and actively exploited CVE; full contributor table added. Total items: 157\. | Devashri Datta |
+| PA1 / 21 Jul 2026 | 1st draft \- 5-section structure, Art. 14 cascade, RACI | Devashri Datta |
+| PA3 / 29 Jul 2026 | Full normative rewrite (SHALL/SHOULD/MAY); all Bitsea and Daniel Thompson-Yvetot technical corrections; §8.5 CRA and eIDAS added; Annex D Adopters added. Total items: 156\. | Devashri Datta |
+| PA4 / 31 Jul 2026 | All community feedback incorporated: CRA Art. 3 role definitions; §2.1 policy corrections (Recital 76, Annex I Part II(5)); §2.5 Art. 32(5) FOSS pathway added as new item 2.5.9; IR 2025/2392 and Annex VIII Part 1 referenced; substantial modification terminology corrected; §2.6.3 corrected per EC FAQ 6.1; §3.1.1 SBOM wording corrected to CRA original text; §3.1.5 GOOD PRACTICE label and actively exploited CVE; full contributor table added. Total items: 157\. | Devashri Datta |
 | 1.0 / TBD | Initial approved release |   |
 
  
@@ -141,37 +141,37 @@ Note on OSS Steward column: "Optional" indicates the section is not typically re
 
 **Section Deadline & Standards Coverage Reference**
 
-The table below shows which sections contain items subject to the September 11, 2026 Art. 14 reporting deadline, the December 11, 2027 full CRA compliance deadline, and ISO/IEC 18974 coverage.
+The table below shows which sections contain items subject to the 11 Sep 2026 Art. 14 reporting deadline, the 11 Dec 2027 full CRA compliance deadline, and ISO/IEC 18974 coverage.
 
  
 
-| Ref | Section Title | Art. 14 Reporting Deadline (Sep 11, 2026\) | CRA Full Compliance Deadline (Dec 11, 2027\) | Covered by ISO/IEC 18974? |
+| Ref | Section Title | Art. 14 Reporting Deadline (11 Sep 2026\) | CRA Full Compliance Deadline (11 Dec 2027\) | Covered by ISO/IEC 18974? |
 | :---- | :---- | :---- | :---- | :---- |
 | **2.1** | CRA Policy | No | No | Partial \- §3.1.1 security policy for open source |
 | **2.2** | Roles & Responsibilities | No | No | Yes \- §3.4.1 roles and responsibilities |
 | **2.3** | Competence & Training | No | No | Yes \- §3.1.2 competence and awareness |
 | **2.4** | Sustainability & Review | No | No | Yes \- §3.4.2 program review and continuous improvement |
-| **2.5** | Product Risk Categorization (incl. Art. 32(5) FOSS) | No | Yes \- Dec 11, 2027 | No \- CRA-specific; no 18974 equivalent |
-| **2.6** | Harmonized Standards Tracking | No | Yes \- Dec 11, 2027 | No \- CRA-specific regulatory requirement |
-| **3.1** | SBOM Generation | Partial \- §3.1.5 SBOM depth tied to 24h window | Yes \- Dec 11, 2027 | Yes \- §3.2.1-3.2.3 SBOM process and tooling |
-| **3.2** | SBOM Data Quality | No | Yes \- Dec 11, 2027 | Yes \- §3.2.2 SBOM completeness |
-| **3.3** | Provenance & Integrity | No | Yes \- Dec 11, 2027 | Yes \- §3.2.3 SBOM provenance |
-| **3.4** | Secure Development Properties | No | Yes \- Dec 11, 2027 | Partial \- §3.3 covers vuln handling; full SDL not in 18974 |
-| **3.5** | Importer & Distributor Obligations | No | Yes \- Dec 11, 2027 | No \- CRA-specific legal obligation |
+| **2.5** | Product Risk Categorization (incl. Art. 32(5) FOSS) | No | Yes \- 11 Dec 2027 | No \- CRA-specific; no 18974 equivalent |
+| **2.6** | Harmonized Standards Tracking | No | Yes \- 11 Dec 2027 | No \- CRA-specific regulatory requirement |
+| **3.1** | SBOM Generation | Partial \- §3.1.5 SBOM depth tied to 24h window | Yes \- 11 Dec 2027 | Yes \- §3.2.1-3.2.3 SBOM process and tooling |
+| **3.2** | SBOM Data Quality | No | Yes \- 11 Dec 2027 | Yes \- §3.2.2 SBOM completeness |
+| **3.3** | Provenance & Integrity | No | Yes \- 11 Dec 2027 | Yes \- §3.2.3 SBOM provenance |
+| **3.4** | Secure Development Properties | No | Yes \- 11 Dec 2027 | Partial \- §3.3 covers vuln handling; full SDL not in 18974 |
+| **3.5** | Importer & Distributor Obligations | No | Yes \- 11 Dec 2027 | No \- CRA-specific legal obligation |
 | **4.1** | Vulnerability Ingestion & Monitoring | Yes \- EUVD/KEV feeds required to detect exploited vulnerabilities | No | Yes \- §3.3.1 vulnerability identification |
 | **4.2** | Risk Adjudication & Vulnerability Exchange | Yes \- exploitability output informs Art. 14 decisions | No | Yes \- §3.3.2 vulnerability response |
 | **4.3** | Actionable Decisions | Yes \- remediation decisions trigger Art. 14 reporting clock | No | Yes \- §3.3.2 vulnerability remediation |
-| **4.4** | Disclosure & Regulatory Reporting | **YES \- §4.4.2-4.4.5 all subject to Sep 11, 2026 deadline** | No | Partial \- §3.3.3 CVD policy only; ENISA Art. 14 cascade not in 18974 |
-| **4.5** | Art. 14 Notification RACI | **YES \- all items subject to Sep 11, 2026 deadline** | No | No \- CRA Art. 14 regulatory obligation; not in 18974 |
-| **5.1** | OSS Contribution & Engagement | No | Yes \- Dec 11, 2027 | Partial \- §3.1.1 OSS security policy |
-| **5.2** | Steward vs. Maintainer Boundaries | No | Yes \- Dec 11, 2027 | No \- CRA Steward concept not in 18974 |
-| **6.1** | Support Period & Update Obligations | No | Yes \- Dec 11, 2027 | Partial \- §3.3.2 covers patching; 5-year period not in 18974 |
-| **7.1** | Market Surveillance Deliverables | No | Yes \- Dec 11, 2027 | Partial \- §3.5.1 conformance documentation |
-| **7.2** | Downstream Customer Provisioning | No | Yes \- Dec 11, 2027 | Partial \- §3.2.1 SBOM process |
-| **7.3** | EU DoC & CE Marking | No | Yes \- Dec 11, 2027 | Partial \- §3.5.1 conformance documentation |
-| **7.4** | EU Authorized Representative | No | Yes \- Dec 11, 2027 if non-EU | No \- CRA-specific legal requirement |
+| **4.4** | Disclosure & Regulatory Reporting | **YES \- §4.4.2-4.4.5 all subject to 11 Sep 2026 deadline** | No | Partial \- §3.3.3 CVD policy only; ENISA Art. 14 cascade not in 18974 |
+| **4.5** | Art. 14 Notification RACI | **YES \- all items subject to 11 Sep 2026 deadline** | No | No \- CRA Art. 14 regulatory obligation; not in 18974 |
+| **5.1** | OSS Contribution & Engagement | No | Yes \- 11 Dec 2027 | Partial \- §3.1.1 OSS security policy |
+| **5.2** | Steward vs. Maintainer Boundaries | No | Yes \- 11 Dec 2027 | No \- CRA Steward concept not in 18974 |
+| **6.1** | Support Period & Update Obligations | No | Yes \- 11 Dec 2027 | Partial \- §3.3.2 covers patching; 5-year period not in 18974 |
+| **7.1** | Market Surveillance Deliverables | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 conformance documentation |
+| **7.2** | Downstream Customer Provisioning | No | Yes \- 11 Dec 2027 | Partial \- §3.2.1 SBOM process |
+| **7.3** | EU DoC & CE Marking | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 conformance documentation |
+| **7.4** | EU Authorized Representative | No | Yes \- 11 Dec 2027 if non-EU | No \- CRA-specific legal requirement |
 | **8.1** | CRA and NIS2 | Partial \- NIS2 incident reporting aligns with Art. 14 | No | No \- regulatory mapping not in 18974 |
-| **8.2** | CRA and AI Act | No | Yes \- Dec 11, 2027 | No \- regulatory mapping not in 18974 |
+| **8.2** | CRA and AI Act | No | Yes \- 11 Dec 2027 | No \- regulatory mapping not in 18974 |
 | **8.3** | CRA and DORA | No | No | No \- regulatory mapping not in 18974 |
 | **8.4** | CRA and Data Act | No | No | No \- regulatory mapping not in 18974 |
 | **8.5** | CRA and eIDAS | No | No | No \- regulatory mapping not in 18974 |
@@ -273,7 +273,7 @@ Before executing self-certification, the organization must determine the CRA pro
 
 ## **2.6 Harmonized Standards Tracking**
 
-CRA conformity depends on harmonized standards under Standardisation Request M/606, developed by ETSI, CEN, and CENELEC. As of July 2026, PT1 and PT3 drafts have been updated significantly since their public inquiry versions; final versions are not yet publicly available but are expected imminently. PT1 public inquiry draft and PT3 public inquiry draft are accessible via the NBN portal. ISO 27001 and IEC 62443 do not automatically create a presumption of CRA Annex I conformity, though they may be used as supporting evidence per EC FAQ 6.1 and Annex VIII Part 1\. References to Commission draft guidance have been updated to the final published version: C(2026) 5252, published July 27, 2026 (digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation).
+CRA conformity depends on harmonized standards under Standardisation Request M/606, developed by ETSI, CEN, and CENELEC. As of July 2026, PT1 and PT3 drafts have been updated significantly since their public inquiry versions; final versions are not yet publicly available but are expected imminently. PT1 public inquiry draft and PT3 public inquiry draft are accessible via the NBN portal. ISO 27001 and IEC 62443 do not automatically create a presumption of CRA Annex I conformity, though they may be used as supporting evidence per EC FAQ 6.1 and Annex VIII Part 1\. References to Commission draft guidance have been updated to the final published version: C(2026) 5252, published 27 Jul 2026 (digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation).
 
  
 
@@ -306,7 +306,7 @@ Processes for generating machine-readable SBOMs for all released products.
 | **3.1.2** | \[CRA REQUIREMENT\] SBOMs SHALL be produced in a commonly used, machine-readable format, such as a currently supported version of SPDX or CycloneDX, and SHALL comply with any applicable implementing acts, harmonized standards, or common specifications. | ☐ Yes   ☐ No   ☐ Partial |   | Sample SBOM file; format validation report. Reference: BSI TR-03183-2 for SBOM content requirements. |
 | **3.1.3** | \[GOOD PRACTICE\] SBOM generation SHOULD be integrated into the CI/CD pipeline and produce an artifact on every release build. | ☐ Yes   ☐ No   ☐ Partial |   | Pipeline configuration excerpt; build artifact manifest. |
 | **3.1.4** | \[CRA REQUIREMENT\] SBOMs SHALL cover, at minimum, top-level dependencies and SHALL include transitive and embedded dependencies to the depth necessary to identify, assess, and remediate vulnerabilities affecting the product. Any components or dependency levels not covered shall be documented together with a risk-based justification and the alternative measures used to ensure effective vulnerability management. | ☐ Yes   ☐ No   ☐ Partial |   | Tooling depth configuration; documented exclusions with risk-based justification; sample SBOM component count vs. dependency graph audit. |
-| **3.1.5** | ⚠ DEADLINE: September 11, 2026 \- \[GOOD PRACTICE\] The organization SHOULD document a target SBOM depth decision with operational rationale tied to the ability to determine within 24 hours whether an actively exploited CVE affects any shipped product. A top-level-only SBOM may be insufficient for transitive-dependency scenarios. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM depth policy; operational rationale linking depth to 24-hour window; evidence of automated CVE-to-SBOM matching test. |
+| **3.1.5** | ⚠ DEADLINE: 11 Sep 2026 \- \[GOOD PRACTICE\] The organization SHOULD document a target SBOM depth decision with operational rationale tied to the ability to determine within 24 hours whether an actively exploited CVE affects any shipped product. A top-level-only SBOM may be insufficient for transitive-dependency scenarios. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM depth policy; operational rationale linking depth to 24-hour window; evidence of automated CVE-to-SBOM matching test. |
 | **3.1.6** | \[CRA REQUIREMENT\] Each SBOM SHALL include product-level metadata (product name, version, supplier, release date, unique product identifier) and component-level metadata (component name, version, supplier, unique component identifier such as PURL or CPE, and cryptographic hash) for each component. Reference BSI TR-03183-2 for detailed field specifications. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM field mapping to NTIA minimum elements, CRA Annex I, and BSI TR-03183-2. Reference: https://www.bsi.bund.de/TR03183 |
 | **3.1.7** | \[GOOD PRACTICE\] For products containing physical hardware components, a Hardware Bill of Materials (HBOM) SHOULD be maintained alongside the SBOM to identify hardware components and their firmware dependencies. Software-only organizations MAY mark this item N/A with documented rationale. | ☐ Yes   ☐ No   ☐ Partial |   | HBOM in a machine-readable format; hardware component inventory; firmware version register. |
 | **3.1.8** | \[GOOD PRACTICE\] The organization SHOULD maintain a dependency registry with pinned versions and approved component entries to ensure SBOM reproducibility across builds. | ☐ Yes   ☐ No   ☐ Partial |   | Dependency lock files; package registry configuration; approved component list. |
@@ -449,17 +449,17 @@ Defined criteria for four operational outcomes: Immediate Remediation, Monitored
 
 ## **4.4 Disclosure & Regulatory Reporting (CRA Art. 14 Three-Stage Cascade)**
 
-Standard operating procedures for publicly disclosing fixes, providing mitigation guidance, and meeting the three-stage CRA Article 14 regulatory reporting cascade: Early Warning (24h), Full Notification (72h), and Final Report. Items marked with a deadline are required before September 11, 2026\.
+Standard operating procedures for publicly disclosing fixes, providing mitigation guidance, and meeting the three-stage CRA Article 14 regulatory reporting cascade: Early Warning (24h), Full Notification (72h), and Final Report. Items marked with a deadline are required before 11 Sep 2026\.
 
  
 
 | Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
 | :---- | :---- | :---- | :---- | :---- |
 | **4.4.1** | \[CRA REQUIREMENT\] The organization SHALL maintain a security advisory process to notify affected customers and users without undue delay regarding actively exploited vulnerabilities or severe security incidents, including available mitigations and corrective actions (CRA Art. 14(8)). | ☐ Yes   ☐ No   ☐ Partial |   | Advisory template; distribution channel list (CVE.org, product portal, mailing list). |
-| **4.4.2** | ⚠ DEADLINE: September 11, 2026 \- \[CRA REQUIREMENT\] Actively exploited vulnerabilities SHALL be reported to ENISA via the CRA Single Reporting Platform (SRP) within 24 hours of the organization becoming aware of active exploitation (CRA Art. 14(2)(a) \- Early Warning). | ☐ Yes   ☐ No   ☐ Partial |   | SRP submission runbook; on-call contact for SRP platform access; test submission record. |
-| **4.4.3** | ⚠ DEADLINE: September 11, 2026 \- \[CRA REQUIREMENT\] A full vulnerability notification SHALL be submitted to the CRA Single Reporting Platform (SRP) without undue delay and, in any event, within 72 hours after the manufacturer becomes aware of the actively exploited vulnerability, including severity assessment, affected versions, and interim mitigations (CRA Art. 14(2)(b) \- Full Notification). | ☐ Yes   ☐ No   ☐ Partial |   | Full notification template mapped to SRP required fields; 72-hour SLA documented in runbook. |
-| **4.4.4** | ⚠ DEADLINE: September 11, 2026 \- \[CRA REQUIREMENT\] A final report SHALL be submitted to the CRA Single Reporting Platform (SRP) within 14 days after a corrective or mitigating measure becomes available, including root-cause analysis, remediation details, and disclosure timeline information (CRA Art. 14(2)(c) \- Final Report). | ☐ Yes   ☐ No   ☐ Partial |   | Final report template; post-incident review procedure; 14-day SLA clock definition. |
-| **4.4.5** | ⚠ DEADLINE: September 11, 2026 \- \[CRA REQUIREMENT\] Severe security incidents impacting the availability, integrity, or confidentiality of a product with digital elements SHALL be reported to ENISA via the CRA Single Reporting Platform (SRP) following the same three-stage cascade (CRA Art. 14(3)). The final report for severe incidents SHALL be submitted within one month of the initial notification. | ☐ Yes   ☐ No   ☐ Partial |   | Severe security incident definition document (aligns with NIS2 thresholds); incident triage criteria; one-month final report template. |
+| **4.4.2** | ⚠ DEADLINE: 11 Sep 2026 \- \[CRA REQUIREMENT\] Actively exploited vulnerabilities SHALL be reported to ENISA via the CRA Single Reporting Platform (SRP) within 24 hours of the organization becoming aware of active exploitation (CRA Art. 14(2)(a) \- Early Warning). | ☐ Yes   ☐ No   ☐ Partial |   | SRP submission runbook; on-call contact for SRP platform access; test submission record. |
+| **4.4.3** | ⚠ DEADLINE: 11 Sep 2026 \- \[CRA REQUIREMENT\] A full vulnerability notification SHALL be submitted to the CRA Single Reporting Platform (SRP) without undue delay and, in any event, within 72 hours after the manufacturer becomes aware of the actively exploited vulnerability, including severity assessment, affected versions, and interim mitigations (CRA Art. 14(2)(b) \- Full Notification). | ☐ Yes   ☐ No   ☐ Partial |   | Full notification template mapped to SRP required fields; 72-hour SLA documented in runbook. |
+| **4.4.4** | ⚠ DEADLINE: 11 Sep 2026 \- \[CRA REQUIREMENT\] A final report SHALL be submitted to the CRA Single Reporting Platform (SRP) within 14 days after a corrective or mitigating measure becomes available, including root-cause analysis, remediation details, and disclosure timeline information (CRA Art. 14(2)(c) \- Final Report). | ☐ Yes   ☐ No   ☐ Partial |   | Final report template; post-incident review procedure; 14-day SLA clock definition. |
+| **4.4.5** | ⚠ DEADLINE: 11 Sep 2026 \- \[CRA REQUIREMENT\] Severe security incidents impacting the availability, integrity, or confidentiality of a product with digital elements SHALL be reported to ENISA via the CRA Single Reporting Platform (SRP) following the same three-stage cascade (CRA Art. 14(3)). The final report for severe incidents SHALL be submitted within one month of the initial notification. | ☐ Yes   ☐ No   ☐ Partial |   | Severe security incident definition document (aligns with NIS2 thresholds); incident triage criteria; one-month final report template. |
 | **4.4.6** | \[CRA REQUIREMENT\] Affected customers and users SHALL be notified without undue delay regarding actively exploited vulnerabilities or severe security incidents, including available mitigations and corrective actions (CRA Art. 14(8)). | ☐ Yes   ☐ No   ☐ Partial |   | Customer advisory template; notification runbook; mailing list, portal, or security advisory feed evidence. |
 | **4.4.7** | \[CRA REQUIREMENT\] The organization SHALL publish a Coordinated Vulnerability Disclosure (CVD) policy covering researcher contact channel, response SLA, and safe harbor statement. | ☐ Yes   ☐ No   ☐ Partial |   | CVD policy URL; security.txt file. Reference: ISO/IEC 30111 and 29147\. |
 | **4.4.8** | \[CRA REQUIREMENT\] Where a security update is not immediately available, the organization SHALL issue mitigation guidance (workarounds, configuration changes) to affected users without undue delay. | ☐ Yes   ☐ No   ☐ Partial |   | Example advisory with mitigation section. |
@@ -471,16 +471,16 @@ Standard operating procedures for publicly disclosing fixes, providing mitigatio
 
 ## **4.5 Art. 14 Notification RACI \- Roles & Trigger Ownership**
 
-CRA Article 14 imposes hard time-based obligations requiring pre-assigned, tested role ownership. All deadline items must be completed before September 11, 2026\.
+CRA Article 14 imposes hard time-based obligations requiring pre-assigned, tested role ownership. All deadline items must be completed before 11 Sep 2026\.
 
  
 
 | Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
 | :---- | :---- | :---- | :---- | :---- |
-| **4.5.1** | ⚠ DEADLINE: September 11, 2026 \- \[CRA REQUIREMENT\] The organization SHALL designate a named individual (by role) as the Art. 14 Notification Owner responsible for initiating the Early Warning submission to the CRA Single Reporting Platform (SRP) within the 24-hour clock. | ☐ Yes   ☐ No   ☐ Partial |   | RACI table entry; named backup; on-call schedule. |
-| **4.5.2** | ⚠ DEADLINE: September 11, 2026 \- \[CRA REQUIREMENT\] The organization SHALL designate a named individual (by role) responsible for completing and submitting the 72-hour Full Notification to the CRA Single Reporting Platform (SRP), empowered to escalate to legal or executive if additional approvals are required. | ☐ Yes   ☐ No   ☐ Partial |   | RACI table entry; escalation path documented. |
-| **4.5.3** | ⚠ DEADLINE: September 11, 2026 \- \[CRA REQUIREMENT\] The organization SHALL designate a named individual (by role) to own the 14-day Final Report for actively exploited vulnerabilities and the one-month final report for severe incidents, coordinate post-incident review inputs, and sign off on the submission. | ☐ Yes   ☐ No   ☐ Partial |   | RACI table entry; final report review workflow. |
-| **4.5.4** | ⚠ DEADLINE: September 11, 2026 \- \[CRA REQUIREMENT\] The organization SHALL verify access to the CRA Single Reporting Platform (SRP) and complete at least one test submission prior to September 11, 2026\. Note: The SRP may not yet be fully operational; organizations SHOULD contact their national CSIRT or MSA for current submission guidance and interim procedures. | ☐ Yes   ☐ No   ☐ Partial |   | SRP account registration confirmation or national CSIRT contact record; test submission record or interim procedure documentation. |
+| **4.5.1** | ⚠ DEADLINE: 11 Sep 2026 \- \[CRA REQUIREMENT\] The organization SHALL designate a named individual (by role) as the Art. 14 Notification Owner responsible for initiating the Early Warning submission to the CRA Single Reporting Platform (SRP) within the 24-hour clock. | ☐ Yes   ☐ No   ☐ Partial |   | RACI table entry; named backup; on-call schedule. |
+| **4.5.2** | ⚠ DEADLINE: 11 Sep 2026 \- \[CRA REQUIREMENT\] The organization SHALL designate a named individual (by role) responsible for completing and submitting the 72-hour Full Notification to the CRA Single Reporting Platform (SRP), empowered to escalate to legal or executive if additional approvals are required. | ☐ Yes   ☐ No   ☐ Partial |   | RACI table entry; escalation path documented. |
+| **4.5.3** | ⚠ DEADLINE: 11 Sep 2026 \- \[CRA REQUIREMENT\] The organization SHALL designate a named individual (by role) to own the 14-day Final Report for actively exploited vulnerabilities and the one-month final report for severe incidents, coordinate post-incident review inputs, and sign off on the submission. | ☐ Yes   ☐ No   ☐ Partial |   | RACI table entry; final report review workflow. |
+| **4.5.4** | ⚠ DEADLINE: 11 Sep 2026 \- \[CRA REQUIREMENT\] The organization SHALL verify access to the CRA Single Reporting Platform (SRP) and complete at least one test submission prior to 11 Sep 2026\. Note: The SRP may not yet be fully operational; organizations SHOULD contact their national CSIRT or MSA for current submission guidance and interim procedures. | ☐ Yes   ☐ No   ☐ Partial |   | SRP account registration confirmation or national CSIRT contact record; test submission record or interim procedure documentation. |
 | **4.5.5** | \[CRA REQUIREMENT\] The organization SHALL maintain a documented procedure recording when awareness of an incident or actively exploited vulnerability first occurred, to establish the Art. 14 reporting clock start time. | ☐ Yes   ☐ No   ☐ Partial |   | Incident log with awareness timestamp; governance documentation. |
 | **4.5.6** | \[CRA REQUIREMENT\] The Art. 14 RACI SHALL be reviewed and re-confirmed upon any relevant personnel change and at minimum annually. | ☐ Yes   ☐ No   ☐ Partial |   | RACI version history; review record. |
 
@@ -721,7 +721,7 @@ The following phased model provides a structured approach to achieving self-cert
 
 | Phase | Key Action | Typical Owner | Target |
 | :---- | :---- | :---- | :---- |
-| **PRIORITY \- Art. 14 RACI (§4.4-4.5)** | Register SRP account; assign named owners for 24h/72h/14-day notification stages; document severe security incident definition; complete at least one test submission through the CRA Single Reporting Platform before the deadline. |   | **Before Sep 11, 2026 \- IMMEDIATE** |
+| **PRIORITY \- Art. 14 RACI (§4.4-4.5)** | Register SRP account; assign named owners for 24h/72h/14-day notification stages; document severe security incident definition; complete at least one test submission through the CRA Single Reporting Platform before the deadline. |   | **Before 11 Sep 2026 \- IMMEDIATE** |
 | **1 \- Scope & Categorization** | Determine organizational role using §1 applicability table; confirm PDE vs SaaS (§2.5.1); complete EU establishment determination (§2.5.2/§7.4); complete risk classification including Art. 32(5) FOSS determination (§2.5.3-2.5.9). | Legal \+ CISO | Month 1-2 |
 | **2 \- Policy & Governance** | Draft and approve CRA policy (§2.1); assign responsibilities (§2.2); training (§2.3); M/606/PT1/PT3 monitoring (§2.6). | Legal \+ CISO | Month 1-3 |
 | **3 \- SBOM & SDLC** | Generate SBOMs per CRA original text (§3.1); validate completeness (§3.2); establish provenance signing (§3.3); implement SAST/DAST, threat modeling, release gate (§3.4); importer/distributor checklist (§3.5). | Platform Eng. | Month 2-4 |
@@ -886,7 +886,7 @@ References marked as "draft" or "pending" are informational only and non-binding
 
 ●  EU Cyber Resilience Act (full text) \- [eur-lex.europa.eu/eli/reg/2024/2847/oj/eng](https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng)
 
-●  Commission guidance C(2026) 5252 (final, July 27, 2026\) \- [digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation)
+●  Commission guidance C(2026) 5252 (final, 27 Jul 2026\) \- [digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation)
 
 ●  Implementing Regulation (EU) 2025/2392 \- Product category technical descriptions \- [eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2392](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2392)
 
