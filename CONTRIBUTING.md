@@ -17,11 +17,11 @@ Use whichever platform you prefer.
 1. Feedback from both the Google Doc and GitHub is reviewed regularly.
 2. Prior to each document update, open Google Doc comments are reviewed and resolved:
    - Comments that can be addressed directly are marked for integration and incorporated into the next document revision.
-   - Comments requiring further discussion, clarification, or community consensus are transferred to a GitHub Issue for tracking. A link to the new issue is added to the Google doc comment.
+   - Comments requiring further discussion, clarification, or community consensus are transferred to a GitHub Issue for tracking. A link to the new issue is added to the Google Doc comment.
 3. Open GitHub Issues are reviewed and discussed during the weekly review meetings.
 4. Decisions and their rationale are recorded in the corresponding GitHub Issue.
 5. Agreed changes are incorporated into the checklist.
-6. Once a change has been implemented or a decision has been reached, the corresponding Issue is marked as resolved.
+6. Once a change has been implemented or a decision has been reached, the corresponding Issue is closed.
 
 ```mermaid
 ---
