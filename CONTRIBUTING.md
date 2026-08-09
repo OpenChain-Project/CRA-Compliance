@@ -1,6 +1,6 @@
 # OpenChain CRA Checklist review & contribution workflow
 
-The OpenChain CRA Checklist is under public review. Feedback may be submitted through either the Google Doc or the GitHub repository. Both are equally valid contribution channels.
+The OpenChain CRA Checklist is under public review. Feedback may be submitted through either the [Google Doc](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing) or the [GitHub repository](https://github.com/OpenChain-Project/CRA-Compliance). Both are equally valid contribution channels.
 
 ## Submitting Feedback
 
