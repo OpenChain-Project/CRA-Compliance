@@ -1,3 +1,5 @@
-theme: jekyll-theme-tactile
 title: OpenChain CRA Requirement & Checklist
 description: OpenChain-Aligned Cyber Resilience Act (CRA) Compliance Requirements & Checklist Self-Certification Document
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-tactile
