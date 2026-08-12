@@ -1,4 +1,8 @@
-## The Cyber Resilience Act’s main obligations apply from 11 December 2027, with reporting obligations already applying as of 11 September 2026.
+---
+layout: default
+---
+
+# The Cyber Resilience Act’s main obligations apply from 11 December 2027, with reporting obligations already applying as of 11 September 2026.
 
 This page defines the organization’s compliance program for the EU Cyber Resilience Act (CRA), structured in alignment with the OpenChain Project’s adoption framework and ISO/IEC 18974 (Open Source Security Assurance). It serves as both a policy framework and a self-certification checklist.
 
