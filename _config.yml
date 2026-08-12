@@ -1,0 +1,6 @@
+theme: minima
+title: OpenChain CRA Requirement & Checklist
+description: OpenChain-Aligned Cyber Resilience Act (CRA) Compliance Requirements & Checklist Self-Certification Document
+minima:
+  nav_pages:
+    - index.md
