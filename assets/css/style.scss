@@ -4,16 +4,16 @@
 @import "{{ site.theme }}";
 
 .page-header {
-  background-color: #0066cc;
+  background-color: #002c29;
   background-image: linear-gradient(
     120deg,
-    #0066cc,
-    #003366
+    #002c29,
+    #002424
   );
 }
 
 .main-content h1,
 .main-content h2,
 .main-content h3 {
-  color: #0066cc;
+  color: #002c29;
 }
