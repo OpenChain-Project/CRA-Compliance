@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CRA Requirement & Checklist
+title: CRA Compliance Guidance
 ---
 
 # OpenChain provides CRA guidance with a Compliance Requirements & Checklist document.
