@@ -13,17 +13,10 @@
 }
 
 .page-logo {
+  height: auto;
   max-height:3rem;
   width: auto;
-}
-
-/* Mobile responsive styling */
-@media screen  {
-  .page-logo {
-    width: 80% !important;  /* Scales to a percentage of the screen width */
-    max-width: 150px;       /* Prevents it from getting too large on big mobile screens */
-    margin: 0 auto;         /* Centers the logo in the header */
-  }
+  max-width: 80%
 }
 
 .main-content h1,
