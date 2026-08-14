@@ -21,7 +21,7 @@
 @media screen  {
   .page-logo {
     width: 80% !important;  /* Scales to a percentage of the screen width */
-    max-height:3rem;      /* Prevents it from getting too large on big mobile screens */
+    max-width: 150px;       /* Prevents it from getting too large on big mobile screens */
     margin: 0 auto;         /* Centers the logo in the header */
   }
 }
