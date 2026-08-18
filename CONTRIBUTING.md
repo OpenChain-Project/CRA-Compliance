@@ -1,18 +1,20 @@
 # OpenChain CRA Checklist review & contribution workflow
 
-The OpenChain CRA Checklist is under public review. Feedback may be submitted through either the [Google Doc](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing) or the [GitHub repository](https://github.com/OpenChain-Project/CRA-Compliance). Both are equally valid contribution channels.
+The OpenChain CRA Checklist is under public review. Feedback may be submitted through either the [Google Doc](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing), the [GitHub repository](https://github.com/OpenChain-Project/CRA-Compliance) or the Business Operation Study Group [mailing list](https://lists.openchainproject.org/g/OpenChain-BusinessOps-Study-Group/). 
 
-## Submitting Feedback
+For detailed information and valid channels per release phase see details below.
+
+## Review Process
+
+### Initial contribution Phase
 
 You may contribute by:
 
-- Commenting or suggesting changes in the Google Doc
+- Commenting or suggesting changes in the Google Doc (initial Phase)
 - Opening a GitHub Issue
 - Submitting a GitHub Pull Request
 
 Use whichever platform you prefer.
-
-## Review Process
 
 1. Feedback from both the Google Doc and GitHub is reviewed regularly.
 2. Prior to each document update, open Google Doc comments are reviewed and resolved:
@@ -28,6 +30,7 @@ Use whichever platform you prefer.
 config:
   theme: 'neutral'
 ---
+%%{init: {"flowchart": {"diagramPadding": 150}}}%%
 flowchart LR
 
     subgraph Inputs
@@ -46,6 +49,17 @@ flowchart LR
     F --> G[Decision in GitHub Issue]
     G --> D
 ```
+### Public Comment Phase
+The Public Comment phase (see below) will align with the [**OpenChain Process for Public Comment Periods**](https://openchainproject.org/processes#process-public-comments). 
+
+> [!IMPORTANT]  
+>The Google Doc will be deprecated in this phase!
+
+For the duration of the comment period, feedback is collected through:
+- The [Business Operation Study Group mailing list](https://lists.openchainproject.org/g/OpenChain-BusinessOps-Study-Group/)
+- The [CRA Compliance GitHub repository](https://github.com/OpenChain-Project/CRA-Compliance) in the form of GitHub Issues being created by commenters
+
+For RC2 and at the conclusion of the public comment period the issues collected will be addressed by the Study Group via the scheduled calls or via the mailing list.
 
 ## Tracking Discussions and Decisions
 
@@ -62,21 +76,34 @@ Updates on the review process, document iterations, and significant decisions wi
 
 Major updates, milestones, and review announcements may also be shared on the [**OpenChain main mailing list**](https://lists.openchainproject.org/g/main) to ensure broader community visibility.
 
-## Timeline until RC1
+## Timeline & Release schedule
 
 ```mermaid
 ---
 config:
-  theme: 'neutral'
-  themeVariables:
-    cScale3: '#70B9D9'
-    cScaleLabel3: '#000000'
+   theme: 'neutral'
+   themeVariables:
+      cScale0: '#00829B'
+      cScaleLabel0: '#FFFFFF'
+      cScale1: '#DE592B'
+      cScaleLabel1: '#FFFFFF'
+      cScale2: '#04AEB9'
+      cScaleLabel2: '#000000'
 ---
 timeline
-    title updates and review cycles until RC1
-    August 11 : weekly update
-    August 18 : weekly update
-    August 25 : weekly update
-    August 28 : Release Candidate 1 (RC1)
+   title updates and review cycles until version 1.0 in 2026
+   section Initial Contributions
+      ... : weekly update
+      18 August : weekly update
+      25 August : weekly update
+   section Stabilization & Public Comment
+      28 August : Release Candidate 1 (RC1)
+      11 September : Release Candidate 2 (RC2)
+   section Official Release
+      September / October : Version 1.0
 
 ```
+### Milestones
+- [Release Candidate 1 (RC1)](https://github.com/OpenChain-Project/CRA-Compliance/milestone/1)
+- [Release Candidate 2 (RC2)](https://github.com/OpenChain-Project/CRA-Compliance/milestone/2)
+- [Version 1.0](https://github.com/OpenChain-Project/CRA-Compliance/milestone/3)
