@@ -932,7 +932,7 @@ Where no public link is available, OpenChain may record "confirmation on file" i
 | **PwC Germany** | CRA compliance advisory and assurance services. | Germany | \[pending\] |
 | **Anchore** | Container and software supply chain security platform; SBOM generation, vulnerability monitoring, and CRA compliance tooling. | United States | [https://anchore.com/eu-cra/](https://anchore.com/eu-cra/) |
 | **Agent Passport System** | Open source security assurance and identity management for AI agents; self-certified to ISO/IEC 5230 and ISO/IEC 18974. | United States | [https://agent-passport.org/docs.html#evidence](https://agent-passport.org/docs.html#evidence) |
-| **sbomify** | SBOM lifecycle management and CRA compliance resources; OpenChain CRA Checklist reference pending confirmation. | United Kingdom | Pending confirmation; resources page reviewed: [https://sbomify.com/resources/](https://sbomify.com/resources/) |
+| **sbomify** | SBOM lifecycle management and CRA compliance resources; publicly references the OpenChain CRA Compliance resource page. | United Kingdom | Public reference: [https://sbomify.com/resources/](https://sbomify.com/resources/) |
 
  
 
