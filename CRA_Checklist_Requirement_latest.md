@@ -9,9 +9,9 @@
 | Document Title | CRA Compliance Requirements & Checklist |
 | :---- | :---- |
 | **Document Type** | Self-Certification / Governance Framework |
-| **Current Version** | PA5 |
-| **Date** | 5 Aug 2026 |
-| **Status** | DRAFT \- Pre-Approval (PA) |
+| **Current Version** | RC1 |
+| **Date** | 19 Aug 2026 |
+| **Status** | Release Candidate (RC1) |
 | **Review Cycle** | Annual; additionally triggered by major releases, significant dependency changes, or regulatory guidance updates (see §2.4.2) |
 | **Document Owner** | Devashri Datta (Chairman) |
 | **Standards Alignment** | ISO/IEC 18974 \- EU CRA (Reg. 2024/2847) \- OpenChain ISO/IEC 5230 |
@@ -47,6 +47,7 @@
 | PA3 / 29 Jul 2026 | Full normative rewrite (must/should/may); all Bitsea and Daniel Thompson-Yvetot corrections; §8.5 eIDAS; Annex D Adopters. Total items: 156\. | Devashri Datta |
 | PA4 / 31 Jul 2026 | All Maarten Aertsen, Madalin Neag, Ryan Tao community feedback incorporated; new item 2.5.9 Art. 32(5) FOSS pathway; full contributor table with 11 contributors; 3 adopters in Annex D. Total items: 157\. | Devashri Datta |
 | PA5 / 5 Aug 2026 | Norio Kobota (Sony/OpenChain SBOM WG Chair) corrections: §7.3 reverted to Art. 13(18)/Annex II; §3.1.6 license information added to SBOM metadata fields; §3.1.6 CRA Annex I precedence note added; §5.2.2 Art. 24(1) reference added; applicability table §4 corrected for Stewards (Art. 14(1)(3)(8) conditional); §5 intro updated with Art. 3(14), Recitals 18 and 19, Art. 24\. Marcel Scholze (PwC Germany) and Adrian O'Sullivan corrections: §4.5.4 SRP wording updated; §7.2.1 changed to may for customer SBOM delivery. Contributors expanded to 17\. Total items: 157\. | Devashri Datta |
+| RC1 / 19 Aug 2026 | Release candidate created from PA5 for final review; Google Doc copied as RC1 and GitHub latest synchronized. | Devashri Datta |
 | 1.0 / TBD | Initial approved release |   |
 
  
