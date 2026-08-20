@@ -47,7 +47,7 @@
 | PA3 / 29 Jul 2026 | Full normative rewrite (must/should/may); all Bitsea and Daniel Thompson-Yvetot corrections; §8.5 eIDAS; Annex D Adopters. Total items: 156\. | Devashri Datta |
 | PA4 / 31 Jul 2026 | All Maarten Aertsen, Madalin Neag, Ryan Tao community feedback incorporated; new item 2.5.9 Art. 32(5) FOSS pathway; full contributor table with 11 contributors; 3 adopters in Annex D. Total items: 157\. | Devashri Datta |
 | PA5 / 5 Aug 2026 | Norio Kobota (Sony/OpenChain SBOM WG Chair) corrections: §7.3 reverted to Art. 13(18)/Annex II; §3.1.6 license information added to SBOM metadata fields; §3.1.6 CRA Annex I precedence note added; §5.2.2 Art. 24(1) reference added; applicability table §4 corrected for Stewards (Art. 14(1)(3)(8) conditional); §5 intro updated with Art. 3(14), Recitals 18 and 19, Art. 24\. Marcel Scholze (PwC Germany) and Adrian O'Sullivan corrections: §4.5.4 SRP wording updated; §7.2.1 changed to may for customer SBOM delivery. Contributors expanded to 17\. Total items: 157\. | Devashri Datta |
-| RC1 / 19 Aug 2026 | Release candidate created from PA5 for final review; Google Doc copied as RC1 and GitHub latest synchronized. | Devashri Datta |
+| RC1 / 19 Aug 2026 | Release candidate created from PA5 for final review; added third-party software supply chain qualification, self-maintained open source software management, SBOM depth/file-snippet guidance, and strengthened secure development framing. Total items: 170\. | Devashri Datta |
 | 1.0 / TBD | Initial approved release |   |
 
  
@@ -137,6 +137,7 @@ The CRA creates distinct obligations for different organizational roles. Determi
 | **§2.5-2.7 Product Assessment** | Required | Verify evidence / Art. 21 if applicable | Verify evidence / Art. 21 if applicable | N/A | Required | Importers/distributors verify manufacturer conformity evidence unless Article 21 makes them manufacturers; stewards are not manufacturers, so conformity assessment does not apply. |
 | **§3.1-3.4 SBOM & SDLC** | Required | N/A | N/A | N/A | Required | Manufacturer builds the product |
 | **§3.5 Importer/Distributor** | N/A | Required | Required | See note\* | N/A | \*Art. 24 may bring stewards into scope depending on activities |
+| **§3.6 Third-Party Software Qualification** | Required | Verify evidence / Art. 21 if applicable | Verify evidence / Art. 21 if applicable | Recommended | Required | Manufacturer qualifies third-party software sources beyond OSS; importers/distributors verify evidence unless Article 21 makes them manufacturers |
 | **§4 Vuln Handling** | Required | Inform manufacturer; Art. 21 if applicable | Inform manufacturer; Art. 21 if applicable | Partial (see note\*\*) | Required | Importers/distributors must inform the manufacturer without undue delay when they become aware of vulnerabilities; Articles 13/14 apply directly if Article 21 makes them manufacturers. Art. 14(1) applies where steward is involved in development; Art. 14(3) and 14(8) apply where severe incidents affect network/information systems provided by the steward |
 | **§5 OSS Stewardship** | Optional | Optional | Optional | Required | Required | Core for steward role |
 | **§6 Support Period** | Required | N/A | N/A | N/A | Required | Manufacturer sets support period |
@@ -169,6 +170,7 @@ The table below shows which sections contain items subject to the 11 Sep 2026 Ar
 | **3.3** | Provenance & Integrity | No | Yes \- 11 Dec 2027 | Yes \- §3.2.3 |
 | **3.4** | Secure Development Properties | No | Yes \- 11 Dec 2027 | Partial \- SDL not fully in 18974 |
 | **3.5** | Importer & Distributor Obligations | No | Yes \- 11 Dec 2027 | No \- CRA-specific |
+| **3.6** | Third-Party Software Supply Chain Qualification | No | Yes \- 11 Dec 2027 | Partial \- supplier governance supports supply chain risk management |
 | **4.1** | Vulnerability Ingestion & Monitoring | Yes \- EUVD/KEV feeds required | No | Yes \- §3.3.1 |
 | **4.2** | Risk Adjudication & Vulnerability Exchange | Yes \- exploitability informs Art. 14 | No | Yes \- §3.3.2 |
 | **4.3** | Actionable Decisions | Yes \- decisions trigger Art. 14 clock | No | Yes \- §3.3.2 |
@@ -176,6 +178,7 @@ The table below shows which sections contain items subject to the 11 Sep 2026 Ar
 | **4.5** | Art. 14 Notification RACI | **YES \- all items 11 Sep 2026** | No | No \- CRA Art. 14 specific |
 | **5.1** | OSS Contribution & Engagement | No | Yes \- 11 Dec 2027 | Partial \- §3.1.1 |
 | **5.2** | Steward vs. Maintainer Boundaries | No | Yes \- 11 Dec 2027 | No \- CRA Steward concept not in 18974 |
+| **5.3** | Self-Maintained Open Source Software | No | Yes \- 11 Dec 2027 | Partial \- supports OSS lifecycle governance |
 | **6.1** | Support Period & Update Obligations | No | Yes \- 11 Dec 2027 | Partial \- patching yes; 5-year period not in 18974 |
 | **7.1** | Market Surveillance Deliverables | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 |
 | **7.2** | Downstream Customer Provisioning | No | Yes \- 11 Dec 2027 | Partial \- §3.2.1 |
@@ -327,8 +330,8 @@ Processes for generating machine-readable SBOMs for all released products. CRA r
 | **3.1.1** | \[CRA REQUIREMENT\] The organization must maintain a documented process for generating machine-readable SBOMs for all released products, covering at the very least the top-level dependencies of those products. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM generation procedure; tool configuration (e.g., Syft, Trivy, CycloneDX CLI). Reference: BSI TR-03183. |
 | **3.1.2** | \[CRA REQUIREMENT\] SBOMs must be produced in a commonly used, machine-readable format, such as a currently supported version of SPDX or CycloneDX, and must comply with any applicable implementing acts, harmonized standards, or common specifications. | ☐ Yes   ☐ No   ☐ Partial |   | Sample SBOM file; format validation report. Reference: BSI TR-03183-2 for SBOM content requirements. |
 | **3.1.3** | \[GOOD PRACTICE\] SBOM generation should be integrated into the CI/CD pipeline and produce an artifact on every release build. | ☐ Yes   ☐ No   ☐ Partial |   | Pipeline configuration excerpt; build artifact manifest. |
-| **3.1.4** | \[CRA REQUIREMENT\] SBOMs must cover, at minimum, top-level dependencies and must include transitive and embedded dependencies to the depth necessary to identify, assess, and remediate vulnerabilities affecting the product. Any components or dependency levels not covered shall be documented together with a risk-based justification and the alternative measures used to ensure effective vulnerability management. | ☐ Yes   ☐ No   ☐ Partial |   | Tooling depth configuration; documented exclusions with risk-based justification; sample SBOM component count vs. dependency graph audit. |
-| **3.1.5** | ⚠ DEADLINE: 11 Sep 2026 \- ⚠  \[GOOD PRACTICE\] The organization should document a target SBOM depth decision with operational rationale tied to the ability to determine within 24 hours whether an actively exploited CVE affects any shipped product. A top-level-only SBOM may be insufficient for transitive-dependency scenarios. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM depth policy; operational rationale linking depth to 24-hour window; evidence of automated CVE-to-SBOM matching test. |
+| **3.1.4** | \[CRA REQUIREMENT\] SBOMs must cover, at minimum, top-level dependencies and must comprehensively include transitive and embedded dependencies to the depth necessary to identify, assess, and remediate vulnerabilities affecting the product. Any components or dependency levels not covered shall be documented together with a risk-based justification and the alternative measures used to ensure effective vulnerability management. | ☐ Yes   ☐ No   ☐ Partial |   | Tooling depth configuration; documented exclusions with risk-based justification; sample SBOM component count vs. dependency graph audit. |
+| **3.1.5** | ⚠ DEADLINE: 11 Sep 2026 \- ⚠  \[GOOD PRACTICE\] The organization should document a target SBOM depth decision with operational rationale tied to the ability to determine within 24 hours whether an actively exploited CVE affects any shipped product. The depth decision should acknowledge implementation limits, define the intended dependency depth for each product or build type, and explain how unresolved transitive dependencies are monitored or risk-managed. A top-level-only SBOM may be insufficient for transitive-dependency scenarios. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM depth policy; operational rationale linking depth to 24-hour window; evidence of automated CVE-to-SBOM matching test; documented monitoring method for unresolved dependency levels. |
 | **3.1.6** | \[DIRECT CRA OBLIGATION\] SBOMs must be drawn up in a commonly used, machine-readable format and must cover at least the top-level dependencies of the product. \[ORGANIZATION SBOM PROFILE / IMPLEMENTATION CONTROL\] The organization SBOM profile should include product-level metadata (product name, version, supplier, release date, unique product identifier) and component-level metadata (component name, version, supplier, unique component identifier such as PURL or CPE, cryptographic hash, and license information including declared and concluded license) for each component. These additional fields support implementation, traceability, CISA Minimum Elements alignment, ISO/IEC 18974 alignment, and ISO/IEC 5230 compliance evidence, but are not presented as the CRA statutory minimum. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM field mapping to CRA Annex I (primary requirement), CISA 2025 Minimum Elements for SBOM (informational reference replacing the 2021 NTIA minimum elements), and BSI TR-03183-2 (implementation guidance for German market). Where these references differ, CRA Annex I takes precedence. Reference: https://www.[bsi.bund.de](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html)/TR03183 |
 | **3.1.7** | \[GOOD PRACTICE\] For products containing physical hardware components, a Hardware Bill of Materials (HBOM) should be maintained alongside the SBOM to identify hardware components and their firmware dependencies. For machine-readable HBOM exchange, CycloneDX (ECMA-424 / CycloneDX 1.7 or later) is the recommended format; SPDX 3.x hardware profile may be used where producer and consumer tooling support it. Software-only organizations may mark this item N/A with documented rationale. | ☐ Yes   ☐ No   ☐ Partial |   | Machine-readable HBOM (CycloneDX/ECMA-424 preferred; SPDX 3.x hardware profile where supported); hardware component inventory; firmware version register. |
 | **3.1.8** | \[GOOD PRACTICE\] The organization should maintain a dependency registry with pinned versions and approved component entries to ensure SBOM reproducibility across builds. | ☐ Yes   ☐ No   ☐ Partial |   | Dependency lock files; package registry configuration; approved component list. |
@@ -347,6 +350,7 @@ Criteria for validating SBOM completeness, component granularity, and handling K
 | **3.2.2** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] The organization should maintain a defined policy for handling Known Unknowns \- components whose identity cannot be fully determined \- distinguishing them from intentionally withheld proprietary code. | ☐ Yes   ☐ No   ☐ Partial |   | Policy text or SBOM annotation convention for unknown components. |
 | **3.2.3** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] Minimum required SBOM fields per CRA Annex I should be validated, and BSI TR-03183-2 field validation may be used as an implementation reference before SBOM sign-off. | ☐ Yes   ☐ No   ☐ Partial |   | Validation rule set; example of a rejected SBOM and remediation. |
 | **3.2.4** | \[GOOD PRACTICE\] Quality metrics for SBOMs (e.g., completeness score, field population rate) should be tracked and reviewed periodically. | ☐ Yes   ☐ No   ☐ Partial |   | Dashboard screenshot or metrics report. |
+| **3.2.5** | \[GOOD PRACTICE\] File-level or snippet-level SBOM references should be avoided where a complete software package can be identified. If file-level or snippet-level references are used, the SBOM should clearly label the granularity, map the reference to the smallest complete software package where possible, and state whether the dependency chain terminates at that point when further dependency tracking is not feasible. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM sample; package mapping rationale; snippet/file-level exception record; dependency-chain termination note. |
 
  
 
@@ -375,7 +379,7 @@ Mechanisms for verifying software origins, tamper prevention, change tracking, a
 
 ## **3.4 Secure Development Properties & Security Testing (CRA Annex I, Part I)**
 
-CRA Annex I Part I mandates products are designed and produced with security by default. Items here supply required content for the Technical File (§7.1).
+CRA Annex I Part I mandates products are designed and produced with security by default. This subsection defines secure product design and development capabilities, not only release testing. Organizations should build security architecture design, secure feature development, threat modeling, and verification practices into the product lifecycle so authentication, least privilege, encryption, logging, data protection, secure update, and attack-surface controls are designed in from the outset. Items here supply required content for the Technical File (§7.1).
 
  
 
@@ -409,6 +413,23 @@ CRA Art. 19 and Art. 20 place independent obligations on importers and distribut
 | **3.5.4** | \[CRA REQUIREMENT\] System integrators who combine components from multiple manufacturers into a solution placed on the EU market must formally determine whether they are acting as a manufacturer under the CRA. If so, the full conformity assessment obligation applies to the integrated system. | ☐ Yes   ☐ No   ☐ Partial |   | System integrator role determination memo; legal sign-off; conformity assessment plan for the integrated system if applicable. |
 
  
+
+ 
+
+## **3.6 Third-Party Software Supply Chain Qualification**
+
+Third-party software includes commercial off-the-shelf software, SDKs, technology partnership components, outsourced development deliverables, ODM/OEM components, freeware, and other non-open-source software incorporated into products with digital elements. Manufacturers should qualify and manage these suppliers and components across the lifecycle so third-party software does not compromise CRA readiness.
+
+ 
+
+| Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
+| :---- | :---- | :---- | :---- | :---- |
+| **3.6.1** | \[GOOD PRACTICE\] The organization should maintain an inventory of third-party software sources, including COTS software, SDKs, technology partner components, outsourced development deliverables, ODM/OEM components, freeware, and other non-open-source software included in products with digital elements. | ☐ Yes   ☐ No   ☐ Partial |   | Third-party software register; supplier/source classification; component owner records. |
+| **3.6.2** | \[GOOD PRACTICE\] Third-party software suppliers should be qualified before use based on security capability, vulnerability handling process, update/support commitments, and ability to support CRA evidence requests. | ☐ Yes   ☐ No   ☐ Partial |   | Supplier qualification checklist; security questionnaire; approval record. |
+| **3.6.3** | \[GOOD PRACTICE\] Contracts or equivalent procurement controls should allocate CRA-relevant responsibilities, including vulnerability notification, security update cooperation, SBOM or component information availability, and support-period commitments where applicable. | ☐ Yes   ☐ No   ☐ Partial |   | Contract clause library; supplier terms; procurement approval record. |
+| **3.6.4** | \[GOOD PRACTICE\] Outsourced development and technology partnership deliverables should undergo software code compliance and security review before integration into the product build or release baseline. | ☐ Yes   ☐ No   ☐ Partial |   | Code review records; security testing reports; acceptance criteria; release gate evidence. |
+| **3.6.5** | \[GOOD PRACTICE\] ODM/OEM and embedded third-party components should be assessed for vulnerability monitoring, update delivery, secure configuration, and support lifecycle alignment with the product support period. | ☐ Yes   ☐ No   ☐ Partial |   | ODM/OEM assessment; support matrix; vulnerability monitoring record; update delivery evidence. |
+| **3.6.6** | \[GOOD PRACTICE\] The organization should maintain lifecycle governance for third-party software introduction, evaluation, approval, monitoring, requalification, risk mitigation, and retirement. | ☐ Yes   ☐ No   ☐ Partial |   | Third-party software governance process; review cadence; risk register; retirement/EOL records. |
 
  
 
@@ -548,6 +569,21 @@ Guidelines clarifying the distinct obligations of OSS Stewards under CRA Art. 3(
 | **5.2.4** | \[GOOD PRACTICE\] A registry of projects where the organization acts as Steward (vs. Manufacturer) should be maintained and reviewed annually. | ☐ Yes   ☐ No   ☐ Partial |   | Steward registry document; review record. |
 
  
+
+ 
+
+## **5.3 Self-Maintained Open Source Software**
+
+This subsection applies where an organization uses legacy, unsupported, end-of-life, forked, or internally maintained open source components in products with digital elements. These items are not a general requirement for all open source use; they apply when the organization assumes maintenance responsibility because upstream support is unavailable or insufficient.
+
+ 
+
+| Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
+| :---- | :---- | :---- | :---- | :---- |
+| **5.3.1** | \[GOOD PRACTICE\] Where legacy, end-of-life, forked, or internally maintained open source components are used, the organization should define a self-maintenance framework covering ownership, support scope, patch responsibility, and exit criteria. | ☐ Yes   ☐ No   ☐ Partial |   | Self-maintained OSS register; component owner assignment; support plan; risk acceptance record. |
+| **5.3.2** | \[GOOD PRACTICE\] Self-maintained open source components should have source traceability and development management controls, including upstream origin, fork history, local modifications, build provenance, and release branch records. | ☐ Yes   ☐ No   ☐ Partial |   | Source repository records; fork history; patch logs; build provenance. |
+| **5.3.3** | \[GOOD PRACTICE\] The organization should maintain version release and security update processes for self-maintained open source components used in released products. | ☐ Yes   ☐ No   ☐ Partial |   | Release procedure; version tags; update records; customer/security advisory records where applicable. |
+| **5.3.4** | \[GOOD PRACTICE\] Where self-maintained open source components are redistributed or publicly supported, the organization should provide a mechanism for publishing security advisories, update availability, and contact information, such as a project page, security advisory feed, or equivalent channel. | ☐ Yes   ☐ No   ☐ Partial |   | Advisory page or feed; SECURITY.md; contact point; distribution record. |
 
  
 
@@ -750,7 +786,7 @@ The following phased model provides a structured approach to achieving self-cert
 | **8 \- Technical File & CE** | Compile Technical Files; draft EU DoC; affix CE marking; confirm AR/importer/fulfillment arrangement (§7.1-7.4). | Compliance PM | Month 6-8 |
 | **8A \- Cross-Framework** | NIS2 (§8.1); AI Act (§8.2); DORA (§8.3); Data Act (§8.4); eIDAS (§8.5). | Legal \+ CISO | Month 7-9 |
 | **8B \- Procurement** | Vendor CRA qualification (§9.1). | Legal \+ Procurement | Month 7-9 |
-| **9 \- Self-Certification** | Complete this checklist; remediate gaps; conduct internal audit (§2.4.5); file conformance claim. Total items: 157\. | CRA Program Mgr | Month 8-10 |
+| **9 \- Self-Certification** | Complete this checklist; remediate gaps; conduct internal audit (§2.4.5); file conformance claim. Total items: 170\. | CRA Program Mgr | Month 8-10 |
 | **10 \- Continuous Ops** | Annual review (§2.4); training refresh; SBOM quality; advisory cadence; annual tabletop exercise; PT1/PT3 monitoring. | All owners | Ongoing |
 
  
@@ -774,7 +810,7 @@ Upon completing all checklist items, complete the attestation below.
 | **Self-Certification Date** | \[Date\] |
 | **CRA Program Manager** | \[INSERT: Name, Title \- Signature required for formal submission\] |
 | **Next Review Date** | \[Date \- max 12 months from above\] |
-| **Items answered Yes** | \[  \] of 157 total checklist items |
+| **Items answered Yes** | \[  \] of 170 total checklist items |
 | **Items answered No/Partial** | \[  \] \- gap remediation plan attached: Yes / No |
 
  
@@ -829,8 +865,8 @@ This matrix maps each CRA Annex I essential requirement to the corresponding con
 | Regular security updates | Part II, §3 | 6.1.2 | Patch release history; update delivery mechanism |
 | Coordinated vulnerability disclosure | Part II, §4 | 4.4.7, 4.4.8 | CVD policy; advisory publication records |
 | Mandatory regulatory notification (Art. 14\) | Part II, §5 | 4.4.2-4.4.6, 4.5 | SRP submission runbook; RACI; tabletop exercise or internal reporting simulation record |
-| SBOM documentation (covering at least top-level dependencies) | Part II, §6 | 3.1, 3.2 | Machine-readable SBOM; CISA 2025 minimum-element field coverage; license information fields (CISA 2025; ISO/IEC 18974/5230) |
-| Secure development lifecycle | Part I (general) | 3.3, 3.4 | Build provenance; secrets management; signing; SAST/DAST |
+| SBOM documentation (covering at least top-level dependencies) | Part II, §6 | 3.1, 3.2 | Machine-readable SBOM; CISA 2025 minimum-element field coverage; license information fields (CISA 2025; ISO/IEC 18974/5230); file/snippet-level reference handling where applicable |
+| Secure development lifecycle | Part I (general) | 3.3, 3.4, 3.6, 5.3 | Build provenance; secrets management; signing; SAST/DAST; third-party software qualification; self-maintained OSS controls where applicable |
 | Risk assessment documented | CRA Art. 13(2)–(4); Annex VII | 2.6, 7.1.1, 7.1.2 | Risk assessment report; threat model; update history |
 | Technical file compiled | Annex VII | 7.1 | Technical File index; storage location; MSA retrieval SLA |
 | EU Declaration of Conformity (Module A per Annex VIII Part 1\) | Annex V \+ Annex VIII Part 1 | 7.3.1-7.3.4 | Completed DoC per Annex V; CE mark evidence; retention record |
@@ -850,7 +886,7 @@ This mapping shows how ISO/IEC 18974 clauses and OWASP SAMM practices align with
 | **§3.1.1** | Security policy for open source | §2.1 CRA Policy, §5.1 | SAMM: Governance \> Policy & Compliance |
 | **§3.1.2** | Competence and awareness | §2.3 Competence & Training | SAMM: Governance \> Education & Guidance |
 | **§3.2.1** | SBOM process and tooling | §3.1 SBOM Generation | SAMM: Implementation \> Secure Build |
-| **§3.2.2** | SBOM completeness and data quality (incl. license information per ISO/IEC 5230\) | §3.2 Data Quality | SAMM: Implementation \> Secure Build |
+| **§3.2.2** | SBOM completeness and data quality (incl. license information per ISO/IEC 5230\) | §3.2 Data Quality, including file/snippet reference handling | SAMM: Implementation \> Secure Build |
 | **§3.2.3** | SBOM provenance and integrity | §3.3 Provenance & Integrity | SAMM: Implementation \> Secure Build |
 | **§3.3.1** | Vulnerability identification process | §4.1 Vulnerability Monitoring | SAMM: Operations \> Vulnerability Management |
 | **§3.3.2** | Vulnerability response and remediation | §4.2 Vuln Exchange, §4.3 Decisions | SAMM: Operations \> Vulnerability Management |
