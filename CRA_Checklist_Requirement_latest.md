@@ -61,7 +61,7 @@ We would like to express our sincere gratitude to the following contributors and
 
 | Name | Email | Company | GitHub ID | Key Contribution |
 | :---- | :---- | :---- | :---- | :---- |
-| **Devashri Datta (Chairman)** | devashri.datta@gmail.com |   | devashridatta-dotcom | Document author; all versions PA1-RC1; Document Owner and Chairman. |
+| **Devashri Datta (Chairman)** | devashri.datta@gmail.com |   | devashridatta-dotcom | Document author; all versions PA1-PA5 |
 | **Daniel Thompson-Yvetot** | denjell@crabnebula.dev | CrabNebula / Comply.Land | denjell-crabnebula | ETSI CYBER-EUSR Rapporteur; normative language; AR/Art.18; Art.14 cascade; eIDAS §8.5 |
 | **Andreas Kotulla** | andreas@bitsea.de | Bitsea GmbH | \[GitHub ID \- confirm\] | SBOM format; 72h clock; Art.14(8); BSI TR-03183; SRP; VEX/CSAF |
 | **Maarten Aertsen** | \[confirm\] | NLnet Labs | maertsen | Steward applicability; Art.32(5); role-neutral language; §3.5 Art.24; §5.1.6; §7.3 |
@@ -911,46 +911,11 @@ The working group welcomes anonymized implementation case studies from adopting 
 
 # **Annex D — External References and Adoption**
 
-## **D.1 — Organizations That Have Adopted This Document**
+The live external references and adoption register is maintained separately from this checklist to allow public references, confirmations, and community adoption evidence to be updated without changing the normative checklist content.
 
-Annex D lists organizations that have indicated that they reference, use, evaluate, or rely on the OpenChain CRA Checklist in public materials, internal compliance work, customer guidance, tooling, advisory work, or related implementation activities.
+Register: [ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
 
-Inclusion in Annex D does not mean that the organization endorses the checklist, certifies the checklist, provides legal approval, or makes any statement of CRA compliance. It also does not create OpenChain membership, sponsorship, certification, audit status, or any obligation to maintain a public website reference.
-
-Organizations may be listed in Annex D through either of the following routes: a public webpage, blog post, documentation page, solution page, or other public material referencing the OpenChain CRA Checklist; or written confirmation from an authorized company representative that the organization references or uses the checklist and agrees to be listed in Annex D.
-
-Where no public link is available, OpenChain may record "confirmation on file" instead of publishing private correspondence. Any organization may request correction or removal from Annex D at any time.
-
- 
-
-| Organization | Description | Country | Public Link / Confirmation |
-| :---- | :---- | :---- | :---- |
-| **Bitsea GmbH** | Open source security and compliance management; CRA compliance consulting and tooling. Active contributor to this checklist. | Germany | [https://en.bitsea.de/blog/2026/08/openchain-cra-checklist/](https://en.bitsea.de/blog/2026/08/openchain-cra-checklist/) |
-| **Interlynk** | SBOM lifecycle management and CRA compliance tooling; references this checklist as a resource on their EU CRA solutions page at interlynk.io. | United States | [https://www.interlynk.io/references](https://www.interlynk.io/references) |
-| **Lineaje** | Continuous software supply chain security and SBOM management platform; references this checklist as a CRA compliance resource on their Global Regulations page at lineaje.com. | United States | [https://www.lineaje.com/use-case/comply-with-global-regulations](https://www.lineaje.com/use-case/comply-with-global-regulations) |
-| **Revenera (Flexera)** | SBOM management and CRA compliance tooling; | United States | \[pending\] |
-| **PwC Germany** | CRA compliance advisory and assurance services. | Germany | \[pending\] |
-| **Anchore** | Container and software supply chain security platform; SBOM generation, vulnerability monitoring, and CRA compliance tooling. | United States | [https://anchore.com/eu-cra/](https://anchore.com/eu-cra/) |
-| **Agent Passport System** | Open source security assurance and identity management for AI agents; self-certified to ISO/IEC 5230 and ISO/IEC 18974. | United States | [https://agent-passport.org/docs.html#evidence](https://agent-passport.org/docs.html#evidence) |
-| **sbomify** | SBOM lifecycle management and CRA compliance resources; publicly references the OpenChain CRA Compliance resource page. | United Kingdom | Public reference: [https://sbomify.com/resources/](https://sbomify.com/resources/) |
-
- 
-
-To add your organization, open a pull request or GitHub issue at github.com/OpenChain-Project/CRA-Compliance, or contact the working group lead.
-
-## **D.2 — Public Forums and Events Where This Document Was Referenced**
-
-This table lists public forums, community sessions, talks, articles, or other references to the OpenChain CRA Checklist. Inclusion means the checklist was referenced, discussed, or scheduled to be referenced; it does not imply organizational endorsement or CRA conformity.
-
- 
-
-| Reference / Forum | Host Organization | Audience / Region | Status | Link / Confirmation |
-| :---- | :---- | :---- | :---- | :---- |
-| **OpenSSF CRA Monthly Tech Talk** | OpenSSF / Linux Foundation | International: manufacturers, open source maintainers, regulators | Planned reference by Awareness SIG Lead at upcoming session | Link TBD / confirmation on file |
-| **Revenera SCA User Group 2026** | Revenera (Flexera) | International: SCA users and software supply chain practitioners | Planned reference at annual SCA user group | [https://info.revenera.com/SCA-EVNT-User-Group-2026](https://info.revenera.com/SCA-EVNT-User-Group-2026) |
-| **OpenChain Automotive Work Group Monthly Meeting** | OpenChain Automotive Work Group | International: automotive manufacturers, suppliers, and software supply chain practitioners | Planned reference at upcoming monthly meeting | [Automotive Open Source Governance Monthly](https://openchain-project.github.io/Automotive-Open-Source-Governance-Monthly/) |
-
- 
+Inclusion in the register means that an organization, public forum, event, or resource has referenced, used, evaluated, or relied on the OpenChain CRA Checklist. Inclusion does not imply endorsement, certification, legal approval, OpenChain membership, sponsorship, audit status, or a statement of CRA compliance.
 
 
 # **References & Implementation Resources**
