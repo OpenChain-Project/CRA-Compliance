@@ -23,7 +23,9 @@ This document is aligned with:
    
 **License:** CC-BY-4.0.  **OpenChain page:** [openchainproject.org/cracompliance](https://openchainproject.org/cracompliance)   **GitHub:** [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)
 
-This document was developed as an open initiative with feedback received OpenChain contributors. Insight into its historical development can be obtained by reviewing *TBD*.
+This document was developed as an open initiative with feedback received [OpenChain contributors](Contributors.md).
+
+Insight into its historical development can be obtained by reviewing *TBD*.
 
    
 **Important:** All bracketed \[INSERT ...\] fields throughout this document must be completed with organization-specific information before any compliance claim or self-certification is made.
