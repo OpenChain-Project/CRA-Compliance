@@ -81,16 +81,20 @@ flowchart LR
     F --> G[Decision in GitHub Issue]
     G --> D
 ```
+
+
 ### Public Comment Phase - after RC1
-The Public Comment phase (see below) will align with the [**OpenChain Process for Public Comment Periods**](https://openchainproject.org/processes#process-public-comments). 
+The Public Comment phase will align with the [**OpenChain Process for Public Comment Periods**](https://openchainproject.org/processes#process-public-comments). 
 
 For the duration of the comment period, feedback is collected through:
 - The [Business Operation Study Group mailing list](https://lists.openchainproject.org/g/OpenChain-BusinessOps-Study-Group/)
 - The [CRA Compliance GitHub repository](https://github.com/OpenChain-Project/CRA-Compliance) in the form of GitHub Issues being created by commenters
 - The [Google Doc](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing)
 
-At the conclusion of the public comment period the issues collected will be addressed by the Study Group via a scheduled call or via the mailing list.
-The checklist document will generally remain unchanged during the public comment period. Should intermediate updates become necessary, they will be published through a dedicated RC release.
+**At the conclusion of the public comment period the issues collected will be addressed by the Study Group via a scheduled call or via the mailing list.**
+
+> [!NOTE]
+> The checklist document will generally remain unchanged during the public comment period. Should intermediate updates become necessary, they will be published through a dedicated RC release.
 
 ## Tracking Discussions and Decisions
 
