@@ -47,7 +47,7 @@
 | PA3 / 29 Jul 2026 | Full normative rewrite (must/should/may); all Bitsea and Daniel Thompson-Yvetot corrections; §8.5 eIDAS; Annex D Adopters. Total items: 156\. | Devashri Datta |
 | PA4 / 31 Jul 2026 | All Maarten Aertsen, Madalin Neag, Ryan Tao community feedback incorporated; new item 2.5.9 Art. 32(5) FOSS pathway; full contributor table with 11 contributors; 3 adopters in Annex D. Total items: 157\. | Devashri Datta |
 | PA5 / 5 Aug 2026 | Norio Kobota (Sony/OpenChain SBOM WG Chair) corrections: §7.3 reverted to Art. 13(18)/Annex II; §3.1.6 license information added to SBOM metadata fields; §3.1.6 CRA Annex I precedence note added; §5.2.2 Art. 24(1) reference added; applicability table §4 corrected for Stewards (Art. 14(1)(3)(8) conditional); §5 intro updated with Art. 3(14), Recitals 18 and 19, Art. 24\. Marcel Scholze (PwC Germany) and Adrian O'Sullivan corrections: §4.5.4 SRP wording updated; §7.2.1 changed to may for customer SBOM delivery. Contributors expanded to 17\. Total items: 157\. | Devashri Datta |
-| RC1 / 19 Aug 2026 | Release candidate created from PA5 for final review; added third-party software supply chain qualification, self-maintained open source software management, SBOM depth/file-snippet guidance, and strengthened secure development framing. Total items: 170\. | Devashri Datta |
+| RC1 / 19 Aug 2026 | Release candidate created from PA5 for final review; added third-party software supply chain qualification, self-maintained open source software management, SBOM depth/file-snippet guidance, and strengthened secure development framing. Contributors expanded to 18\. Total items: 170\. | Devashri Datta |
 | 1.0 / TBD | Initial approved release |   |
 
  
@@ -61,7 +61,7 @@ We would like to express our sincere gratitude to the following contributors and
 
 | Name | Email | Company | GitHub ID | Key Contribution |
 | :---- | :---- | :---- | :---- | :---- |
-| **Devashri Datta (Chairman)** | devashri.datta@gmail.com |   | devashridatta-dotcom | Document author; all versions PA1-PA5 |
+| **Devashri Datta (Chairman)** | devashri.datta@gmail.com |   | devashridatta-dotcom | Document author; all versions PA1-RC1; Document Owner and Chairman. |
 | **Daniel Thompson-Yvetot** | denjell@crabnebula.dev | CrabNebula / Comply.Land | denjell-crabnebula | ETSI CYBER-EUSR Rapporteur; normative language; AR/Art.18; Art.14 cascade; eIDAS §8.5 |
 | **Andreas Kotulla** | andreas@bitsea.de | Bitsea GmbH | \[GitHub ID \- confirm\] | SBOM format; 72h clock; Art.14(8); BSI TR-03183; SRP; VEX/CSAF |
 | **Maarten Aertsen** | \[confirm\] | NLnet Labs | maertsen | Steward applicability; Art.32(5); role-neutral language; §3.5 Art.24; §5.1.6; §7.3 |
@@ -78,6 +78,7 @@ We would like to express our sincere gratitude to the following contributors and
 | **SZ Lin林上智** | szlin@sunsquare.tech | Sun Square | szlin | CRA legal-basis corrections; Article 18 authorised-representative framing; Article 25 correction; importer/distributor applicability; statutory vs implementation-control classification |
 | **Martin von Willebrand** | martin.vonwillebrand@doubleopen.io | Double Open Oy | willebra | PA5 review comments; §2.6 Cybersecurity Risk Assessment; harmonized-standards renumbering; reference consistency |
 | **Shinji Sato** | \[confirm\] | \[confirm\] | \[confirm\] | Issue \#19 scope clarification; Section 1 CRA applicability wording for organizations not deploying open-source software in the EU |
+| **Wenjun Feng** | \[confirm\] | Honor Device Co., Ltd. | \[confirm\] | OpenChain Community Day Beijing CRA Requirements & Checklist Hackathon; translation support and China community contribution. |
 
  
 
