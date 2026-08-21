@@ -78,7 +78,7 @@ We would like to express our sincere gratitude to the following contributors and
 | **SZ Lin林上智** | szlin@sunsquare.tech | Sun Square | szlin | CRA legal-basis corrections; Article 18 authorised-representative framing; Article 25 correction; importer/distributor applicability; statutory vs implementation-control classification |
 | **Martin von Willebrand** | martin.vonwillebrand@doubleopen.io | Double Open Oy | willebra | PA5 review comments; §2.6 Cybersecurity Risk Assessment; harmonized-standards renumbering; reference consistency |
 | **Shinji Sato** | \[confirm\] | \[confirm\] | \[confirm\] | Issue \#19 scope clarification; Section 1 CRA applicability wording for organizations not deploying open-source software in the EU |
-| **Wenjun Feng** | \[confirm\] | Honor Device Co., Ltd. | \[confirm\] | OpenChain Community Day Beijing CRA Requirements & Checklist Hackathon; translation support and China community contribution. |
+| **Wenjun Feng** | \[confirm\] | Honor Device Co., Ltd. | \[confirm\] | Revision suggestions incorporated: §3.4 secure design/development framing; §3.6 third-party software supply-chain qualification; §5.3 self-maintained OSS; §3.1 SBOM dependency-depth/completeness and file/snippet-level reference guidance. |
 
  
 
