@@ -97,10 +97,10 @@ timeline
       18 August : weekly update
       25 August : weekly update
    section Stabilization & Public Comment
-      28 August : Release Candidate 1 (RC1)
-      11 September : Release Candidate 2 (RC2)
+      23 August : Release Candidate 1 (RC1)
+      (optional) : Release Candidate 2 (RC2)
    section Official Release
-      September / October : Version 1.0
+      11 September : Version 1.0
 
 ```
 ### Milestones
