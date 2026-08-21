@@ -1,90 +1,27 @@
-| OpenChain-Aligned Cyber Resilience Act (CRA) Compliance Requirements & Checklist Self-Certification Document   \-   ISO/IEC 18974 Aligned   \-   EU Regulation 2024/2847 |
-| :---- |
+# **Cyber Resilience Act (CRA) Compliance Requirements & Checklist**
 
-   
- 
+OpenChain-Aligned Self-Certification Document  
+ISO/IEC 18974 Aligned | EU Regulation 2024/2847 | OpenChain ISO/IEC 5230  
+Version: RC1 | Date: 19 Aug 2026 | Status: Release Candidate  
+Document Owner / OpenChain CRA Working Group Chair: Devashri Datta  
+License: CC-BY-4.0
 
- 
+OpenChain page: [openchainproject.org/cracompliance](https://openchainproject.org/cracompliance)  
+GitHub: [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)  
+Community comments: [Google Doc (open for comments)](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing)
 
-| Document Title | CRA Compliance Requirements & Checklist |
-| :---- | :---- |
-| **Document Type** | Self-Certification / Governance Framework |
-| **Current Version** | RC1 |
-| **Date** | 19 Aug 2026 |
-| **Status** | Release Candidate (RC1) |
-| **Review Cycle** | Annual; additionally triggered by major releases, significant dependency changes, or regulatory guidance updates (see §2.4.2) |
-| **Document Owner** | Devashri Datta (Chairman) |
-| **Standards Alignment** | ISO/IEC 18974 \- EU CRA (Reg. 2024/2847) \- OpenChain ISO/IEC 5230 |
-| **CRA Art. 14 Reporting Deadline** | 11 Sep 2026 (CRA Art. 71(2)) \- see §4.4-4.5 for mandatory actions |
+Supporting evidence and project history:
 
-   
-**Abstract**
+* [Contributors and Reviewers](CONTRIBUTORS.md)
+* [Revision History](REVISION_HISTORY.md)
+* [External References and Adoption](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
 
-**This document defines the organizational compliance framework for the EU Cyber Resilience Act (CRA, Regulation 2024/2847), structured in alignment with the OpenChain Project adoption framework and ISO/IEC 18974\. It serves simultaneously as a policy framework and a self-certification checklist, covering program governance, SBOM quality, vulnerability handling, regulatory reporting (including the CRA Article 14 three-stage cascade), OSS stewardship, and technical file obligations.**
+This document defines the organizational compliance framework for the EU Cyber Resilience Act (CRA, Regulation 2024/2847), structured in alignment with the OpenChain Project adoption framework and ISO/IEC 18974. It serves as both a policy framework and a self-certification checklist, covering program governance, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, and technical file obligations.
 
-**Completing or signing this checklist does not in itself constitute a CRA conformity assessment, an EU Declaration of Conformity, or evidence of lawful CE marking. This document is a readiness and evidence-management tool supporting the applicable conformity-assessment procedure. This document does not constitute legal advice; consult qualified legal counsel before formal regulatory submission.** 
+Completing or signing this checklist does not in itself constitute a CRA conformity assessment, an EU Declaration of Conformity, or evidence of lawful CE marking. This document is a readiness and evidence-management tool supporting the applicable conformity-assessment procedure. This document does not constitute legal advice; consult qualified legal counsel before formal regulatory submission.
 
-   
- 
+Important: All bracketed \[INSERT ...\] fields throughout this document must be completed with organization-specific information before any compliance claim or self-certification is made.
 
-   
-**License:** CC-BY-4.0.  **OpenChain page:** [openchainproject.org/cracompliance](https://openchainproject.org/cracompliance)   **GitHub:** [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)
-
-**Community comments:** [Google Doc (open for comments)](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing)
-
-   
-**Important:** All bracketed \[INSERT ...\] fields throughout this document must be completed with organization-specific information before any compliance claim or self-certification is made.
-
- 
-
-# **Revision History**
-
- 
-
-| Version / Date | Description | Author |
-| :---- | :---- | :---- |
-| PA1 / 21 Jul 2026 | 1st draft \- 5-section structure, Art. 14 cascade, RACI | Devashri Datta |
-| PA3 / 29 Jul 2026 | Full normative rewrite (must/should/may); all Bitsea and Daniel Thompson-Yvetot corrections; §8.5 eIDAS; Annex D Adopters. Total items: 156\. | Devashri Datta |
-| PA4 / 31 Jul 2026 | All Maarten Aertsen, Madalin Neag, Ryan Tao community feedback incorporated; new item 2.5.9 Art. 32(5) FOSS pathway; full contributor table with 11 contributors; 3 adopters in Annex D. Total items: 157\. | Devashri Datta |
-| PA5 / 5 Aug 2026 | Norio Kobota (Sony/OpenChain SBOM WG Chair) corrections: §7.3 reverted to Art. 13(18)/Annex II; §3.1.6 license information added to SBOM metadata fields; §3.1.6 CRA Annex I precedence note added; §5.2.2 Art. 24(1) reference added; applicability table §4 corrected for Stewards (Art. 14(1)(3)(8) conditional); §5 intro updated with Art. 3(14), Recitals 18 and 19, Art. 24\. Marcel Scholze (PwC Germany) and Adrian O'Sullivan corrections: §4.5.4 SRP wording updated; §7.2.1 changed to may for customer SBOM delivery. Contributors expanded to 17\. Total items: 157\. | Devashri Datta |
-| RC1 / 19 Aug 2026 | Release candidate created from PA5 for final review; added third-party software supply chain qualification, self-maintained open source software management, SBOM depth/file-snippet guidance, and strengthened secure development framing. Contributors expanded to 18\. Total items: 170\. | Devashri Datta |
-| 1.0 / TBD | Initial approved release |   |
-
- 
-
-# **Contributors**
-
-   
-We would like to express our sincere gratitude to the following contributors and organizations, whose efforts and insights have been invaluable to this document.
-
- 
-
-| Name | Email | Company | GitHub ID | Key Contribution |
-| :---- | :---- | :---- | :---- | :---- |
-| **Devashri Datta (Chairman)** | devashri.datta@gmail.com |   | devashridatta-dotcom | Document author; all versions PA1-RC1; Document Owner and Chairman. |
-| **Daniel Thompson-Yvetot** | denjell@crabnebula.dev | CrabNebula / Comply.Land | denjell-crabnebula | ETSI CYBER-EUSR Rapporteur; normative language; AR/Art.18; Art.14 cascade; eIDAS §8.5 |
-| **Andreas Kotulla** | andreas@bitsea.de | Bitsea GmbH | \[GitHub ID \- confirm\] | SBOM format; 72h clock; Art.14(8); BSI TR-03183; SRP; VEX/CSAF |
-| **Maarten Aertsen** | \[confirm\] | NLnet Labs | maertsen | Steward applicability; Art.32(5); role-neutral language; §3.5 Art.24; §5.1.6; §7.3 |
-| **Madalin Neag** | mneag@contractor.linuxfoundation.org | OpenSSF / Linux Foundation Europe | \[confirm\] | PT1/PT3 links; C(2026) 5252; Art.32(5) FOSS; IR 2025/2392; Annex VIII Part 1; §2.7.3 |
-| **Norio Kobota** | \[confirm\] | Sony Group Corporation | \[confirm\] | §7.3 Art.13(18) correction; §3.1.6 license fields; §5 legal basis; §4 Steward applicability; Art.24(1) |
-| **Marcel Scholze** | \[confirm\] | PwC Germany | \[confirm\] | §4.5.4 SRP wording; AR three-option framing; §6.1.1 rolling release; case study callout |
-| **Roman Zhukov** | \[confirm\] | OpenSSF GCP | \[confirm\] | ISO/IEC 18974 mapping; OWASP SAMM; PT1/PT3 alignment; implementation references |
-| **Ummo Schwarting** | uschwarting@deloitte.de | Deloitte Germany | umm0 | VEX/CSAF status vocabulary; §4.2.3 format-native rewrite |
-| **Adrian O'Sullivan** | adrian.osullivan@huawei.com | Huawei | aosull01 | §7.2.1 SBOM may wording correction |
-| **Marcel Kurzmann** | \[confirm\] | Bosch | \[confirm\] | Evidence & Rationale column; hyperlinks throughout |
-| **Ryan Tao** | \[confirm\] | \[confirm\] | \[confirm\] | §3.1.1 SBOM wording; §3.1.5 actively exploited CVE correction |
-| **Mary (Meixia) Wang** | \[confirm\] | Linux Foundation | \[confirm\] | Column order; title; OpenChain CRA website page; community announcement |
-| **eaglei15** | \[confirm\] | \[confirm\] | eaglei15 | §4.2.3 CycloneDX false\_positive VEX status contribution (GitHub PR \#3) |
-| **SZ Lin林上智** | szlin@sunsquare.tech | Sun Square | szlin | CRA legal-basis corrections; Article 18 authorised-representative framing; Article 25 correction; importer/distributor applicability; statutory vs implementation-control classification |
-| **Martin von Willebrand** | martin.vonwillebrand@doubleopen.io | Double Open Oy | willebra | PA5 review comments; §2.6 Cybersecurity Risk Assessment; harmonized-standards renumbering; reference consistency |
-| **Shinji Sato** | \[confirm\] | \[confirm\] | \[confirm\] | Issue \#19 scope clarification; Section 1 CRA applicability wording for organizations not deploying open-source software in the EU |
-| **Wenjun Feng** | \[confirm\] | Honor Device Co., Ltd. | \[confirm\] | Revision suggestions incorporated: §3.4 secure design/development framing; §3.6 third-party software supply-chain qualification; §5.3 self-maintained OSS; §3.1 SBOM dependency-depth/completeness and file/snippet-level reference guidance. |
-
- 
-
-To add your name as a contributor, open a pull request or GitHub issue at github.com/OpenChain-Project/CRA-Compliance, or contact the working group lead.
-
- 
 
 # **Section 1: Introduction & Scope**
 
@@ -917,6 +854,19 @@ The live external references and adoption register is maintained separately from
 Register: [ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
 
 Inclusion in the register means that an organization, public forum, event, or resource has referenced, used, evaluated, or relied on the OpenChain CRA Checklist. Inclusion does not imply endorsement, certification, legal approval, OpenChain membership, sponsorship, audit status, or a statement of CRA compliance.
+
+
+# **Annex E — Contributors and Reviewers**
+
+The live contributor and reviewer register is maintained separately from this checklist so attribution, organizational context, and contribution details can be updated without changing the normative checklist content.
+
+Register: [CONTRIBUTORS.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTORS.md)
+
+# **Annex F — Revision History**
+
+The revision history is maintained separately from this checklist to preserve a concise public record of authorship, review cycles, and major changes while keeping the checklist front matter aligned with OpenChain document style.
+
+Register: [REVISION_HISTORY.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/REVISION_HISTORY.md)
 
 
 # **References & Implementation Resources**
