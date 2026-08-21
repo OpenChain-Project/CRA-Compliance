@@ -28,7 +28,7 @@ This document was developed as an open initiative with feedback received OpenCha
    
 **Important:** All bracketed \[INSERT ...\] fields throughout this document must be completed with organization-specific information before any compliance claim or self-certification is made.
 
-# **Section 1: Introduction & Scope**
+# Section 1: Scope
 
 CRA applicability is not determined solely by whether an organization deploys open-source software in the EU. The primary scope question is whether the organization makes a product with digital elements available on the Union market, or otherwise has a role covered by the CRA, such as manufacturer, importer, distributor, authorised representative, or open-source software steward.
 
