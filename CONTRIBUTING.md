@@ -13,9 +13,9 @@ For detailed information and valid channels per release phase see details below:
 config:
    theme: 'neutral'
    themeVariables:
-      cScale0: '#00829B'
+      cScale0: '#008286'
       cScaleLabel0: '#FFFFFF'
-      cScale1: '#DE592B'
+      cScale1: '#E15829'
       cScaleLabel1: '#FFFFFF'
       cScale2: '#04AEB9'
       cScaleLabel2: '#000000'
@@ -29,6 +29,7 @@ timeline
    section Stabilization & Public Comment
       23 August : Release Candidate 1 (RC1)
       (optional) : Release Candidate 2 (RC2)
+      08 September : comment submission deadline
    section Official Release
       11 September : Version 1.0
 
