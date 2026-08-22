@@ -16,8 +16,6 @@ Supporting evidence and project history:
 * [Revision History](REVISION_HISTORY.md)
 * [External References and Adoption](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
 
-This document defines the organizational compliance framework for the EU Cyber Resilience Act (CRA, Regulation 2024/2847), structured in alignment with the OpenChain Project adoption framework and ISO/IEC 18974. It serves as both a policy framework and a self-certification checklist, covering program governance, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, and technical file obligations.
-
 Completing or signing this checklist does not in itself constitute a CRA conformity assessment, an EU Declaration of Conformity, or evidence of lawful CE marking. This document is a readiness and evidence-management tool supporting the applicable conformity-assessment procedure. This document does not constitute legal advice; consult qualified legal counsel before formal regulatory submission.
 
 Important: All bracketed \[INSERT ...\] fields throughout this document must be completed with organization-specific information before any compliance claim or self-certification is made.
@@ -29,7 +27,7 @@ CRA applicability is not determined solely by whether an organization deploys op
 
 If an organization does not make products with digital elements available on the Union market and does not have a covered CRA role, this checklist is not a legal compliance obligation for that organization. Such organizations may still use it as a voluntary reference for understanding SBOMs, vulnerability handling, evidence management, and software supply chain readiness.
 
-This document defines the organization compliance program for the EU Cyber Resilience Act (CRA), structured in alignment with the OpenChain Project adoption framework and ISO/IEC 18974 (Open Source Security Assurance). It serves as both a policy framework and a self-certification checklist.
+This document defines an OpenChain-aligned organizational compliance framework for the EU Cyber Resilience Act (CRA, Regulation (EU) 2024/2847) and ISO/IEC 18974. It provides a self-certification checklist covering governance, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, and technical-file obligations.
 
 The CRA (Regulation (EU) 2024/2847) establishes mandatory cybersecurity requirements for products with digital elements (PDEs) placed on the EU market. The following role definitions are drawn from CRA Art. 3:
 
