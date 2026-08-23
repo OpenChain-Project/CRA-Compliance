@@ -7,7 +7,6 @@
 OpenChain-Aligned Self-Certification Document  
 ISO/IEC 18974 Aligned | EU Regulation 2024/2847 | OpenChain ISO/IEC 5230  
 Version: RC1 | Date: 19 Aug 2026 | Status: Release Candidate  
-Document Owner / OpenChain CRA Working Group Chair: Devashri Datta  
 License: CC-BY-4.0
 
 OpenChain page: [openchainproject.org/cracompliance](https://openchainproject.org/cracompliance)  
