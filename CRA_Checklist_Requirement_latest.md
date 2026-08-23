@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OpenChain-Project/Image-Assets/master/Official/Project-Logo/Long-Logo/long-logo.png" alt="OpenChain Project" width="360">
+</p>
+
 # **Cyber Resilience Act (CRA) Compliance Requirements & Checklist**
 
 OpenChain-Aligned Self-Certification Document  
