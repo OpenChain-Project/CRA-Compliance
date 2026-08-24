@@ -3,7 +3,7 @@ layout: subpage
 title: CRA Compliance Guidance
 ---
 
-[Review & Contribution Workflow](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTING.md#public-comment-phase---after-rc1) | [Mailing List](https://lists.openchainproject.org/g/OpenChain-BusinessOps-Study-Group)
+[Review & Contribution Workflow](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTING.md#openchain-cra-checklist-review--contribution-workflow) | [Mailing List](https://lists.openchainproject.org/g/OpenChain-BusinessOps-Study-Group)
 
 ---
 
