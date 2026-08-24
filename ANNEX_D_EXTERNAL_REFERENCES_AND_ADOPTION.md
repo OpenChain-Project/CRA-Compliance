@@ -21,7 +21,7 @@ Where no public link is available, OpenChain may record "confirmation on file" i
 | **Anchore** | Container and software supply chain security platform; SBOM generation, vulnerability monitoring, and CRA compliance tooling. | United States | [https://anchore.com/eu-cra/](https://anchore.com/eu-cra/) |
 | **Agent Passport System** | Open source security assurance and identity management for AI agents; self-certified to ISO/IEC 5230 and ISO/IEC 18974. | United States | [https://agent-passport.org/docs.html#evidence](https://agent-passport.org/docs.html#evidence) |
 | **sbomify** | SBOM lifecycle management and CRA compliance resources; publicly references the OpenChain CRA Compliance resource page. | United Kingdom | [https://sbomify.com/resources/](https://sbomify.com/resources/) |
-| **norxs Technology LLC** | Functional safety and cybersecurity engineering firm; CRA Article 14 reporting guidance publicly references the OpenChain CRA compliance framework. | United States | [https://www.norxs.com/news/cra-article-14-reporting/](https://www.norxs.com/news/cra-article-14-reporting/) |
+| **norxs** | Functional safety and cybersecurity engineering firm; CRA Article 14 reporting guidance publicly references the OpenChain CRA compliance framework. | United States | [https://www.norxs.com/news/cra-article-14-reporting/](https://www.norxs.com/news/cra-article-14-reporting/) |
 
 To add your organization, open a pull request or GitHub issue at github.com/OpenChain-Project/CRA-Compliance, or contact the working group lead.
 
