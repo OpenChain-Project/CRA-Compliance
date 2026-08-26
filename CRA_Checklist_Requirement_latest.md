@@ -103,7 +103,8 @@ The table below shows which sections contain items subject to the 11 Sep 2026 Ar
 | **2.3** | Competence & Training | No | No | Yes \- §3.1.2 |
 | **2.4** | Sustainability & Review | No | No | Yes \- §3.4.2 |
 | **2.5** | Product Risk Categorization (incl. Art. 32(5) FOSS) | No | Yes \- 11 Dec 2027 | No \- CRA-specific |
-| **2.6** | Harmonized Standards Tracking | No | Yes \- 11 Dec 2027 | No \- CRA-specific |
+| **2.6** | Cybersecurity Risk Assessment (CRA Art. 13(2)–(4)) | No | Yes \- 11 Dec 2027 | No \- CRA-specific |
+| **2.7** | Harmonized Standards Tracking | No | Yes \- 11 Dec 2027 | No \- CRA-specific |
 | **3.1** | SBOM Generation | Partial \- §3.1.5 SBOM depth tied to 24h window | Yes \- 11 Dec 2027 | Yes \- §3.2.1-3.2.3 |
 | **3.2** | SBOM Data Quality | No | Yes \- 11 Dec 2027 | Yes \- §3.2.2 |
 | **3.3** | Provenance & Integrity | No | Yes \- 11 Dec 2027 | Yes \- §3.2.3 |
