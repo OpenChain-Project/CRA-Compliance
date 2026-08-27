@@ -1,10 +1,10 @@
 # CRA-Compliance
 
-This repository defines the organizational compliance framework for the EU Cyber Resilience Act (CRA, Regulation 2024/2847). It serves simultaneously as a policy framework and a self-certification checklist, covering program governance, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, and technical file obligations.
+This repository defines the organizational compliance framework for the EU Cyber Resilience Act (CRA, Regulation (EU) 2024/2847). It serves simultaneously as a policy framework and a self-certification checklist, covering program governance, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, and technical file obligations.
 
 ## Overview
 
-The CRA (Regulation EU 2024/2847) establishes mandatory cybersecurity requirements for products with digital elements placed on the EU market. Organizations that develop, maintain, or distribute software with digital elements must ensure their products meet essential cybersecurity requirements throughout the product lifecycle.
+The CRA (Regulation (EU) 2024/2847) establishes mandatory cybersecurity requirements for products with digital elements placed on the EU market. Organizations that develop, maintain, or distribute software with digital elements must ensure their products meet essential cybersecurity requirements throughout the product lifecycle.
 
 This framework is:
 
@@ -19,6 +19,9 @@ This framework is:
 |---|---|
 | `versions` | Archive directory for Checklist versions |
 | `CRA_Checklist_Requirement_latest.md` | CRA Compliance Checklist and Requirements latest version (182 checklist items) |
+| `CONTRIBUTORS.md` | Contributor and reviewer register |
+| `REVISION_HISTORY.md` | Authorship, review cycle, and major change register |
+| `ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md` | External references and adoption register |
 
 ## Checklist Structure
 
@@ -38,12 +41,15 @@ The checklist covers 9 sections and 182 requirements:
 ## Key Features
 
 - **Art. 14 three-stage reporting cascade** (24h Early Warning / 72h Notification / 14-day Final Report) with full RACI and tabletop exercise requirements
-- **SBOM quality controls** including dependency pinning, provenance, signing, and HBOM for hardware products
+- **SBOM quality controls** including dependency depth, file/snippet reference handling, provenance, signing, and HBOM for hardware products
 - **Secure build infrastructure** and secrets management requirements
+- **Third-party software supply chain qualification** for COTS, SDKs, ODM/OEM components, outsourced development, and freeware
+- **Self-maintained open source software controls** for legacy, forked, or internally maintained components
 - **EU Declaration of Conformity** workflow with Annex V template structure
 - **Authorized Representative** operational procedures for non-EU manufacturers
-- **Appendix A** - CRA Annex I Traceability Matrix
-- **Appendix B** - Definitions and Glossary
+- **Annex A** - Definitions and Glossary
+- **Annex B** - CRA Annex I Traceability Matrix
+- **Annex D/E/F** - Separate supporting evidence registers for external references, contributors, and revision history
 
 ## Status
 
@@ -55,12 +61,6 @@ The document is under active development. Contributions and feedback are welcome
 
 CC-BY-4.0 - See [LICENSE](LICENSE) for details.
 
-## Contributors
+## Contributors and Reviewers
 
-| Name | Affiliation |
-|---|---|
-| Devashri Datta | Independent Researcher / OpenSSF SBOM Everywhere SIG |
-| Mary Meixia Wang | OpenChain Project |
-| Ummo Schwarting | Open Source Consultant / Chairman, OpenChain Business Operations Study Group |
-
-For checklist contributions see [Contributors section in the Checklist document](CRA_Checklist_Requirement_latest.md#Contributors)
+Contributor and reviewer details are maintained in [CONTRIBUTORS.md](CONTRIBUTORS.md). The current register records 19 contributors and reviewers.
