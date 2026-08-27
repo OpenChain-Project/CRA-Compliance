@@ -122,9 +122,8 @@ The table below shows which sections contain items subject to the 11 Sep 2026 Ar
 | **6.1** | Support Period & Update Obligations | No | Yes \- 11 Dec 2027 | Partial \- patching yes; 5-year period not in 18974 |
 | **7.1** | Market Surveillance Deliverables | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 |
 | **7.2** | Downstream Customer Provisioning | No | Yes \- 11 Dec 2027 | Partial \- §3.2.1 |
-| **7.3** | User-Facing Docs (Art. 13(18)/Annex II) | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 |
-| **7.4** | EU DoC & CE Marking | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 |
-| **7.5** | EU Authorized Representative | No | Yes \- 11 Dec 2027 if non-EU | No \- CRA-specific |
+| **7.3** | User-Facing Docs, EU DoC & CE Marking | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 |
+| **7.4** | EU Authorized Representative | No | Yes \- 11 Dec 2027 if non-EU | No \- CRA-specific |
 | **8.1** | CRA and NIS2 | Partial \- NIS2 incident aligns with Art. 14 | No | No \- regulatory mapping not in 18974 |
 | **8.2** | CRA and AI Act | No | Yes \- 11 Dec 2027 | No |
 | **8.3** | CRA and DORA | No | No | No |
@@ -139,7 +138,7 @@ The table below shows which sections contain items subject to the 11 Sep 2026 Ar
 
 # **Section 2: Program Architecture & Governance**
 
-This section establishes the organizational foundation for CRA compliance. Note: §2.1-2.4 apply to all roles including Stewards (as Recommended). §2.5 and §2.7 apply only to Manufacturers and Importers/Distributors; they are N/A for OSS Stewards.
+This section establishes the organizational foundation for CRA compliance. Note: §2.1-2.4 apply to all roles including Stewards (as Recommended). §2.5-§2.7 are product-assessment controls for manufacturers; importers/distributors verify manufacturer evidence where applicable; they are N/A for OSS Stewards unless the steward also qualifies as the manufacturer for the relevant product or activity.
 
  
 
@@ -210,7 +209,7 @@ Periodic review processes to ensure CRA compliance mechanisms remain active and 
 
 ## **2.5 Product Risk Categorization & Conformity Assessment Route**
 
-Before executing self-certification, the organization must determine the CRA product classification per CRA Art. 6, 24, and 32 and Annexes III-IV. Technical descriptions of product categories are specified in Implementing Regulation (EU) 2025/2392. Self-certification (Module A, per CRA Annex VIII Part 1\) is only lawful for Default products and certain Class I products using harmonized standards. Art. 32(5) provides an additional pathway for FOSS manufacturers; see item 2.5.9. Note: §2.5 and §2.7 are N/A for OSS Stewards.
+Before executing self-certification, the organization must determine the CRA product classification per CRA Art. 6, 24, and 32 and Annexes III-IV. Technical descriptions of product categories are specified in Implementing Regulation (EU) 2025/2392. Self-certification (Module A, per CRA Annex VIII Part 1\) is only lawful for Default products and certain Class I products using harmonized standards. Art. 32(5) provides an additional pathway for FOSS manufacturers; see item 2.5.9. Note: §2.5-§2.7 are N/A for OSS Stewards.
 
  
 
@@ -599,7 +598,7 @@ CRA Articles 13(12), 13(13), 28, 31, and Annex VII require manufacturers to prep
 
  
 
-## **7.3 User-Facing Documentation (CRA Art. 13(18) / Annex II)**
+## **7.3 User-Facing Documentation, EU Declaration of Conformity & CE Marking (CRA Art. 13(18), Art. 28 & 30 / Annex II)**
 
 CRA Art. 13(18) and Annex II require manufacturers to provide clear and understandable information and instructions to users. Note: CRA Art. 24 governs OSS Steward obligations, not manufacturer user-facing documentation.
 
@@ -614,7 +613,7 @@ CRA Art. 13(18) and Annex II require manufacturers to provide clear and understa
 
  
 
-## **7.4 EU Declaration of Conformity & CE Marking (CRA Art. 28 & 30\)**
+## **7.4 EU Authorized Representative**
 
  
 
@@ -770,7 +769,7 @@ Upon completing all checklist items, complete the attestation below.
 
  
 
-# **Appendix B \- Definitions / Glossary**
+# **Annex A \- Definitions / Glossary**
 
 The following terms are used throughout this document. Definitions align with CRA Regulation (EU) 2024/2847 Art. 3 unless otherwise noted.
 
@@ -797,7 +796,7 @@ The following terms are used throughout this document. Definitions align with CR
 
  
 
-# **Appendix A \- CRA Annex I Traceability Matrix**
+# **Annex B \- CRA Annex I Traceability Matrix**
 
 This matrix maps each CRA Annex I essential requirement to the corresponding control(s) in this document.
 
@@ -822,13 +821,13 @@ This matrix maps each CRA Annex I essential requirement to the corresponding con
 | Secure development lifecycle | Part I (general) | 3.3, 3.4, 3.6, 5.3 | Build provenance; secrets management; signing; SAST/DAST; third-party software qualification; self-maintained OSS controls where applicable |
 | Risk assessment documented | CRA Art. 13(2)–(4); Annex VII | 2.6, 7.1.1, 7.1.2 | Risk assessment report; threat model; update history |
 | Technical file compiled | Annex VII | 7.1 | Technical File index; storage location; MSA retrieval SLA |
-| EU Declaration of Conformity (Module A per Annex VIII Part 1\) | Annex V \+ Annex VIII Part 1 | 7.3.1-7.3.4 | Completed DoC per Annex V; CE mark evidence; retention record |
+| EU Declaration of Conformity (Module A per Annex VIII Part 1\) | Annex V \+ Annex VIII Part 1 | 7.3.2-7.3.4 | Completed DoC per Annex V; CE mark evidence; retention record |
 
  
 
  
 
-# **Appendix C \- ISO/IEC 18974 & OWASP SAMM Cross-Reference Mapping**
+# **Annex C \- ISO/IEC 18974 & OWASP SAMM Cross-Reference Mapping**
 
 This mapping shows how ISO/IEC 18974 clauses and OWASP SAMM practices align with checklist sections. PT1/PT3 placeholder rows will be updated when final versions are published.
 
@@ -977,4 +976,5 @@ References marked as "draft" or "pending" are informational only and non-binding
 ●  OWASP SAMM \- [owaspsamm.org](https://owaspsamm.org)
 
 ●  Eclipse ORC (Open Regulatory Compliance) \- [eclipse.org/orc](https://eclipse.org/orc)
+
 
