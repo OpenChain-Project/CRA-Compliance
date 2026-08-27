@@ -154,7 +154,7 @@ A documented cybersecurity policy for CRA compliance defines the organization co
 | **2.1.1** | \[CRA REQUIREMENT\] The organization must maintain a documented cybersecurity policy for CRA compliance. The policy should be formally approved by senior management or an equivalent governing body. | ☐ Yes   ☐ No   ☐ Partial |   | Policy document; approval signature or board/exec minute. |
 | **2.1.2** | \[GOOD PRACTICE\] The policy should be published and accessible to all relevant personnel. Per CRA Recital 76, manufacturers are encouraged to make their security policies publicly available, including in machine-readable format. | ☐ Yes   ☐ No   ☐ Partial |   | URL or intranet link; screenshot or acknowledgement log. |
 | **2.1.3** | \[CRA REQUIREMENT\] The policy must explicitly reference the organization's obligations under CRA Articles 13, 14, and 15 and Annex I Part II(5), which requires a policy on coordinated vulnerability disclosure. This is further detailed in Art. 13(8). PT3 additionally recommends a standalone vulnerability handling policy. | ☐ Yes   ☐ No   ☐ Partial |   | Policy text mapped to CRA articles. |
-| **2.1.4** | \[CRA REQUIREMENT\] The policy must cover the full product lifecycle: design, development, release, m aintenance, and end-of-support, consistent with the product lifetime obligations in CRA Art. 13(2) and the vulnerability handling obligations in Art. 13(6). | ☐ Yes   ☐ No   ☐ Partial |   | Lifecycle phase coverage section in policy. |
+| **2.1.4** | \[CRA REQUIREMENT\] The policy must cover the full product lifecycle: design, development, release, maintenance, and end-of-support, consistent with the product lifetime obligations in CRA Art. 13(2) and the vulnerability handling obligations in Art. 13(6). | ☐ Yes   ☐ No   ☐ Partial |   | Lifecycle phase coverage section in policy. |
 
  
 
@@ -979,3 +979,4 @@ References marked as "draft" or "pending" are informational only and non-binding
 ●  OWASP SAMM \- [owaspsamm.org](https://owaspsamm.org)
 
 ●  Eclipse ORC (Open Regulatory Compliance) \- [eclipse.org/orc](https://eclipse.org/orc)
+
