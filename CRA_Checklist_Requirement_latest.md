@@ -236,6 +236,21 @@ The cybersecurity risk assessment determines which CRA Annex I essential cyberse
 
 Art. 13(5) due diligence for third-party and FOSS components is addressed in §3 and §5. This section is not applicable to OSS Stewards unless the steward also qualifies as the manufacturer for the relevant product or activity.
 
+| Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
+| :---- | :---- | :---- | :---- | :---- |
+| **2.6.1** | \[CRA REQUIREMENT\] The organization must perform a cybersecurity risk assessment for each in-scope product with digital elements before or during planning, design, development, production, delivery, and maintenance. | ☐ Yes   ☐ No   ☐ Partial |   | CSRA procedure; product-specific CSRA record. Reference: CRA Art. 13(2). |
+| **2.6.2** | \[CRA REQUIREMENT\] The cybersecurity risk assessment must analyze risks based on the product's intended purpose, reasonably foreseeable use, and conditions of use. | ☐ Yes   ☐ No   ☐ Partial |   | Intended-use statement; misuse/foreseeable-use analysis; product risk register. Reference: CRA Art. 13(3). |
+| **2.6.3** | \[CRA REQUIREMENT\] The cybersecurity risk assessment must consider the product's operational environment and the assets to be protected. | ☐ Yes   ☐ No   ☐ Partial |   | Deployment assumptions; architecture diagram; asset and data-flow inventory. Reference: CRA Art. 13(3). |
+| **2.6.4** | \[CRA REQUIREMENT\] The cybersecurity risk assessment must take into account the expected product lifetime and support period. | ☐ Yes   ☐ No   ☐ Partial |   | Support-period record; lifecycle risk analysis; EOL/EOS criteria. Reference: CRA Art. 13(3), Art. 13(8). |
+| **2.6.5** | \[CRA REQUIREMENT\] The cybersecurity risk assessment must indicate whether each applicable CRA Annex I Part I point (2) security requirement applies to the product and how it is implemented. | ☐ Yes   ☐ No   ☐ Partial |   | Annex I applicability matrix; control implementation rationale; design traceability. Reference: CRA Art. 13(3), Annex I Part I. |
+| **2.6.6** | \[CRA REQUIREMENT\] The cybersecurity risk assessment must indicate how the organization applies CRA Annex I Part I point (1) and the vulnerability handling requirements in Annex I Part II. | ☐ Yes   ☐ No   ☐ Partial |   | CSRA-to-control mapping; vulnerability handling procedure linkage; release evidence. Reference: CRA Art. 13(3), Annex I Part I and Part II. |
+| **2.6.7** | \[CRA REQUIREMENT\] The organization must use the CSRA outcome to minimize cybersecurity risks, prevent incidents, and minimize incident impact, including in relation to health and safety of users. | ☐ Yes   ☐ No   ☐ Partial |   | Risk treatment plan; mitigation backlog; residual-risk decision records. Reference: CRA Art. 13(2). |
+| **2.6.8** | \[CRA REQUIREMENT\] The cybersecurity risk assessment must be documented and updated as appropriate throughout the product support period, including when relevant product changes, vulnerabilities, threat intelligence, or substantial modifications affect the risk profile. | ☐ Yes   ☐ No   ☐ Partial |   | CSRA version history; change-triggered review records; updated threat model. Reference: CRA Art. 13(3), Art. 3(30). |
+| **2.6.9** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] Where a control is deemed not applicable, the organization should document the CSRA rationale and any compensating or alternative measures used to manage the risk. | ☐ Yes   ☐ No   ☐ Partial |   | Non-applicability rationale; residual-risk acceptance; compensating-control record. Reference: CRA Art. 13(2)-(4), Annex I Part I. |
+| **2.6.10** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] CSRA outputs should be traceable to security architecture, secure development, production, delivery, maintenance, and testing evidence. | ☐ Yes   ☐ No   ☐ Partial |   | Traceability matrix; security architecture review; test evidence mapped to risks. Reference: CRA Art. 13(2)-(4), Annex VII. |
+| **2.6.11** | \[CRA REQUIREMENT\] The cybersecurity risk assessment must be retained as part of the technical documentation for the product. | ☐ Yes   ☐ No   ☐ Partial |   | Technical File index; CSRA storage location; retention record. Reference: CRA Art. 13(15), Annex VII. |
+| **2.6.12** | \[GOOD PRACTICE\] Ownership, review, and approval authority for the CSRA should be assigned to defined roles and integrated into release gates. | ☐ Yes   ☐ No   ☐ Partial |   | CSRA RACI; release gate checklist; approval workflow; exception record. Reference: CRA Art. 13(2)-(4), §2.2, §2.4. |
+
 ## **2.7 Harmonized Standards Tracking**
 
 CRA conformity depends on harmonized standards under Standardisation Request M/606, developed by ETSI, CEN, and CENELEC. As of August 2026, PT1 and PT3 drafts have been updated significantly since their public inquiry versions; final versions are not yet publicly available but are expected imminently. PT1 public inquiry draft and PT3 public inquiry draft are accessible via the NBN portal. ISO 27001 and IEC 62443 do not automatically create a presumption of CRA Annex I conformity, though they may be used as supporting evidence per EC FAQ 6.1 and Annex VIII Part 1\. Commission guidance final published version: C(2026) 5252, published 27 Jul 2026\.
@@ -726,7 +741,7 @@ The following phased model provides a structured approach to achieving self-cert
 | **8 \- Technical File & CE** | Compile Technical Files; draft EU DoC; affix CE marking; confirm AR/importer/fulfillment arrangement (§7.1-7.4). | Compliance PM | Month 6-8 |
 | **8A \- Cross-Framework** | NIS2 (§8.1); AI Act (§8.2); DORA (§8.3); Data Act (§8.4); eIDAS (§8.5). | Legal \+ CISO | Month 7-9 |
 | **8B \- Procurement** | Vendor CRA qualification (§9.1). | Legal \+ Procurement | Month 7-9 |
-| **9 \- Self-Certification** | Complete this checklist; remediate gaps; conduct internal audit (§2.4.5); file conformance claim. Total items: 170\. | CRA Program Mgr | Month 8-10 |
+| **9 \- Self-Certification** | Complete this checklist; remediate gaps; conduct internal audit (§2.4.5); file conformance claim. Total items: 182\. | CRA Program Mgr | Month 8-10 |
 | **10 \- Continuous Ops** | Annual review (§2.4); training refresh; SBOM quality; advisory cadence; annual tabletop exercise; PT1/PT3 monitoring. | All owners | Ongoing |
 
  
@@ -750,7 +765,7 @@ Upon completing all checklist items, complete the attestation below.
 | **Self-Certification Date** | \[Date\] |
 | **CRA Program Manager** | \[INSERT: Name, Title \- Signature required for formal submission\] |
 | **Next Review Date** | \[Date \- max 12 months from above\] |
-| **Items answered Yes** | \[  \] of 170 total checklist items |
+| **Items answered Yes** | \[  \] of 182 total checklist items |
 | **Items answered No/Partial** | \[  \] \- gap remediation plan attached: Yes / No |
 
  
