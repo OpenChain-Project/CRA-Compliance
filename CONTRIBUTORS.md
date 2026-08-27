@@ -2,8 +2,6 @@
 
 This supporting evidence register records the people and organizations that contributed review comments, corrections, implementation guidance, references, or drafting support to the OpenChain CRA Compliance Requirements & Checklist.
 
-Document Owner / OpenChain CRA Working Group Chair: Devashri Datta
-
 | Name | Email | Company | GitHub ID | Key Contribution |
 | :---- | :---- | :---- | :---- | :---- |
 | **Devashri Datta (Chairman)** | devashri.datta@gmail.com |  | devashridatta-dotcom | Document author; all versions PA1-RC1; Document Owner and Chairman. |
