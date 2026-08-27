@@ -18,15 +18,15 @@ This framework is:
 | File | Description |
 |---|---|
 | `versions` | Archive directory for Checklist versions |
-| `CRA_Checklist_Requirement_latest.md` | CRA Compliance Checklist and Requirements latest version (170 checklist items) |
+| `CRA_Checklist_Requirement_latest.md` | CRA Compliance Checklist and Requirements latest version (182 checklist items) |
 
 ## Checklist Structure
 
-The checklist covers 9 sections and 170 requirements:
+The checklist covers 9 sections and 182 requirements:
 
 | Section | Topic | Items |
 |---|---|---|
-| 2 | Program Architecture and Governance | 34 |
+| 2 | Program Architecture and Governance | 46 |
 | 3 | Component Management, SBOM Quality and Provenance | 46 |
 | 4 | Vulnerability Handling, VEX and Art. 14 Reporting | 35 |
 | 5 | OSS Stewardship | 15 |
@@ -53,7 +53,7 @@ The document is under active development. Contributions and feedback are welcome
 
 ## License
 
-CC0-1.0 - See [LICENSE](LICENSE) for details.
+CC-BY-4.0 - See [LICENSE](LICENSE) for details.
 
 ## Contributors
 
