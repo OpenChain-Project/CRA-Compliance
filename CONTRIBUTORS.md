@@ -4,7 +4,7 @@ This supporting evidence register records the people and organizations that cont
 
 | Name | Email | Company | GitHub ID | Key Contribution |
 | :---- | :---- | :---- | :---- | :---- |
-| **Devashri Datta (Chairman)** | devashri.datta@gmail.com |  | devashridatta-dotcom | Document author; all versions PA1-RC1; Document Owner and Chairman. |
+| **Devashri Datta (Chairman)** | devashri.datta@gmail.com |  | devashridatta-dotcom | Lead author; all versions PA1-RC1; OpenChain CRA Working Group Chair. |
 | **Daniel Thompson-Yvetot** | denjell@crabnebula.dev | CrabNebula / Comply.Land | denjell-crabnebula | ETSI CYBER-EUSR Rapporteur; normative language; AR/Art.18; Art.14 cascade; eIDAS §8.5 |
 | **Andreas Kotulla** | andreas@bitsea.de | Bitsea GmbH | [GitHub ID - confirm] | SBOM format; 72h clock; Art.14(8); BSI TR-03183; SRP; VEX/CSAF |
 | **Maarten Aertsen** | [confirm] | NLnet Labs | maertsen | Steward applicability; Art.32(5); role-neutral language; §3.5 Art.24; §5.1.6; §7.3 |
@@ -25,3 +25,4 @@ This supporting evidence register records the people and organizations that cont
 | **Xiang Shuming** | shuming.xiang@sectrend.com.cn | Shanghai Sectrend Information Technology Co., Ltd. | [confirm] | Community review contribution; details pending confirmation. |
 
 To add your name as a contributor, open a pull request or GitHub issue at github.com/OpenChain-Project/CRA-Compliance, or contact the working group lead.
+
