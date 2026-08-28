@@ -11,11 +11,10 @@
 | Document Title | CRA Compliance Requirements & Checklist |
 | :---- | :---- |
 | **Document Type** | Self-Certification / Governance Framework |
-| **Current Version** | PA5 |
-| **Date** | 5 Aug 2026 |
-| **Status** | DRAFT \- Pre-Approval (PA) |
+| **Current Version** | RC1 |
+| **Date** | 19 Aug 2026 |
+| **Status** | Release Candidate |
 | **Review Cycle** | Annual; additionally triggered by major releases, significant dependency changes, or regulatory guidance updates (see §2.4.2) |
-| **Document Owner** | Devashri Datta (Chairman) |
 | **Standards Alignment** | ISO/IEC 18974 \- EU CRA (Reg. 2024/2847) \- OpenChain ISO/IEC 5230 |
 | **CRA Art. 14 Reporting Deadline** | 11 Sep 2026 \- see §4.4-4.5 for mandatory actions |
 
