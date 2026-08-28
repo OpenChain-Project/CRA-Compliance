@@ -209,7 +209,7 @@ Periodic review processes to ensure CRA compliance mechanisms remain active and 
 
 ## **2.5 Product Risk Categorization & Conformity Assessment Route**
 
-Before executing self-certification, the organization must determine the CRA product classification per CRA Art. 6, 24, and 32 and Annexes III-IV. Technical descriptions of product categories are specified in Implementing Regulation (EU) 2025/2392. Self-certification (Module A, per CRA Annex VIII Part 1\) is only lawful for Default products and certain Class I products using harmonized standards. Art. 32(5) provides an additional pathway for FOSS manufacturers; see item 2.5.9. Note: §2.5-§2.7 are N/A for OSS Stewards.
+Before executing self-certification, the organization must determine the CRA product classification per CRA Art. 6, 24, and 32 and Annexes III-IV. Technical descriptions of product categories are specified in Implementing Regulation (EU) 2025/2392. Self-certification (Module A, per CRA Annex VIII Part 1\) is only lawful for Default products and certain Class I products using harmonized standards. Art. 32(5) allows qualifying Annex III FOSS products to use one of the procedures referred to in Art. 32(1), provided that Art. 31 technical documentation is publicly available at market placement; see item 2.5.9. Note: §2.5-§2.7 are N/A for OSS Stewards unless the steward also qualifies as the manufacturer for the relevant product or activity.
 
  
 
