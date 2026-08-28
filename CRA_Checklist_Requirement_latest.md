@@ -11,9 +11,8 @@
 | **Document Type** | Self-Certification / Governance Framework |
 | **Current Version** | RC1 |
 | **Date** | 19 Aug 2026 |
-| **Status** | Release Candidate (RC1) |
+| **Status** | Release Candidate |
 | **Review Cycle** | Annual; additionally triggered by major releases, significant dependency changes, or regulatory guidance updates (see §2.4.2) |
-| **Document Owner** | Devashri Datta (Chairman) |
 | **Standards Alignment** | ISO/IEC 18974 \- EU CRA (Reg. 2024/2847) \- OpenChain ISO/IEC 5230 |
 | **CRA Art. 14 Reporting Deadline** | 11 Sep 2026 (CRA Art. 71(2)) \- see §4.4-4.5 for mandatory actions |
 
