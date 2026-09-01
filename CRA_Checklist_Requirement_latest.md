@@ -153,7 +153,7 @@ A documented cybersecurity policy for CRA compliance defines the organization co
 | **2.1.1** | \[CRA REQUIREMENT\] The organization must maintain a documented cybersecurity policy for CRA compliance. The policy should be formally approved by senior management or an equivalent governing body. | ☐ Yes   ☐ No   ☐ Partial |   | Policy document; approval signature or board/exec minute. |
 | **2.1.2** | \[GOOD PRACTICE\] The policy should be published and accessible to all relevant personnel. Per CRA Recital 76, manufacturers are encouraged to make their security policies publicly available, including in machine-readable format. | ☐ Yes   ☐ No   ☐ Partial |   | URL or intranet link; screenshot or acknowledgement log. |
 | **2.1.3** | \[CRA REQUIREMENT\] The policy must explicitly reference the organization's obligations under CRA Articles 13, 14, and 15 and Annex I Part II(5), which requires a policy on coordinated vulnerability disclosure. This is further detailed in Art. 13(8). PT3 additionally recommends a standalone vulnerability handling policy. | ☐ Yes   ☐ No   ☐ Partial |   | Policy text mapped to CRA articles. |
-| **2.1.4** | \[CRA REQUIREMENT\] The policy must cover the full product lifecycle: design, development, release, maintenance, and end-of-support, consistent with the product lifetime obligations in CRA Art. 13(2) and the vulnerability handling obligations in Art. 13(6). | ☐ Yes   ☐ No   ☐ Partial |   | Lifecycle phase coverage section in policy. |
+| **2.1.4** | \[CRA REQUIREMENT\] The policy must cover the full product lifecycle: design, development, release, maintenance, and end-of-support, consistent with the product lifetime obligations in CRA Art. 13(8) and the vulnerability handling obligations in Art. 13(6). | ☐ Yes   ☐ No   ☐ Partial |   | Lifecycle phase coverage section in policy. |
 
  
 
@@ -541,7 +541,7 @@ This subsection applies where an organization uses legacy, unsupported, end-of-l
 
 # **Section 6: Security Updates & Support Period**
 
-CRA Article 13(2) requires manufacturers to formally document the expected support period and provide security updates throughout that period.
+CRA Article 13(8) requires manufacturers to formally document the expected support period and provide security updates throughout that period.
 
  
 
@@ -551,7 +551,7 @@ CRA Article 13(2) requires manufacturers to formally document the expected suppo
 
 | Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
 | :---- | :---- | :---- | :---- | :---- |
-| **6.1.1** | \[CRA REQUIREMENT\] The organization must define and publish the expected support period for each product with digital elements placed on the EU market. The support period must be at least five years unless the expected product lifetime is shorter. A rolling-release model is also a valid approach, provided the end of support is clearly communicated and security updates are provided throughout (CRA Art. 13(2)). | ☐ Yes   ☐ No   ☐ Partial |   | Product lifecycle documentation; public-facing support statement; legal justification if period is less than 5 years; rolling-release policy if applicable. |
+| **6.1.1** | \[CRA REQUIREMENT\] The organization must define and publish the expected support period for each product with digital elements placed on the EU market. The support period must be at least five years unless the expected product lifetime is shorter. A rolling-release model is also a valid approach, provided the end of support is clearly communicated and security updates are provided throughout (CRA Art. 13(8)). | ☐ Yes   ☐ No   ☐ Partial |   | Product lifecycle documentation; public-facing support statement; legal justification if period is less than 5 years; rolling-release policy if applicable. |
 | **6.1.2** | \[CRA REQUIREMENT\] Security updates addressing identified security issues must be disseminated without delay and, unless otherwise agreed between a manufacturer and a business user for a tailor-made product with digital elements, free of charge (CRA Annex I Part II, point (8)). Issued security updates must remain available for the period required by CRA Art. 13(9). | ☐ Yes   ☐ No   ☐ Partial |   | Patch management policy; release history showing security updates issued within support window. |
 | **6.1.3** | \[CRA REQUIREMENT\] The organization must document, implement, and test a secure software update mechanism including integrity verification of update packages, protection against rollback attacks, and automatic delivery by default where technically feasible with user opt-out capability. | ☐ Yes   ☐ No   ☐ Partial |   | Update architecture document; signing key management; rollback-prevention test records; automatic update configuration. |
 | **6.1.4** | \[CRA REQUIREMENT\] End-of-support dates and associated security implications must be communicated to customers and downstream integrators, including at least the month and year at the time of purchase in an easily accessible manner (CRA Art. 13(8), 13(19)). As good practice, where feasible, at least 12 months advance notice should be given before the final security update. | ☐ Yes   ☐ No   ☐ Partial |   | Customer communication records; EoL announcement template; advance notice evidence. |
