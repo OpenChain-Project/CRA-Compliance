@@ -609,7 +609,7 @@ CRA Art. 13(18) and Annex II require manufacturers to provide clear and understa
 | **7.3.1** | \[CRA REQUIREMENT\] The organization must provide information and instructions to users in a language easily understood by them, covering: intended use, cybersecurity properties, how to configure security settings, the declared end-of-support date, and how to report vulnerabilities (CRA Art. 13(18) / Annex II). | ☐ Yes   ☐ No   ☐ Partial |   | User manual or README; Annex II compliance checklist; language coverage evidence. |
 | **7.3.2** | \[CRA REQUIREMENT\] The EU DoC must be kept up-to-date and must be updated upon any significant product change affecting the conformity assessment basis. | ☐ Yes   ☐ No   ☐ Partial |   | DoC version history; update procedure documentation. |
 | **7.3.3** | \[CRA REQUIREMENT\] The CE marking (or, for software-only products distributed digitally, a digital CE marking accessible on the product website) must be affixed before EU market placement (CRA Art. 30). | ☐ Yes   ☐ No   ☐ Partial |   | CE mark placement evidence (screenshot, label photograph, or packaging proof); digital CE mark URL. |
-| **7.3.4** | \[CRA REQUIREMENT\] The EU DoC must be made available to market surveillance authorities and must be retained for at least 10 years after last placement on the EU market. | ☐ Yes   ☐ No   ☐ Partial |   | DoC storage location; access control; retention policy entry. |
+| **7.3.4** | \[CRA REQUIREMENT\] The EU DoC must be made available to market surveillance authorities and must be retained for at least 10 years after market placement, or the support period if longer (CRA Art. 13(13)). | ☐ Yes   ☐ No   ☐ Partial |   | DoC storage location; access control; retention policy entry. |
 
  
 
