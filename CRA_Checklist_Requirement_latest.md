@@ -806,18 +806,25 @@ This matrix maps each CRA Annex I essential requirement to the corresponding con
 | :---- | :---- | :---- | :---- |
 | No known exploitable vulnerabilities at time of placing on market | Part I(2)(a) | 3.4.5, 3.4.6, 3.4.7 | SAST/DAST results; pentest report; vulnerability register showing zero unresolved critical findings at release |
 | Secure by default configuration | Part I(2)(b) | 3.4.1, 3.4.2 | Secure defaults checklist; no default credentials policy; attack surface map |
-| Protection against unauthorized access | Part I(2)(d) | 3.4.1, 3.4.3 | Authentication policy; TLS configuration audit; access control documentation |
-| Protection of confidentiality and integrity of data | Part I(2)(e), (f) | 3.4.3 | Encryption policy; data classification map; TLS 1.2+ configuration evidence |
-| Availability protection and resilience | Part I(2)(h) | 3.4.2, 4.3 | Attack surface minimization evidence; incident response plan |
+| Security update mechanism | Part I(2)(c) | 6.1.2, 6.1.3 | Update architecture; signing key management; rollback-prevention test records |
+| Protection against unauthorized access | Part I(2)(d) | Partial \- 3.4.1, 3.4.3 | Authentication policy; TLS configuration audit; access control documentation; partial checklist gap: §3.4.1 covers default credentials only, with no dedicated control for identity and access management |
+| Protection of confidentiality and integrity of data | Part I(2)(e), (f) | Partial \- 3.4.3 | Encryption policy; data classification map; TLS 1.2+ configuration evidence; partial checklist gap: no dedicated control for integrity of programs and configuration against manipulation |
+| Data minimization | Part I(2)(g) | Partial \- 7.2.5 | Telemetry data inventory; outbound connections audit log; data minimization policy; partial checklist gap: §7.2.5 addresses telemetry only |
+| Availability protection and resilience | Part I(2)(h) | Partial \- 3.4.2, 4.3 | Attack surface minimization evidence; incident response plan; partial checklist gap: no dedicated control for availability and resilience of essential and basic functions |
+| Minimization of negative impact on other devices and networks | Part I(2)(i) | Checklist gap \- control to be added |   |
 | Minimization of attack surface | Part I(2)(j) | 3.4.2 | Port/service inventory; hardening guide; network exposure map |
 | Reduction of incident impact | Part I(2)(k) | 4.3, 4.4 | Escalation matrix; incident response runbook; Art. 14 RACI |
-| Security update mechanism | Part I(2)(c) | 6.1.2, 6.1.3 | Update architecture; signing key management; rollback-prevention test records |
-| Vulnerability disclosure policy | Part II(5) | 4.4.7 | CVD policy URL; security.txt; SECURITY.md |
-| Handling of known vulnerabilities | Part II(2) | 4.1, 4.2, 4.3 | Vulnerability monitoring; exploitability exchange; triage SLA; patch SLA |
-| Regular security updates | Part II(8) | 6.1.2 | Patch release history; update delivery mechanism |
-| Coordinated vulnerability disclosure | Part II(4) | 4.4.7, 4.4.8 | CVD policy; advisory publication records |
-| Mandatory regulatory notification (Art. 14\) | Art. 14 | 4.4.2-4.4.6, 4.5 | SRP submission runbook; RACI; tabletop exercise or internal reporting simulation record |
+| Security-related information through recording and monitoring of internal activity | Part I(2)(l) | Checklist gap \- control to be added |   |
+| Secure and permanent removal of user data and settings | Part I(2)(m) | Partial \- 6.1.7 | Data sanitization procedure; secure deletion test records; data portability documentation; partial checklist gap: §6.1.7 is an end-of-life procedure rather than a product capability provided to users |
 | SBOM documentation (covering at least top-level dependencies) | Part II(1) | 3.1, 3.2 | Machine-readable SBOM; CISA 2025 minimum-element field coverage; license information fields (CISA 2025; ISO/IEC 18974/5230); file/snippet-level reference handling where applicable |
+| Handling of known vulnerabilities | Part II(2) | 4.1, 4.2, 4.3 | Vulnerability monitoring; exploitability exchange; triage SLA; patch SLA |
+| Regular security tests and reviews | Part II(3) | 3.4.5, 3.4.6, 3.4.7 | SAST results; DAST or fuzzing output; pentest report; finding tracker |
+| Coordinated vulnerability disclosure | Part II(4) | 4.4.7, 4.4.8 | CVD policy; advisory publication records |
+| Vulnerability disclosure policy | Part II(5) | 4.4.7 | CVD policy URL; security.txt; SECURITY.md |
+| Contact address for reporting potential vulnerabilities | Part II(6) | 4.4.7 | CVD policy contact point; security.txt; identifiable reporting mechanism |
+| Secure distribution of updates | Part II(7) | 6.1.3 | Update architecture document; signing key management; integrity verification of update packages |
+| Regular security updates | Part II(8) | 6.1.2 | Patch release history; update delivery mechanism |
+| Mandatory regulatory notification (Art. 14\) | Art. 14 | 4.4.2-4.4.6, 4.5 | SRP submission runbook; RACI; tabletop exercise or internal reporting simulation record |
 | Secure development lifecycle | Part I (general) | 3.3, 3.4, 3.6, 5.3 | Build provenance; secrets management; signing; SAST/DAST; third-party software qualification; self-maintained OSS controls where applicable |
 | Risk assessment documented | CRA Art. 13(2)–(4); Annex VII | 2.6, 7.1.1, 7.1.2 | Risk assessment report; threat model; update history |
 | Technical file compiled | Annex VII | 7.1 | Technical File index; storage location; MSA retrieval SLA |
