@@ -813,7 +813,7 @@ This matrix maps each CRA Annex I essential requirement to the corresponding con
 | Availability protection and resilience | Part I(2)(h) | Partial \- 3.4.2, 4.3 | Attack surface minimization evidence; incident response plan; partial checklist gap: no dedicated control for availability and resilience of essential and basic functions |
 | Minimization of negative impact on other devices and networks | Part I(2)(i) | Checklist gap \- control to be added |   |
 | Minimization of attack surface | Part I(2)(j) | 3.4.2 | Port/service inventory; hardening guide; network exposure map |
-| Reduction of incident impact | Part I(2)(k) | 4.3, 4.4 | Escalation matrix; incident response runbook; Art. 14 RACI |
+| Exploitation mitigation | Part I(2)(k) | 3.4.4 | Build flag configuration; language or runtime selection rationale; exception register |
 | Security-related information through recording and monitoring of internal activity | Part I(2)(l) | Checklist gap \- control to be added |   |
 | Secure and permanent removal of user data and settings | Part I(2)(m) | Partial \- 6.1.7 | Data sanitization procedure; secure deletion test records; data portability documentation; partial checklist gap: §6.1.7 is an end-of-life procedure rather than a product capability provided to users |
 | SBOM documentation (covering at least top-level dependencies) | Part II(1) | 3.1, 3.2 | Machine-readable SBOM; CISA 2025 minimum-element field coverage; license information fields (CISA 2025; ISO/IEC 18974/5230); file/snippet-level reference handling where applicable |
