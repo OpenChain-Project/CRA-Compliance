@@ -804,20 +804,20 @@ This matrix maps each CRA Annex I essential requirement to the corresponding con
 
 | CRA Annex I Requirement | Part | Control (Section Ref) | Evidence Expected |
 | :---- | :---- | :---- | :---- |
-| No known exploitable vulnerabilities at time of placing on market | Part I, §1 | 3.4.5, 3.4.6, 3.4.7 | SAST/DAST results; pentest report; vulnerability register showing zero unresolved critical findings at release |
-| Secure by default configuration | Part I, §2 | 3.4.1, 3.4.2 | Secure defaults checklist; no default credentials policy; attack surface map |
-| Protection against unauthorized access | Part I, §3 | 3.4.1, 3.4.3 | Authentication policy; TLS configuration audit; access control documentation |
-| Protection of confidentiality and integrity of data | Part I, §4 | 3.4.3 | Encryption policy; data classification map; TLS 1.2+ configuration evidence |
-| Availability protection and resilience | Part I, §5 | 3.4.2, 4.3 | Attack surface minimization evidence; incident response plan |
-| Minimization of attack surface | Part I, §6 | 3.4.2 | Port/service inventory; hardening guide; network exposure map |
-| Reduction of incident impact | Part I, §7 | 4.3, 4.4 | Escalation matrix; incident response runbook; Art. 14 RACI |
-| Security update mechanism | Part I, §8 | 6.1.2, 6.1.3 | Update architecture; signing key management; rollback-prevention test records |
-| Vulnerability disclosure policy | Part II, §1 (Annex I Part II(5)) | 4.4.7 | CVD policy URL; security.txt; SECURITY.md |
-| Handling of known vulnerabilities | Part II, §2 | 4.1, 4.2, 4.3 | Vulnerability monitoring; exploitability exchange; triage SLA; patch SLA |
-| Regular security updates | Part II, §3 | 6.1.2 | Patch release history; update delivery mechanism |
-| Coordinated vulnerability disclosure | Part II, §4 | 4.4.7, 4.4.8 | CVD policy; advisory publication records |
-| Mandatory regulatory notification (Art. 14\) | Part II, §5 | 4.4.2-4.4.6, 4.5 | SRP submission runbook; RACI; tabletop exercise or internal reporting simulation record |
-| SBOM documentation (covering at least top-level dependencies) | Part II, §6 | 3.1, 3.2 | Machine-readable SBOM; CISA 2025 minimum-element field coverage; license information fields (CISA 2025; ISO/IEC 18974/5230); file/snippet-level reference handling where applicable |
+| No known exploitable vulnerabilities at time of placing on market | Part I(2)(a) | 3.4.5, 3.4.6, 3.4.7 | SAST/DAST results; pentest report; vulnerability register showing zero unresolved critical findings at release |
+| Secure by default configuration | Part I(2)(b) | 3.4.1, 3.4.2 | Secure defaults checklist; no default credentials policy; attack surface map |
+| Protection against unauthorized access | Part I(2)(d) | 3.4.1, 3.4.3 | Authentication policy; TLS configuration audit; access control documentation |
+| Protection of confidentiality and integrity of data | Part I(2)(e), (f) | 3.4.3 | Encryption policy; data classification map; TLS 1.2+ configuration evidence |
+| Availability protection and resilience | Part I(2)(h) | 3.4.2, 4.3 | Attack surface minimization evidence; incident response plan |
+| Minimization of attack surface | Part I(2)(j) | 3.4.2 | Port/service inventory; hardening guide; network exposure map |
+| Reduction of incident impact | Part I(2)(k) | 4.3, 4.4 | Escalation matrix; incident response runbook; Art. 14 RACI |
+| Security update mechanism | Part I(2)(c) | 6.1.2, 6.1.3 | Update architecture; signing key management; rollback-prevention test records |
+| Vulnerability disclosure policy | Part II(5) | 4.4.7 | CVD policy URL; security.txt; SECURITY.md |
+| Handling of known vulnerabilities | Part II(2) | 4.1, 4.2, 4.3 | Vulnerability monitoring; exploitability exchange; triage SLA; patch SLA |
+| Regular security updates | Part II(8) | 6.1.2 | Patch release history; update delivery mechanism |
+| Coordinated vulnerability disclosure | Part II(4) | 4.4.7, 4.4.8 | CVD policy; advisory publication records |
+| Mandatory regulatory notification (Art. 14\) | Art. 14 | 4.4.2-4.4.6, 4.5 | SRP submission runbook; RACI; tabletop exercise or internal reporting simulation record |
+| SBOM documentation (covering at least top-level dependencies) | Part II(1) | 3.1, 3.2 | Machine-readable SBOM; CISA 2025 minimum-element field coverage; license information fields (CISA 2025; ISO/IEC 18974/5230); file/snippet-level reference handling where applicable |
 | Secure development lifecycle | Part I (general) | 3.3, 3.4, 3.6, 5.3 | Build provenance; secrets management; signing; SAST/DAST; third-party software qualification; self-maintained OSS controls where applicable |
 | Risk assessment documented | CRA Art. 13(2)–(4); Annex VII | 2.6, 7.1.1, 7.1.2 | Risk assessment report; threat model; update history |
 | Technical file compiled | Annex VII | 7.1 | Technical File index; storage location; MSA retrieval SLA |
