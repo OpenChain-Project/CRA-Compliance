@@ -399,7 +399,7 @@ Process for continuously monitoring all identified software components in suppor
 
 | Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
 | :---- | :---- | :---- | :---- | :---- |
-| **4.1.1** | \[CRA REQUIREMENT\] During the support period, the organization must continuously monitor all identified software components contained in supported products against relevant vulnerability databases, supplier advisories, and other reliable vulnerability sources. Monitoring must be performed at a documented, risk-based frequency and at a documented, risk-based frequency; daily monitoring may be used as an organisational implementation target where automated monitoring is available. Known gaps in component coverage must be documented and addressed through supplementary identification and monitoring measures. | ☐ Yes   ☐ No   ☐ Partial |   | Tool configuration; EUVD ([euvd.enisa.europa.eu](https://euvd.enisa.europa.eu)) feed; NVD, OSV, GitHub Advisory feeds; example alert triggered by a new CVE. |
+| **4.1.1** | \[CRA REQUIREMENT\] During the support period, the organization must continuously monitor all identified software components contained in supported products against relevant vulnerability databases, supplier advisories, and other reliable vulnerability sources. Monitoring must be performed at a documented, risk-based frequency; daily monitoring may be used as an organisational implementation target where automated monitoring is available. Known gaps in component coverage must be documented and addressed through supplementary identification and monitoring measures. | ☐ Yes   ☐ No   ☐ Partial |   | Tool configuration; EUVD ([euvd.enisa.europa.eu](https://euvd.enisa.europa.eu)) feed; NVD, OSV, GitHub Advisory feeds; example alert triggered by a new CVE. |
 | **4.1.2** | \[GOOD PRACTICE\] Monitoring results should be logged and retained for audit purposes. | ☐ Yes   ☐ No   ☐ Partial |   | Scan schedule configuration; log retention policy. |
 | **4.1.3** | \[GOOD PRACTICE\] A defined intake process should triage new vulnerability alerts within a documented, risk-based SLA. | ☐ Yes   ☐ No   ☐ Partial |   | Triage SLA table in vulnerability management policy. |
 | **4.1.4** | \[GOOD PRACTICE\] Vulnerability data should be enriched with contextual scoring (e.g., EPSS, KEV catalog status) to support risk-based prioritization. A documented Patch SLA Matrix should define response timelines by severity tier. | ☐ Yes   ☐ No   ☐ Partial |   | Enrichment pipeline documentation; Patch SLA Matrix; example enriched alert record. |
@@ -624,11 +624,6 @@ CRA Art. 13(18) and Annex II require manufacturers to provide clear and understa
 | **7.4.3** | \[LEGAL REVIEW / IMPLEMENTATION CONTROL\] Where an authorised representative pathway is used, the organization must maintain the written mandate required by CRA Article 18 and confirm, through product-specific legal analysis, whether any product, packaging, documentation, or other contact-detail marking obligations apply under CRA or other applicable Union harmonisation legislation. CRA Article 18 does not itself impose an authorised-representative product-labeling requirement. | ☐ Yes   ☐ No   ☐ Partial |   | Product label or documentation showing AR details. |
 | **7.4.4** | \[CRA REQUIREMENT\] Where the AR pathway is chosen, the AR must be provided with a copy of the EU DoC and Technical File and must be empowered to act on behalf of the manufacturer in dealings with market surveillance authorities. | ☐ Yes   ☐ No   ☐ Partial |   | Document transmission record; access confirmation from AR. |
 | **7.4.5** | \[GOOD PRACTICE\] Where the AR pathway is chosen, the organization should maintain documented operational procedures governing how the AR fulfills the Art. 18(3) obligations in practice, including escalation paths and communication protocols with MSAs. | ☐ Yes   ☐ No   ☐ Partial |   | AR operational procedure document; communication protocol; escalation path. |
-
- 
-
-| Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
-| :---- | :---- | :---- | :---- | :---- |
 
  
 
