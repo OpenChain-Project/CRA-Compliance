@@ -18,11 +18,11 @@ External reference register updated on this branch:
 
 Tracked review items:
 
-* #29 â€” Role appointment wording
-* #30 â€” Software delivery pipeline wording
-* #31 â€” SBOM depth wording
-* #32 â€” CRA citation and Annex B traceability corrections
-* #24 â€” Annex D basis/status definitions
-* #23 â€” Official-release attribution cleanup
+* #29 - Role appointment wording
+* #30 - Software delivery pipeline wording
+* #31 - SBOM depth wording
+* #32 - CRA citation and Annex B traceability corrections
+* #24 - Annex D basis/status definitions
+* #23 - Official-release attribution cleanup
 
 RC1/main remains the stable review baseline until this batch is approved.
