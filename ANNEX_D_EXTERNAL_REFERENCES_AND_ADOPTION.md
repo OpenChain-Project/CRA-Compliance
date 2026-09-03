@@ -1,4 +1,4 @@
-# Annex D â€” External References, Use, and Adoption
+# Annex D - External References, Use, and Adoption
 
 This living register supports the OpenChain CRA Compliance Requirements & Checklist.
 
@@ -12,13 +12,13 @@ Where no public link is available, OpenChain may record "confirmation on file" i
 
 Basis / Status values are evidence categories, not endorsement categories:
 
-* `public-reference` â€” a public webpage, article, documentation page, or resource references the OpenChain CRA Checklist.
-* `written-confirmation` â€” an authorized representative has confirmed the listing in writing.
-* `confirmation-on-file` â€” confirmation is held by the project but private correspondence is not published.
-* `in-use/mapped` â€” the organization has stated that it uses, maps to, or relies on the checklist in compliance or implementation work.
-* `planned-reference` â€” a public event or resource is scheduled to reference the checklist but is not yet published.
+* `public-reference` - a public webpage, article, documentation page, or resource references the OpenChain CRA Checklist.
+* `written-confirmation` - an authorized representative has confirmed the listing in writing.
+* `confirmation-on-file` - confirmation is held by the project but private correspondence is not published.
+* `in-use/mapped` - the organization has stated that it uses, maps to, or relies on the checklist in compliance or implementation work.
+* `planned-reference` - a public event or resource is scheduled to reference the checklist but is not yet published.
 
-## D.1 â€” Organizations Referencing, Using, or Evaluating This Document
+## D.1 - Organizations Referencing, Using, or Evaluating This Document
 
 | Organization | Description | Country | Basis / Status | Evidence / Link |
 | :---- | :---- | :---- | :---- | :---- |
@@ -33,7 +33,7 @@ Basis / Status values are evidence categories, not endorsement categories:
 
 To add your organization, open a pull request or GitHub issue at github.com/OpenChain-Project/CRA-Compliance.
 
-## D.2 â€” Public Forums and Events Where This Document Was Referenced
+## D.2 - Public Forums and Events Where This Document Was Referenced
 
 This table lists public forums, community sessions, talks, articles, or other references to the OpenChain CRA Checklist. Inclusion means the checklist was referenced, discussed, or scheduled to be referenced; it does not imply organizational endorsement or CRA conformity.
 
