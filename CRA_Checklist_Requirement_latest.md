@@ -866,7 +866,7 @@ The working group welcomes anonymized implementation case studies from adopting 
 
  
 
-# **Annex D — External References and Adoption**
+# **Annex D - External References, Use, and Adoption**
 
 The live external references and adoption register is maintained separately from this checklist to allow public references, confirmations, and community adoption evidence to be updated without changing the normative checklist content.
 
