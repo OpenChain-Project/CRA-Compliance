@@ -17,7 +17,6 @@ Basis / Status values are evidence categories, not endorsement categories:
 * `confirmation-on-file` - confirmation is held by the project but private correspondence is not published.
 * `in-use/mapped` - the organization has stated that it uses, maps to, or relies on the checklist in compliance or implementation work.
 * `planned-reference` - a public event or resource is scheduled to reference the checklist but is not yet published.
-* `completed-reference` - a public event, forum, session, or resource has already referenced the checklist.
 
 ## D.1 - Organizations Referencing, Using, or Evaluating This Document
 
