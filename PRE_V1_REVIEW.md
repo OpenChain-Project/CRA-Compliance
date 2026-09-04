@@ -22,7 +22,8 @@ Tracked review items:
 * #30 - Software delivery pipeline wording
 * #31 - SBOM depth wording
 * #32 - CRA citation and Annex B traceability corrections
-* #24 - Annex D basis/status definitions
+* #34 - SWHID / ISO/IEC 18670 component identifier example
+* #24 - Annex D basis/status definitions, based on the 28 Aug public comment from GitHub user vp9-nexus in issue #24
 * #23 - Official-release attribution cleanup
 
 RC1/main remains the stable review baseline until this batch is approved.
