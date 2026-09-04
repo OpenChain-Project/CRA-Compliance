@@ -41,4 +41,5 @@ This table lists public forums, community sessions, talks, articles, or other re
 
 | Reference / Forum | Host Organization | Audience / Region | Basis / Status | Evidence / Link |
 | :---- | :---- | :---- | :---- | :---- |
+| **OpenChain Automotive Work Group Monthly Meeting (27 Aug 2026): Introduction to OpenChain CRA Compliance** | OpenChain Automotive Work Group | International: automotive manufacturers, suppliers, and software supply chain practitioners | `public-reference` | [Automotive Open Source Governance Monthly](https://openchain-project.github.io/Automotive-Open-Source-Governance-Monthly/) |
 | **Revenera SCA User Group 2026** | Revenera (Flexera) | International: SCA users and software supply chain practitioners | `planned-reference` | [https://info.revenera.com/SCA-EVNT-User-Group-2026](https://info.revenera.com/SCA-EVNT-User-Group-2026) |
