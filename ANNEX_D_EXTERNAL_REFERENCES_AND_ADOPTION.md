@@ -41,5 +41,4 @@ This table lists public forums, community sessions, talks, articles, or other re
 
 | Reference / Forum | Host Organization | Audience / Region | Basis / Status | Evidence / Link |
 | :---- | :---- | :---- | :---- | :---- |
-| **OpenSSF CRA Monthly Tech Talk** | OpenSSF / Linux Foundation | International: manufacturers, open source maintainers, regulators | `planned-reference`; `confirmation-on-file` | Link TBD |
 | **Revenera SCA User Group 2026** | Revenera (Flexera) | International: SCA users and software supply chain practitioners | `planned-reference` | [https://info.revenera.com/SCA-EVNT-User-Group-2026](https://info.revenera.com/SCA-EVNT-User-Group-2026) |
