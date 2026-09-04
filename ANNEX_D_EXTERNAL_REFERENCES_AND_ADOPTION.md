@@ -31,6 +31,7 @@ Basis / Status values are evidence categories, not endorsement categories:
 | **Agent Passport System** | Open source security assurance and identity management for AI agents; self-certified to ISO/IEC 5230 and ISO/IEC 18974. | United States | `public-reference` | [https://agent-passport.org/docs.html#evidence](https://agent-passport.org/docs.html#evidence) |
 | **sbomify** | SBOM lifecycle management and CRA compliance resources. | United Kingdom | `public-reference` | [https://sbomify.com/resources/](https://sbomify.com/resources/) |
 | **norxs** | Functional safety and cybersecurity engineering firm; CRA Article 14 reporting guidance publicly references the OpenChain CRA compliance framework. | United States | `public-reference` | [https://www.norxs.com/news/cra-article-14-reporting/](https://www.norxs.com/news/cra-article-14-reporting/) |
+| **OpenChain Automotive Work Group** | OpenChain work group whose public monthly meeting page listed an "Introduction to OpenChain CRA Compliance" session for automotive manufacturers, suppliers, and software supply chain practitioners. | International | `public-reference`; `completed-reference` | [Automotive Open Source Governance Monthly](https://openchain-project.github.io/Automotive-Open-Source-Governance-Monthly/) |
 
 To add your organization, open a pull request or GitHub issue at github.com/OpenChain-Project/CRA-Compliance.
 
@@ -42,4 +43,3 @@ This table lists public forums, community sessions, talks, articles, or other re
 | :---- | :---- | :---- | :---- | :---- |
 | **OpenSSF CRA Monthly Tech Talk** | OpenSSF / Linux Foundation | International: manufacturers, open source maintainers, regulators | `planned-reference`; `confirmation-on-file` | Link TBD |
 | **Revenera SCA User Group 2026** | Revenera (Flexera) | International: SCA users and software supply chain practitioners | `planned-reference` | [https://info.revenera.com/SCA-EVNT-User-Group-2026](https://info.revenera.com/SCA-EVNT-User-Group-2026) |
-| **OpenChain Automotive Work Group Monthly Meeting** | OpenChain Automotive Work Group | International: automotive manufacturers, suppliers, and software supply chain practitioners | `completed-reference` | [Automotive Open Source Governance Monthly](https://openchain-project.github.io/Automotive-Open-Source-Governance-Monthly/) |
