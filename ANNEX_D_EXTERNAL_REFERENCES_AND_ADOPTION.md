@@ -17,6 +17,7 @@ Basis / Status values are evidence categories, not endorsement categories:
 * `confirmation-on-file` - confirmation is held by the project but private correspondence is not published.
 * `in-use/mapped` - the organization has stated that it uses, maps to, or relies on the checklist in compliance or implementation work.
 * `planned-reference` - a public event or resource is scheduled to reference the checklist but is not yet published.
+* `completed-reference` - a public event, forum, session, or resource has already referenced the checklist.
 
 ## D.1 - Organizations Referencing, Using, or Evaluating This Document
 
@@ -41,4 +42,4 @@ This table lists public forums, community sessions, talks, articles, or other re
 | :---- | :---- | :---- | :---- | :---- |
 | **OpenSSF CRA Monthly Tech Talk** | OpenSSF / Linux Foundation | International: manufacturers, open source maintainers, regulators | `planned-reference`; `confirmation-on-file` | Link TBD |
 | **Revenera SCA User Group 2026** | Revenera (Flexera) | International: SCA users and software supply chain practitioners | `planned-reference` | [https://info.revenera.com/SCA-EVNT-User-Group-2026](https://info.revenera.com/SCA-EVNT-User-Group-2026) |
-| **OpenChain Automotive Work Group Monthly Meeting** | OpenChain Automotive Work Group | International: automotive manufacturers, suppliers, and software supply chain practitioners | `planned-reference` | [Automotive Open Source Governance Monthly](https://openchain-project.github.io/Automotive-Open-Source-Governance-Monthly/) |
+| **OpenChain Automotive Work Group Monthly Meeting** | OpenChain Automotive Work Group | International: automotive manufacturers, suppliers, and software supply chain practitioners | `completed-reference` | [Automotive Open Source Governance Monthly](https://openchain-project.github.io/Automotive-Open-Source-Governance-Monthly/) |
