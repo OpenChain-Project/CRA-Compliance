@@ -350,6 +350,7 @@ CRA Annex I Part I mandates products are designed and produced with security by 
 | **3.4.9** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] A threat model must be produced for each product, covering the attack surface, threat actors, attack vectors, and mitigating controls. The threat model must be updated upon significant architectural change. | ☐ Yes   ☐ No   ☐ Partial |   | Threat model document; methodology used (e.g., STRIDE, PASTA); update history. |
 | **3.4.10** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] A documented release security gate must exist and must be passed before any product version is placed on the EU market. The gate must verify that all critical and high security findings are resolved or formally risk-accepted. | ☐ Yes   ☐ No   ☐ Partial |   | Release gate checklist; sign-off evidence; exception log for accepted risks. |
 | **3.4.11** | \[GOOD PRACTICE\] The organization should maintain a documented secure coding standard covering input validation, authentication, session management, error handling, and cryptographic usage, and must train developers on its application. | ☐ Yes   ☐ No   ☐ Partial |   | Secure coding standard document; developer training records. |
+| **3.4.12** | \[CRA REQUIREMENT\] The product must be made available on the market without known exploitable vulnerabilities. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Vulnerability register at release with exploitability assessment; disposition records for unresolved findings; release approval. Related implementation controls: §3.4.5-§3.4.7, §3.4.10. |
 
  
 
@@ -801,7 +802,7 @@ This matrix maps each CRA Annex I essential requirement to the corresponding con
 
 | CRA Annex I Requirement | Part | Control (Section Ref) | Evidence Expected |
 | :---- | :---- | :---- | :---- |
-| No known exploitable vulnerabilities at time of placing on market | Part I(2)(a) | 3.4.5, 3.4.6, 3.4.7 | SAST/DAST results; pentest report; vulnerability register showing zero unresolved critical findings at release |
+| No known exploitable vulnerabilities at time of placing on market | Part I(2)(a) | 3.4.12, 3.4.5, 3.4.6, 3.4.7, 3.4.10 | Vulnerability register at release with exploitability assessment; finding disposition records; SAST/DAST results; pentest report; release gate sign-off |
 | Secure by default configuration | Part I(2)(b) | 3.4.1, 3.4.2 | Secure defaults checklist; no default credentials policy; attack surface map |
 | Security update mechanism | Part I(2)(c) | 6.1.2, 6.1.3 | Update architecture; signing key management; rollback-prevention test records |
 | Protection against unauthorized access | Part I(2)(d) | Partial \- 3.4.1, 3.4.3 | Authentication policy; TLS configuration audit; access control documentation; partial checklist gap: §3.4.1 covers default credentials only, with no dedicated control for identity and access management |
