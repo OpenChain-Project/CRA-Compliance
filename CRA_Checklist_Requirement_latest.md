@@ -30,7 +30,7 @@ Important: All bracketed \[INSERT ...\] fields throughout this document must be 
 
 CRA applicability is not determined solely by whether an organization deploys open-source software in the EU. The primary scope question is whether the organization makes a product with digital elements available on the Union market, or otherwise has a role covered by the CRA, such as manufacturer, importer, distributor, authorised representative, or open-source software steward.
 
-If an organization does not make products with digital elements available on the Union market and does not have a covered CRA role, this checklist is not a legal compliance obligation for that organization. Such organizations may still use it as a voluntary reference for understanding SBOMs, vulnerability handling, evidence management, and software supply chain readiness.
+If an organization does not make products with digital elements available on the Union market and does not have a covered CRA role, the requirements addressed by this checklist may not apply to that organization. Such organizations may still use it as a voluntary reference for understanding SBOMs, vulnerability handling, evidence management, and software supply chain readiness.
 
 This document defines an OpenChain-aligned organizational compliance framework for the EU Cyber Resilience Act (CRA, Regulation (EU) 2024/2847) and ISO/IEC 18974. It provides a self-certification checklist covering governance, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, and technical-file obligations.
 
