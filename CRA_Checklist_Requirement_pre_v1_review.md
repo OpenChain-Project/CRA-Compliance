@@ -746,7 +746,7 @@ The following phased model provides a structured approach to achieving self-cert
 | **8 \- Technical File & CE** | Compile Technical Files; draft EU DoC; affix CE marking; confirm AR/importer/fulfillment arrangement (§7.1-7.4). | Compliance PM | Month 6-8 |
 | **8A \- Cross-Framework** | NIS2 (§8.1); AI Act (§8.2); DORA (§8.3); Data Act (§8.4); eIDAS (§8.5). | Legal \+ CISO | Month 7-9 |
 | **8B \- Procurement** | Vendor CRA qualification (§9.1). | Legal \+ Procurement | Month 7-9 |
-| **9 \- Self-Certification** | Complete this checklist; remediate gaps; conduct internal audit (§2.4.5); file conformance claim. Total items: 182\. | CRA Program Mgr | Month 8-10 |
+| **9 \- Self-Certification** | Complete this checklist; remediate gaps; conduct internal audit (§2.4.5); file conformance claim. Total items: 193\. | CRA Program Mgr | Month 8-10 |
 | **10 \- Continuous Ops** | Annual review (§2.4); training refresh; SBOM quality; advisory cadence; annual tabletop exercise; PT1/PT3 monitoring. | All owners | Ongoing |
 
  
@@ -770,7 +770,7 @@ Upon completing all checklist items, complete the attestation below.
 | **Self-Certification Date** | \[Date\] |
 | **CRA Program Manager** | \[INSERT: Name, Title \- Signature required for formal submission\] |
 | **Next Review Date** | \[Date \- max 12 months from above\] |
-| **Items answered Yes** | \[  \] of 182 total checklist items |
+| **Items answered Yes** | \[  \] of 193 total checklist items |
 | **Items answered No/Partial** | \[  \] \- gap remediation plan attached: Yes / No |
 
  
