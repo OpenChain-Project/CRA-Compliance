@@ -331,9 +331,9 @@ Mechanisms for verifying software origins, tamper prevention, change tracking, a
 
  
 
-## **3.4 Secure Development Properties & Security Testing (CRA Annex I, Part I)**
+## **3.4 Secure Development Properties & Security Testing**
 
-CRA Annex I Part I mandates products are designed and produced with security by default. This subsection defines secure product design and development capabilities, not only release testing. Organizations should build security architecture design, secure feature development, threat modeling, and verification practices into the product lifecycle so authentication, least privilege, encryption, logging, data protection, secure update, and attack-surface controls are designed in from the outset. Items here supply required content for the Technical File (§7.1).
+This subsection covers the cybersecurity properties designed into the product and the testing that verifies them, rather than release testing alone. Organizations should build security architecture design, secure feature development, threat modeling, and verification practices into the product lifecycle, so that the properties required by Annex I are designed in from the outset. Items here supply content for the Technical File (§7.1).
 
  
 
