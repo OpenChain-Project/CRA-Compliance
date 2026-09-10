@@ -10,7 +10,7 @@ For detailed information and valid channels per release phase see details below:
 
 ## Timeline & Release schedule
 
-`mermaid
+```mermaid
 ---
 config:
    theme: 'neutral'
@@ -35,7 +35,7 @@ timeline
    section Official Release
       11 September : Version 1.0
 
-`
+```
 
 **Milestones:** [Release Candidate 1 (RC1)](https://github.com/OpenChain-Project/CRA-Compliance/milestone/1) | [Version 1.0](https://github.com/OpenChain-Project/CRA-Compliance/milestone/3)
 
@@ -52,7 +52,7 @@ During review windows, feedback is collected through:
 **At the conclusion of the public comment period, collected issues are addressed by the Study Group through scheduled calls, GitHub review, or the mailing list.**
 
 > [!NOTE]
-> The current pre-1.0 review draft is staged on eview/open-comments-pre-v1. The main branch remains the RC1 release baseline until approved changes are merged for Version 1.0.
+> The current pre-1.0 review draft is staged on `review/open-comments-pre-v1`. The main branch remains the RC1 release baseline until approved changes are merged for Version 1.0.
 
 ---
 
@@ -77,7 +77,7 @@ Use whichever platform you prefer.
 5. Agreed changes are incorporated into the checklist.
 6. Once a change has been implemented or a decision has been reached, the corresponding issue is closed.
 
-`mermaid
+```mermaid
 ---
 config:
   theme: 'neutral'
@@ -100,7 +100,7 @@ flowchart LR
 
     F --> G[Decision in GitHub Issue]
     G --> D
-`
+```
 
 ## Tracking Discussions and Decisions
 
