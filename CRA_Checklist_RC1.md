@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: CRA Compliance Guidance
+title: OpenChain CRA Compliance Requirements & Checklist
 ---
 
 [Review & Contribution Workflow](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTING.md#openchain-cra-checklist-review--contribution-workflow) | [Mailing List](https://lists.openchainproject.org/g/OpenChain-BusinessOps-Study-Group)
@@ -11,10 +11,10 @@ title: CRA Compliance Guidance
   <img src="https://raw.githubusercontent.com/OpenChain-Project/Image-Assets/master/Official/Project-Logo/Long-Logo/long-logo.png" alt="OpenChain Project" width="360">
 </p>
 
-# **Cyber Resilience Act (CRA) Compliance Requirements & Checklist**
+# **OpenChain CRA Compliance Requirements & Checklist**
 
-OpenChain-Aligned Self-Certification Document  
-ISO/IEC 18974 Aligned | EU Regulation 2024/2847 | OpenChain ISO/IEC 5230  
+Community-Maintained Self-Certification and Readiness Resource  
+Regulation (EU) 2024/2847 | ISO/IEC 18974 | ISO/IEC 5230 | BSI TR-03183  
 Version: RC1 | Date: 19 Aug 2026 | Status: Release Candidate  
 License: CC-BY-4.0
 
@@ -22,11 +22,11 @@ OpenChain page: [openchainproject.org/cracompliance](https://openchainproject.or
 GitHub: [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)  
 Community comments: [Google Doc (open for comments)](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing)
 
-Supporting evidence and project history:
+Supporting registers and project history:
 
-* [Contributors and Reviewers](CONTRIBUTORS.md)
-* [Revision History](REVISION_HISTORY.md)
-* [External References and Adoption](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
+* [Contributors and Reviewers](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTORS.md)
+* [Revision History](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/REVISION_HISTORY.md)
+* [External References, Use, Tooling, and Adoption](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
 
 Completing or signing this checklist does not in itself constitute a CRA conformity assessment, an EU Declaration of Conformity, or evidence of lawful CE marking. This document is a readiness and evidence-management tool supporting the applicable conformity-assessment procedure. This document does not constitute legal advice; consult qualified legal counsel before formal regulatory submission.
 
@@ -37,9 +37,9 @@ Important: All bracketed \[INSERT ...\] fields throughout this document must be 
 
 CRA applicability is not determined solely by whether an organization deploys open-source software in the EU. The primary scope question is whether the organization makes a product with digital elements available on the Union market, or otherwise has a role covered by the CRA, such as manufacturer, importer, distributor, authorised representative, or open-source software steward.
 
-If an organization does not make products with digital elements available on the Union market and does not have a covered CRA role, this checklist is not a legal compliance obligation for that organization. Such organizations may still use it as a voluntary reference for understanding SBOMs, vulnerability handling, evidence management, and software supply chain readiness.
+If an organization does not make products with digital elements available on the Union market and does not have a covered CRA role, the requirements addressed by this checklist may not apply to that organization. Such organizations may still use it as a voluntary reference for understanding SBOMs, vulnerability handling, evidence management, and software supply chain readiness.
 
-This document defines an OpenChain-aligned organizational compliance framework for the EU Cyber Resilience Act (CRA, Regulation (EU) 2024/2847) and ISO/IEC 18974. It provides a self-certification checklist covering governance, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, and technical-file obligations.
+The OpenChain CRA Compliance Requirements & Checklist is a community-maintained, OpenChain-aligned self-certification and readiness resource for organizations preparing for EU Cyber Resilience Act obligations. It is mapped to Regulation (EU) 2024/2847 and aligned with ISO/IEC 18974, ISO/IEC 5230, and relevant SBOM guidance including BSI TR-03183. It covers governance, product assessment, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, technical-file evidence, security updates, and supply-chain obligations.
 
 The CRA (Regulation (EU) 2024/2847) establishes mandatory cybersecurity requirements for products with digital elements (PDEs) placed on the EU market. The following role definitions are drawn from CRA Art. 3:
 
