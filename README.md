@@ -14,13 +14,13 @@ The checklist covers program governance, product assessment, SBOM quality, vulne
 
 | File | Description |
 |---|---|
-| CRA_Checklist_Requirement_latest.md | Release-target checklist on this branch, currently matching the pre-1.0 review draft |
-| CRA_Checklist_Requirement_pre_v1_review.md | Full proposed pre-1.0 review draft |
-| CONTRIBUTING.md | Review and contribution workflow |
-| CONTRIBUTORS.md | Contributor and reviewer register |
-| REVISION_HISTORY.md | Review cycle and major change register |
-| ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md | External references, use, tooling, and adoption register |
-| ersions | Archive directory for prior checklist versions |
+| `CRA_Checklist_Requirement_latest.md` | Release-target checklist on this branch, currently matching the pre-1.0 review draft |
+| `CRA_Checklist_Requirement_pre_v1_review.md` | Full proposed pre-1.0 review draft |
+| `CONTRIBUTING.md` | Review and contribution workflow |
+| `CONTRIBUTORS.md` | Contributor and reviewer register |
+| `REVISION_HISTORY.md` | Review cycle and major change register |
+| `ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md` | External references, use, tooling, and adoption register |
+| `versions` | Archive directory for prior checklist versions |
 
 ## Checklist Structure
 
