@@ -18,13 +18,13 @@ Release Candidate 1 remains available for public review, and accepted pre-1.0 ch
 - [Read the RC1 checklist](CRA_Checklist_RC1.md)
 - [Project repository](https://github.com/OpenChain-Project/CRA-Compliance)
 - [Pre-1.0 review PR](https://github.com/OpenChain-Project/CRA-Compliance/pull/33)
-- [Review and contribution workflow](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTING.md#openchain-cra-checklist-review--contribution-workflow)
+- [Review and contribution workflow](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/CONTRIBUTING.md#openchain-cra-compliance-requirements--checklist-review--contribution-workflow)
 
 ## Supporting registers
 
-- [External references, use, tooling, and adoption](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
-- [Contributors and reviewers](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTORS.md)
-- [Revision history](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/REVISION_HISTORY.md)
+- [External references, use, tooling, and adoption](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
+- [Contributors and reviewers](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/CONTRIBUTORS.md)
+- [Revision history](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/REVISION_HISTORY.md)
 
 ## Discussion
 
