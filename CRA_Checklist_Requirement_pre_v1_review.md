@@ -2,10 +2,10 @@
   <img src="https://raw.githubusercontent.com/OpenChain-Project/Image-Assets/master/Official/Project-Logo/Long-Logo/long-logo.png" alt="OpenChain Project" width="360">
 </p>
 
-# **Cyber Resilience Act (CRA) Compliance Requirements & Checklist**
+# **OpenChain CRA Compliance Requirements & Checklist**
 
-OpenChain-Aligned Self-Certification Document  
-ISO/IEC 18974 Aligned | EU Regulation 2024/2847 | OpenChain ISO/IEC 5230  
+Community-Maintained Self-Certification and Readiness Resource  
+Regulation (EU) 2024/2847 | ISO/IEC 18974 | ISO/IEC 5230 | BSI TR-03183  
 Version: Pre-1.0 Review Draft | Date: 3 Sep 2026 | Status: Proposed changes for review  
 License: CC-BY-4.0
 
@@ -15,11 +15,11 @@ OpenChain page: [openchainproject.org/cracompliance](https://openchainproject.or
 GitHub: [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)  
 Community comments: [Google Doc (open for comments)](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing)
 
-Supporting evidence and project history:
+Supporting registers and project history:
 
 * [Contributors and Reviewers](CONTRIBUTORS.md)
 * [Revision History](REVISION_HISTORY.md)
-* [External References and Adoption](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
+* [External References, Use, Tooling, and Adoption](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
 
 Completing or signing this checklist does not in itself constitute a CRA conformity assessment, an EU Declaration of Conformity, or evidence of lawful CE marking. This document is a readiness and evidence-management tool supporting the applicable conformity-assessment procedure. This document does not constitute legal advice; consult qualified legal counsel before formal regulatory submission.
 
@@ -32,7 +32,7 @@ CRA applicability is not determined solely by whether an organization deploys op
 
 If an organization does not make products with digital elements available on the Union market and does not have a covered CRA role, the requirements addressed by this checklist may not apply to that organization. Such organizations may still use it as a voluntary reference for understanding SBOMs, vulnerability handling, evidence management, and software supply chain readiness.
 
-This document defines an OpenChain-aligned organizational compliance framework for the EU Cyber Resilience Act (CRA, Regulation (EU) 2024/2847) and ISO/IEC 18974. It provides a self-certification checklist covering governance, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, and technical-file obligations.
+The OpenChain CRA Compliance Requirements & Checklist is a community-maintained, OpenChain-aligned self-certification and readiness resource for organizations preparing for EU Cyber Resilience Act obligations. It is mapped to Regulation (EU) 2024/2847 and aligned with ISO/IEC 18974, ISO/IEC 5230, and relevant SBOM guidance including BSI TR-03183. It covers governance, product assessment, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, technical-file evidence, security updates, and supply-chain obligations.
 
 The CRA (Regulation (EU) 2024/2847) establishes mandatory cybersecurity requirements for products with digital elements (PDEs) placed on the EU market. The following role definitions are drawn from CRA Art. 3:
 
@@ -871,33 +871,23 @@ Community contribution: OpenSSF GCP and Eclipse ORC have offered to contribute i
 
  
 
-The working group welcomes anonymized implementation case studies from adopting organizations. If your organization has implemented this checklist and is willing to share your experience (anonymized), please contact the working group lead or open a GitHub issue at github.com/OpenChain-Project/CRA-Compliance.
+OpenChain welcomes anonymized implementation case studies from organizations using this checklist. If your organization is willing to share an anonymized experience report, please open a GitHub issue at github.com/OpenChain-Project/CRA-Compliance or use the contact channels on the OpenChain CRA Compliance page.
 
  
 
  
 
-# **Annex D - External References, Use, and Adoption**
+# **Annex D - Project Information and Supporting Registers**
 
-The live external references and adoption register is maintained separately from this checklist to allow public references, confirmations, and community adoption evidence to be updated without changing the normative checklist content.
+Current contributor records, revision history, public references, adoption/use examples, and supporting project information are maintained outside this checklist so they can be updated without changing the released checklist text.
 
-Register: [ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
+* OpenChain CRA Compliance page: [openchainproject.org/cracompliance](https://openchainproject.org/cracompliance)
+* Project repository: [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)
+* External references, use, tooling, and adoption: [ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
+* Contributors and reviewers: [CONTRIBUTORS.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTORS.md)
+* Revision history: [REVISION_HISTORY.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/REVISION_HISTORY.md)
 
-Inclusion in the register means that an organization, public forum, event, or resource has referenced, used, evaluated, or relied on the OpenChain CRA Checklist. Inclusion does not imply endorsement, certification, legal approval, OpenChain membership, sponsorship, audit status, or a statement of CRA compliance.
-
-
-# **Annex E — Contributors and Reviewers**
-
-The live contributor and reviewer register is maintained separately from this checklist so attribution, organizational context, and contribution details can be updated without changing the normative checklist content.
-
-Register: [CONTRIBUTORS.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTORS.md)
-
-# **Annex F — Revision History**
-
-The revision history is maintained separately from this checklist to preserve a concise public record of authorship, review cycles, and major changes while keeping the checklist front matter aligned with OpenChain document style.
-
-Register: [REVISION_HISTORY.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/REVISION_HISTORY.md)
-
+Organizations, forums, events, resources, or tools listed in external references have publicly referenced, used, reviewed, mapped, adopted, or confirmed awareness of this checklist. Inclusion does not imply endorsement, certification, legal approval, CRA conformity, OpenChain membership, sponsorship, or audit status unless expressly stated by the listed organization.
 
 # **References & Implementation Resources**
 
@@ -992,5 +982,4 @@ References marked as "draft" or "pending" are informational only and non-binding
 ●  OWASP SAMM \- [owaspsamm.org](https://owaspsamm.org)
 
 ●  Eclipse ORC (Open Regulatory Compliance) \- [eclipse.org/orc](https://eclipse.org/orc)
-
 
