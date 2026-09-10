@@ -1,61 +1,66 @@
-# CRA-Compliance
+# OpenChain CRA Compliance Requirements & Checklist
 
-This repository defines the organizational compliance framework for the EU Cyber Resilience Act (CRA, Regulation (EU) 2024/2847). It serves simultaneously as a policy framework and a self-certification checklist, covering program governance, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, and technical file obligations.
+The OpenChain CRA Compliance Requirements & Checklist is a community-maintained, OpenChain-aligned self-certification and readiness resource for organizations preparing for EU Cyber Resilience Act obligations.
+
+It is mapped to Regulation (EU) 2024/2847 and aligned with ISO/IEC 18974, ISO/IEC 5230, and relevant SBOM guidance including BSI TR-03183.
 
 ## Overview
 
 The CRA (Regulation (EU) 2024/2847) establishes mandatory cybersecurity requirements for products with digital elements placed on the EU market. Organizations that develop, maintain, or distribute software with digital elements must ensure their products meet essential cybersecurity requirements throughout the product lifecycle.
 
-This framework is:
-
-- Aligned with **OpenChain ISO/IEC 5230** and **ISO/IEC 18974** (Open Source Security Assurance)
-- Structured for **self-certification** (Internal Control Module A) for Default and certain Class I products
-- Compatible with **CycloneDX** and **SPDX** SBOM formats
-- Cross-referenced to **NIS2**, **EU AI Act**, **DORA**, and the **Data Act**
+The checklist covers program governance, product assessment, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, technical-file evidence, security updates, and supply-chain obligations.
 
 ## Repository Contents
 
 | File | Description |
 |---|---|
-| `versions` | Archive directory for Checklist versions |
-| `CRA_Checklist_Requirement_latest.md` | CRA Compliance Checklist and Requirements latest version (182 checklist items) |
-| `CONTRIBUTORS.md` | Contributor and reviewer register |
-| `REVISION_HISTORY.md` | Authorship, review cycle, and major change register |
-| `ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md` | External references and adoption register |
+| CRA_Checklist_Requirement_latest.md | Release-target checklist on this branch, currently matching the pre-1.0 review draft |
+| CRA_Checklist_Requirement_pre_v1_review.md | Full proposed pre-1.0 review draft |
+| CONTRIBUTING.md | Review and contribution workflow |
+| CONTRIBUTORS.md | Contributor and reviewer register |
+| REVISION_HISTORY.md | Review cycle and major change register |
+| ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md | External references, use, tooling, and adoption register |
+| ersions | Archive directory for prior checklist versions |
 
 ## Checklist Structure
 
-The checklist covers 9 sections and 182 requirements:
+The pre-1.0 review draft covers 9 sections and 193 checklist items:
 
 | Section | Topic | Items |
 |---|---|---|
 | 2 | Program Architecture and Governance | 46 |
-| 3 | Component Management, SBOM Quality and Provenance | 46 |
-| 4 | Vulnerability Handling, VEX and Art. 14 Reporting | 35 |
+| 3 | Component Management, SBOM Quality, Provenance, and Secure Development | 57 |
+| 4 | Vulnerability Handling, VEX, and Art. 14 Reporting | 35 |
 | 5 | OSS Stewardship | 15 |
 | 6 | Security Updates and Support Period | 7 |
-| 7 | Technical File, DoC and Supply Chain Sharing | 20 |
+| 7 | Technical File, DoC, and Supply Chain Sharing | 20 |
 | 8 | Cross-Framework Integration (NIS2, AI Act, DORA, Data Act) | 8 |
 | 9 | Procurement and Buyer-Side Obligations | 5 |
 
 ## Key Features
 
-- **Art. 14 three-stage reporting cascade** (24h Early Warning / 72h Notification / 14-day Final Report) with full RACI and tabletop exercise requirements
-- **SBOM quality controls** including dependency depth, file/snippet reference handling, provenance, signing, and HBOM for hardware products
-- **Secure build infrastructure** and secrets management requirements
-- **Third-party software supply chain qualification** for COTS, SDKs, ODM/OEM components, outsourced development, and freeware
-- **Self-maintained open source software controls** for legacy, forked, or internally maintained components
-- **EU Declaration of Conformity** workflow with Annex V template structure
-- **Authorized Representative** operational procedures for non-EU manufacturers
-- **Annex A** - Definitions and Glossary
-- **Annex B** - CRA Annex I Traceability Matrix
-- **Annex D/E/F** - Separate supporting evidence registers for external references, contributors, and revision history
+- Art. 14 three-stage reporting cascade (24h Early Warning / 72h Notification / 14-day Final Report) with RACI and tabletop exercise requirements
+- SBOM quality controls including dependency depth, file/snippet reference handling, provenance, signing, and HBOM for hardware products
+- Secure development, secure build infrastructure, secrets management, and release-gate controls
+- Third-party software supply chain qualification for COTS, SDKs, ODM/OEM components, outsourced development, and freeware
+- Self-maintained open source software controls for legacy, forked, or internally maintained components
+- EU Declaration of Conformity workflow with Annex V template structure
+- Authorized Representative operational procedures for non-EU manufacturers
+- Supporting registers for external references, contributors, and revision history
 
 ## Status
 
-Current version: **RC1 (Release Candidate)**
+Current pre-1.0 review branch version: **Pre-1.0 Review Draft**
 
-The document is under active development. Contributions and feedback are welcome via pull requests and issues.
+Current main release baseline: **RC1 (Release Candidate)**
+
+Approved changes are staged in [PR #33](https://github.com/OpenChain-Project/CRA-Compliance/pull/33) before final Version 1.0 publication.
+
+## Contribution Workflow
+
+Feedback and proposed changes are tracked through GitHub issues and pull requests. Community comments may also be submitted through the public Google Doc during review windows.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full review and contribution workflow.
 
 ## License
 
@@ -63,4 +68,4 @@ CC-BY-4.0 - See [LICENSE](LICENSE) for details.
 
 ## Contributors and Reviewers
 
-Contributor and reviewer details are maintained in [CONTRIBUTORS.md](CONTRIBUTORS.md). The current register records 19 contributors and reviewers.
+Contributor and reviewer details are maintained in [CONTRIBUTORS.md](CONTRIBUTORS.md).
