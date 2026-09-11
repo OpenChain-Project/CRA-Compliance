@@ -14,10 +14,8 @@ title: OpenChain CRA Compliance Requirements & Checklist
 
 Community-Maintained Self-Certification and Readiness Resource  
 Regulation (EU) 2024/2847 | ISO/IEC 18974 | ISO/IEC 5230 | BSI TR-03183  
-Version: Pre-1.0 Review Draft | Date: 3 Sep 2026 | Status: Proposed changes for review  
+Version: 1.0 | Date: 11 Sep 2026 | Status: released 
 License: CC-BY-4.0
-
-> **Review note:** This is a complete proposed pre-1.0 review draft staged on `review/open-comments-pre-v1`. It is not the current RC1/main release baseline until the review batch is approved and merged.
 
 OpenChain page: [openchainproject.org/cracompliance](https://openchainproject.org/cracompliance)  
 GitHub: [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)  
@@ -877,25 +875,23 @@ This mapping shows how ISO/IEC 18974 clauses and OWASP SAMM practices align with
 
 Community contribution: OpenSSF GCP and Eclipse ORC have offered to contribute implementation guidance for specific sections. Contributions welcome via GitHub pull request.
 
- 
 
-OpenChain welcomes anonymized implementation case studies from organizations using this checklist. If your organization is willing to share an anonymized experience report, please open a GitHub issue at github.com/OpenChain-Project/CRA-Compliance or use the contact channels on the OpenChain CRA Compliance page.
 
- 
 
- 
 
-# **Annex D - Project Information and Supporting Registers**
+ # **Annex D - Additional Project Information**
 
-Current contributor records, revision history, public references, adoption/use examples, and supporting project information are maintained outside this checklist so they can be updated without changing the released checklist text.
+Supporting information related to this checklist and the associated project, including external references and adoption, contributors and reviewers, revision history, and other project resources, is maintained separately from this checklist and is available at:
 
-* OpenChain CRA Compliance page: [openchainproject.org/cracompliance](https://openchainproject.org/cracompliance)
-* Project repository: [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)
-* External references, use, tooling, and adoption: [ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
-* Contributors and reviewers: [CONTRIBUTORS.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTORS.md)
-* Revision history: [REVISION_HISTORY.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/REVISION_HISTORY.md)
+https://cra-compliance.openchainproject.org
 
-Organizations, forums, events, resources, or tools listed in external references have publicly referenced, used, reviewed, mapped, adopted, or confirmed awareness of this checklist. Inclusion does not imply endorsement, certification, legal approval, CRA conformity, OpenChain membership, sponsorship, or audit status unless expressly stated by the listed organization.
+These materials may be updated independently of the checklist to reflect ongoing community activity, attribution, adoption information, and project development. Any references to organizations, events, resources, or individuals do not imply endorsement, certification, legal approval, OpenChain membership, sponsorship, audit status, or a statement of CRA compliance.
+
+OpenChain welcomes anonymized implementation case studies from adopting organizations. If your organization has implemented this checklist and is willing to share your experience (anonymized), please contact us through the resources and contact channels provided at https://cra-compliance.openchainproject.org.
+
+
+
+
 
 # **References & Implementation Resources**
 
@@ -990,4 +986,3 @@ References marked as "draft" or "pending" are informational only and non-binding
 ●  OWASP SAMM \- [owaspsamm.org](https://owaspsamm.org)
 
 ●  Eclipse ORC (Open Regulatory Compliance) \- [eclipse.org/orc](https://eclipse.org/orc)
-
