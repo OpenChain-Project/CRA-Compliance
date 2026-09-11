@@ -3,10 +3,9 @@ layout: subpage
 title: OpenChain CRA Compliance Requirements & Checklist
 ---
 
-[↩ Latest Version](/CRA_Checklist_latest.md)
+[**Latest Version**](/CRA_Checklist_latest.md) | [Version 1.0](CRA_Checklist_v1.0.md) | [Release Candidate 1](CRA_Checklist_RC1.md)
 
 ---
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/OpenChain-Project/Image-Assets/master/Official/Project-Logo/Long-Logo/long-logo.png" alt="OpenChain Project" width="360">
 </p>
@@ -15,18 +14,13 @@ title: OpenChain CRA Compliance Requirements & Checklist
 
 Community-Maintained Self-Certification and Readiness Resource  
 Regulation (EU) 2024/2847 | ISO/IEC 18974 | ISO/IEC 5230 | BSI TR-03183  
-Version: RC1 | Date: 19 Aug 2026 | Status: Release Candidate  
+Version: 1.0 | Date: 11 Sep 2026 | Status: released 
 License: CC-BY-4.0
 
-OpenChain page: [openchainproject.org/cracompliance](https://openchainproject.org/cracompliance)  
-GitHub: [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)  
-Community comments: [Google Doc (open for comments)](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing)
+OpenChain CRA Compliance page: [https://cra-compliance.openchainproject.org](https://cra-compliance.openchainproject.org)
 
-Supporting registers and project history:
-
-* [Contributors and Reviewers](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/CONTRIBUTORS.md)
-* [Revision History](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/REVISION_HISTORY.md)
-* [External References, Use, Tooling, and Adoption](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
+This document was developed as an open initiative with feedback received from OpenChain contributors. 
+See [Annex D](#annex-d---additional-project-information) for further information.
 
 Completing or signing this checklist does not in itself constitute a CRA conformity assessment, an EU Declaration of Conformity, or evidence of lawful CE marking. This document is a readiness and evidence-management tool supporting the applicable conformity-assessment procedure. This document does not constitute legal advice; consult qualified legal counsel before formal regulatory submission.
 
@@ -112,7 +106,8 @@ The table below shows which sections contain items subject to the 11 Sep 2026 Ar
 | **2.3** | Competence & Training | No | No | Yes \- §3.1.2 |
 | **2.4** | Sustainability & Review | No | No | Yes \- §3.4.2 |
 | **2.5** | Product Risk Categorization (incl. Art. 32(5) FOSS) | No | Yes \- 11 Dec 2027 | No \- CRA-specific |
-| **2.6** | Harmonized Standards Tracking | No | Yes \- 11 Dec 2027 | No \- CRA-specific |
+| **2.6** | Cybersecurity Risk Assessment (CRA Art. 13(2)–(4)) | No | Yes \- 11 Dec 2027 | No \- CRA-specific |
+| **2.7** | Harmonized Standards Tracking | No | Yes \- 11 Dec 2027 | No \- CRA-specific |
 | **3.1** | SBOM Generation | Partial \- §3.1.5 SBOM depth tied to 24h window | Yes \- 11 Dec 2027 | Yes \- §3.2.1-3.2.3 |
 | **3.2** | SBOM Data Quality | No | Yes \- 11 Dec 2027 | Yes \- §3.2.2 |
 | **3.3** | Provenance & Integrity | No | Yes \- 11 Dec 2027 | Yes \- §3.2.3 |
@@ -130,9 +125,8 @@ The table below shows which sections contain items subject to the 11 Sep 2026 Ar
 | **6.1** | Support Period & Update Obligations | No | Yes \- 11 Dec 2027 | Partial \- patching yes; 5-year period not in 18974 |
 | **7.1** | Market Surveillance Deliverables | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 |
 | **7.2** | Downstream Customer Provisioning | No | Yes \- 11 Dec 2027 | Partial \- §3.2.1 |
-| **7.3** | User-Facing Docs (Art. 13(18)/Annex II) | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 |
-| **7.4** | EU DoC & CE Marking | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 |
-| **7.5** | EU Authorized Representative | No | Yes \- 11 Dec 2027 if non-EU | No \- CRA-specific |
+| **7.3** | User-Facing Docs, EU DoC & CE Marking | No | Yes \- 11 Dec 2027 | Partial \- §3.5.1 |
+| **7.4** | EU Authorized Representative | No | Yes \- 11 Dec 2027 if non-EU | No \- CRA-specific |
 | **8.1** | CRA and NIS2 | Partial \- NIS2 incident aligns with Art. 14 | No | No \- regulatory mapping not in 18974 |
 | **8.2** | CRA and AI Act | No | Yes \- 11 Dec 2027 | No |
 | **8.3** | CRA and DORA | No | No | No |
@@ -147,7 +141,7 @@ The table below shows which sections contain items subject to the 11 Sep 2026 Ar
 
 # **Section 2: Program Architecture & Governance**
 
-This section establishes the organizational foundation for CRA compliance. Note: §2.1-2.4 apply to all roles including Stewards (as Recommended). §2.5 and §2.7 apply only to Manufacturers and Importers/Distributors; they are N/A for OSS Stewards.
+This section establishes the organizational foundation for CRA compliance. Note: §2.1-2.4 apply to all roles including Stewards (as Recommended). §2.5-§2.7 are product-assessment controls for manufacturers; importers/distributors verify manufacturer evidence where applicable; they are N/A for OSS Stewards unless the steward also qualifies as the manufacturer for the relevant product or activity.
 
  
 
@@ -162,7 +156,7 @@ A documented cybersecurity policy for CRA compliance defines the organization co
 | **2.1.1** | \[CRA REQUIREMENT\] The organization must maintain a documented cybersecurity policy for CRA compliance. The policy should be formally approved by senior management or an equivalent governing body. | ☐ Yes   ☐ No   ☐ Partial |   | Policy document; approval signature or board/exec minute. |
 | **2.1.2** | \[GOOD PRACTICE\] The policy should be published and accessible to all relevant personnel. Per CRA Recital 76, manufacturers are encouraged to make their security policies publicly available, including in machine-readable format. | ☐ Yes   ☐ No   ☐ Partial |   | URL or intranet link; screenshot or acknowledgement log. |
 | **2.1.3** | \[CRA REQUIREMENT\] The policy must explicitly reference the organization's obligations under CRA Articles 13, 14, and 15 and Annex I Part II(5), which requires a policy on coordinated vulnerability disclosure. This is further detailed in Art. 13(8). PT3 additionally recommends a standalone vulnerability handling policy. | ☐ Yes   ☐ No   ☐ Partial |   | Policy text mapped to CRA articles. |
-| **2.1.4** | \[CRA REQUIREMENT\] The policy must cover the full product lifecycle: design, development, release, m aintenance, and end-of-support, consistent with the product lifetime obligations in CRA Art. 13(2) and the vulnerability handling obligations in Art. 13(6). | ☐ Yes   ☐ No   ☐ Partial |   | Lifecycle phase coverage section in policy. |
+| **2.1.4** | \[CRA REQUIREMENT\] The policy must cover the full product lifecycle: design, development, release, maintenance, and end-of-support, consistent with the product lifetime obligations in CRA Art. 13(8) and the vulnerability handling obligations in Art. 13(6). | ☐ Yes   ☐ No   ☐ Partial |   | Lifecycle phase coverage section in policy. |
 
  
 
@@ -178,7 +172,7 @@ Clear assignment of CRA compliance responsibilities across the organization.
 | **2.2.2** | \[CRA REQUIREMENT\] Legal or regulatory counsel must have a defined role for interpreting CRA obligations, essential requirements, and regulatory changes. | ☐ Yes   ☐ No   ☐ Partial |   | Legal review sign-off records. |
 | **2.2.3** | \[GOOD PRACTICE\] The organization should assign responsibility for SBOM generation, dependency management, and secure-by-design requirements. This may be assigned to a product engineering function or equivalent.  | ☐ Yes   ☐ No   ☐ Partial |   | Ticket/backlog owner assignments; job description excerpts. |
 | **2.2.4** | \[GOOD PRACTICE\] The organization should assign responsibility for vulnerability monitoring, exploitability assessment, and security incident response activities required under CRA. These responsibilities may be distributed across functions as appropriate to the organization's size and structure. | ☐ Yes   ☐ No   ☐ Partial |   | SecOps runbook referencing CRA. |
-| **2.2.5** | \[GOOD PRACTICE\] Role assignments should be reviewed and updated at least annually or upon significant organizational change. | ☐ Yes   ☐ No   ☐ Partial |   | Change-log or version history of the RACI document. |
+| **2.2.5** | \[GOOD PRACTICE\] Role assignments should be granted only through a formal, documented appointment process with recorded approval. Such assignments should be reviewed and updated at least annually or upon significant organizational change. | ☐ Yes   ☐ No   ☐ Partial |   | Appointment record; approval log; change-log or version history of the RACI document. |
 
  
 
@@ -208,7 +202,7 @@ Periodic review processes to ensure CRA compliance mechanisms remain active and 
 | **2.4.1** | \[GOOD PRACTICE\] The CRA compliance program should be reviewed at least once per calendar year. | ☐ Yes   ☐ No   ☐ Partial |   | Review meeting minutes or audit report dated within 12 months. |
 | **2.4.2** | \[GOOD PRACTICE\] Reviews should be triggered by major product releases, significant dependency changes, or changes to regulatory guidance. | ☐ Yes   ☐ No   ☐ Partial |   | Event-driven review trigger list in governance document. |
 | **2.4.3** | \[GOOD PRACTICE\] Review outcomes should be formally recorded and assigned to responsible owners with target resolution dates. | ☐ Yes   ☐ No   ☐ Partial |   | Issue tracker or action log with owner and due date fields. |
-| **2.4.4** | \[CRA REQUIREMENT\] The organization must maintain a process to retire or archive compliance records for end-of-life products. Technical documentation must be retained for at least 10 years after market placement, or for the duration of the support period or end of support, whichever is longer (CRA Art. 13(13)). | ☐ Yes   ☐ No   ☐ Partial |   | EoL / archival procedure documentation. |
+| **2.4.4** | \[CRA REQUIREMENT\] The organization must maintain a process to retire or archive compliance records for end-of-life products. Technical documentation must be retained for at least 10 years after market placement, or the support period if longer (CRA Art. 13(13)). | ☐ Yes   ☐ No   ☐ Partial |   | EoL / archival procedure documentation. |
 | **2.4.5** | \[GOOD PRACTICE\] The organization should conduct periodic internal audits of CRA compliance program effectiveness. | ☐ Yes   ☐ No   ☐ Partial |   | Internal audit plan; audit report; finding tracker. |
 | **2.4.6** | \[GOOD PRACTICE\] A compliance exception register should be maintained to document temporary deviations from controls, including rationale and expiry. | ☐ Yes   ☐ No   ☐ Partial |   | Exception register template; approval workflow. |
 | **2.4.7** | \[GOOD PRACTICE\] Each exception should be assigned a risk owner, a compensating control, and a defined review date. | ☐ Yes   ☐ No   ☐ Partial |   | Exception record with owner, compensating control, and expiry date. |
@@ -218,7 +212,7 @@ Periodic review processes to ensure CRA compliance mechanisms remain active and 
 
 ## **2.5 Product Risk Categorization & Conformity Assessment Route**
 
-Before executing self-certification, the organization must determine the CRA product classification per CRA Art. 6, 24, and 32 and Annexes III-IV. Technical descriptions of product categories are specified in Implementing Regulation (EU) 2025/2392. Self-certification (Module A, per CRA Annex VIII Part 1\) is only lawful for Default products and certain Class I products using harmonized standards. Art. 32(5) provides an additional pathway for FOSS manufacturers; see item 2.5.9. Note: §2.5 and §2.7 are N/A for OSS Stewards.
+Before executing self-certification, the organization must determine the CRA product classification per CRA Art. 6, 24, and 32 and Annexes III-IV. Technical descriptions of product categories are specified in Implementing Regulation (EU) 2025/2392. Self-certification (Module A, per CRA Annex VIII Part 1\) is only lawful for Default products and certain Class I products using harmonized standards. Art. 32(5) allows qualifying Annex III FOSS products to use one of the procedures referred to in Art. 32(1), provided that Art. 31 technical documentation is publicly available at market placement; see item 2.5.9. Note: §2.5-§2.7 are N/A for OSS Stewards unless the steward also qualifies as the manufacturer for the relevant product or activity.
 
  
 
@@ -238,11 +232,24 @@ Before executing self-certification, the organization must determine the CRA pro
 
 ## **2.6 Cybersecurity Risk Assessment (CRA Art. 13(2)–(4))**
 
-\[CRA REQUIREMENT\] The manufacturer must perform and document a cybersecurity risk assessment for each product with digital elements, taking into account the intended purpose, reasonably foreseeable use, operating environment, and foreseeable risks across the product lifecycle.
-
 The cybersecurity risk assessment determines which CRA Annex I essential cybersecurity requirements apply and how those requirements are addressed. This section is distinct from §2.5: §2.5 determines the product's CRA classification and conformity-assessment route under CRA Art. 6, Art. 32, and Annexes III-IV, while §2.6 determines which requirements apply and how.
 
 Art. 13(5) due diligence for third-party and FOSS components is addressed in §3 and §5. This section is not applicable to OSS Stewards unless the steward also qualifies as the manufacturer for the relevant product or activity.
+
+| Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
+| :---- | :---- | :---- | :---- | :---- |
+| **2.6.1** | \[CRA REQUIREMENT\] The manufacturer must perform and document a cybersecurity risk assessment for each product with digital elements. The assessment must document, as a minimum, the product's intended purpose, its reasonably foreseeable use, the conditions of use including the operational environment and the assets to be protected, and the expected time in use. | ☐ Yes   ☐ No   ☐ Partial |   | Assessment per product; register recording product, version and assessment date. CRA Art. 13(2) and 13(3) sentence 2. Support period per §6.1.1 and Art. 13(8). |
+| **2.6.2** | \[CRA REQUIREMENT\] The assessment must record, for each essential requirement in Annex I Part I(2)(a)–(m), whether it is applicable to the product and, where applicable, in what manner it applies and how it is implemented. Where a requirement is determined not to be applicable, the assessment must record a clear justification. The implementing controls themselves are recorded in §3.4 and §6.1. | ☐ Yes   ☐ No   ☐ Partial |   | Applicability determination covering all thirteen requirements, with justifications. CRA Art. 13(3) sentence 3 and Art. 13(4) sentence 3. |
+| **2.6.3** | \[CRA REQUIREMENT\] The assessment must record how the organization applies the requirements in Annex I Part I(1) and the vulnerability handling requirements in Annex I Part II. | ☐ Yes   ☐ No   ☐ Partial |   | Assessment addressing Annex I Part I(1) and each of Part II(1)–(8). CRA Art. 13(3) sentence 4; Commission guidance C(2026) 5252, points 164–166. |
+| **2.6.4** | \[CRA REQUIREMENT\] The assessment must show that the residual risks are sufficiently addressed through the implementation of the essential requirements, given the product's intended purpose and reasonably foreseeable use, and must record acceptance with a named accountable role and a re-assessment date. | ☐ Yes   ☐ No   ☐ Partial |   | Residual risk statement per risk; acceptance record naming the accountable role and the re-assessment date. CRA Art. 13(2)–(3) with Annex I Part I(1); Commission guidance C(2026) 5252, point 159. |
+| **2.6.5** | \[CRA REQUIREMENT\] The outcome of the assessment must be taken into account during the planning, design, development, production, delivery and maintenance of the product. | ☐ Yes   ☐ No   ☐ Partial |   | Design and architecture records, or tests, citing assessment outcomes; release security gate sign-off (§3.4.10); support-period decision record (§6.1). CRA Art. 13(2). |
+| **2.6.6** | \[CRA REQUIREMENT\] The assessment must be included in the technical documentation for the product. | ☐ Yes   ☐ No   ☐ Partial |   | Technical file index entry; see §7.1.1. CRA Art. 13(4) sentence 1; Art. 31; Annex VII. |
+| **2.6.7** | \[CRA REQUIREMENT\] The assessment must be kept up to date throughout the support period. Where a change to the product, to its conditions of use or operational environment, or to the threat landscape may affect the assessment, the organization must determine whether it is affected and update it where necessary. | ☐ Yes   ☐ No   ☐ Partial |   | Assessment version history showing each update and what triggered it. CRA Art. 13(3) sentence 1; support period per §6.1.1 and Art. 13(8). It is advisable to set a recurring check date to ensure updated assessments, and to record in version history any decision not to update the assessment. |
+| **2.6.8** | \[GOOD PRACTICE\] The methodology used to identify, analyse and evaluate risk, and the basis on which sufficiency is judged, should be stated before risks are evaluated, justified for the product and its context, and applied consistently across products. The basis should account for the applicable regulatory requirements rather than for internal tolerance alone. | ☐ Yes   ☐ No   ☐ Partial |   | Documented risk assessment methodology; stated basis for judging sufficiency; a completed assessment showing both applied. Commission guidance C(2026) 5252, points 157–163 (not binding). |
+| **2.6.9** | \[GOOD PRACTICE\] Identified risks should be recorded individually. Each entry should identify the threat, an estimate of the likelihood and impact of the resulting incident, the assessed risk level, the controls applied, and the residual level. A threat could be described by the asset it targets, the cybersecurity property that would be compromised, its cause, and the scenario in which the incident would arise. | ☐ Yes   ☐ No   ☐ Partial |   | Risk register with a stated scale for likelihood, impact and risk level; threat descriptions supporting each entry. |
+| **2.6.10** | \[GOOD PRACTICE\] Controls should be recorded as distinct items, each mapped to the risks it reduces, with the treatment decision and its rationale documented. A single control may reduce several risks. A control that maps to no identified risk should carry a justification for its inclusion. | ☐ Yes   ☐ No   ☐ Partial |   | Control register mapping each control to the risks it reduces and to the essential requirements it serves; justification for any control that maps to no identified risk. |
+| **2.6.11** | \[GOOD PRACTICE\] Where the mitigation of a risk depends on user action or on the product being used in a specific operational environment, that dependency should be stated in the conditions of use and communicated to users, and the risk should be treated as accepted only on that basis. | ☐ Yes   ☐ No   ☐ Partial |   | Conditions of use; the corresponding user-facing statement. Commission guidance C(2026) 5252, points 161–162. |
+| **2.6.12** | \[GOOD PRACTICE\] Each control identified by the assessment should name the role accountable for the control being in operation, and the method by which its operation is verified. | ☐ Yes   ☐ No   ☐ Partial |   | Control register with owner and verification columns. |
 
 ## **2.7 Harmonized Standards Tracking**
 
@@ -277,10 +284,10 @@ Processes for generating machine-readable SBOMs for all released products. CRA r
 | :---- | :---- | :---- | :---- | :---- |
 | **3.1.1** | \[CRA REQUIREMENT\] The organization must maintain a documented process for generating machine-readable SBOMs for all released products, covering at the very least the top-level dependencies of those products. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM generation procedure; tool configuration (e.g., Syft, Trivy, CycloneDX CLI). Reference: BSI TR-03183. |
 | **3.1.2** | \[CRA REQUIREMENT\] SBOMs must be produced in a commonly used, machine-readable format, such as a currently supported version of SPDX or CycloneDX, and must comply with any applicable implementing acts, harmonized standards, or common specifications. | ☐ Yes   ☐ No   ☐ Partial |   | Sample SBOM file; format validation report. Reference: BSI TR-03183-2 for SBOM content requirements. |
-| **3.1.3** | \[GOOD PRACTICE\] SBOM generation should be integrated into the CI/CD pipeline and produce an artifact on every release build. | ☐ Yes   ☐ No   ☐ Partial |   | Pipeline configuration excerpt; build artifact manifest. |
-| **3.1.4** | \[CRA REQUIREMENT\] SBOMs must cover, at minimum, top-level dependencies and must comprehensively include transitive and embedded dependencies to the depth necessary to identify, assess, and remediate vulnerabilities affecting the product. Any components or dependency levels not covered shall be documented together with a risk-based justification and the alternative measures used to ensure effective vulnerability management. | ☐ Yes   ☐ No   ☐ Partial |   | Tooling depth configuration; documented exclusions with risk-based justification; sample SBOM component count vs. dependency graph audit. |
+| **3.1.3** | \[GOOD PRACTICE\] SBOM generation should be integrated into the software delivery pipeline and produce an artifact on every release build. | ☐ Yes   ☐ No   ☐ Partial |   | Software delivery pipeline configuration excerpt; build artifact manifest. |
+| **3.1.4** | \[CRA REQUIREMENT\] SBOMs must cover, at a minimum, the top-level dependencies of the product in a commonly used and machine-readable format. \[GOOD PRACTICE\] SBOMs may also include transitive and embedded dependencies where technically feasible or necessary to identify, assess, and remediate vulnerabilities affecting the product. Any components or dependency levels not covered should be documented together with a risk-based justification and the alternative measures used to ensure effective vulnerability management. | ☐ Yes   ☐ No   ☐ Partial |   | Tooling depth configuration; documented exclusions with risk-based justification; sample SBOM component count vs. dependency graph audit. |
 | **3.1.5** | ⚠ DEADLINE: 11 Sep 2026 \- ⚠  \[GOOD PRACTICE\] The organization should document a target SBOM depth decision with operational rationale tied to the ability to determine within 24 hours whether an actively exploited CVE affects any shipped product. The depth decision should acknowledge implementation limits, define the intended dependency depth for each product or build type, and explain how unresolved transitive dependencies are monitored or risk-managed. A top-level-only SBOM may be insufficient for transitive-dependency scenarios. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM depth policy; operational rationale linking depth to 24-hour window; evidence of automated CVE-to-SBOM matching test; documented monitoring method for unresolved dependency levels. |
-| **3.1.6** | \[DIRECT CRA OBLIGATION\] SBOMs must be drawn up in a commonly used, machine-readable format and must cover at least the top-level dependencies of the product. \[ORGANIZATION SBOM PROFILE / IMPLEMENTATION CONTROL\] The organization SBOM profile should include product-level metadata (product name, version, supplier, release date, unique product identifier) and component-level metadata (component name, version, supplier, unique component identifier such as PURL or CPE, cryptographic hash, and license information including declared and concluded license) for each component. These additional fields support implementation, traceability, CISA Minimum Elements alignment, ISO/IEC 18974 alignment, and ISO/IEC 5230 compliance evidence, but are not presented as the CRA statutory minimum. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM field mapping to CRA Annex I (primary requirement), CISA 2025 Minimum Elements for SBOM (informational reference replacing the 2021 NTIA minimum elements), and BSI TR-03183-2 (implementation guidance for German market). Where these references differ, CRA Annex I takes precedence. Reference: https://www.[bsi.bund.de](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html)/TR03183 |
+| **3.1.6** | \[DIRECT CRA OBLIGATION\] SBOMs must be drawn up in a commonly used, machine-readable format and must cover at least the top-level dependencies of the product. \[ORGANIZATION SBOM PROFILE / IMPLEMENTATION CONTROL\] The organization SBOM profile should include product-level metadata (product name, version, supplier, release date, unique product identifier) and component-level metadata (component name, version, supplier, unique component identifier such as PURL, CPE, or SWHID (ISO/IEC 18670), cryptographic hash, and license information including declared and concluded license) for each component. These additional fields support implementation, traceability, CISA Minimum Elements alignment, ISO/IEC 18974 alignment, and ISO/IEC 5230 compliance evidence, but are not presented as the CRA statutory minimum. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM field mapping to CRA Annex I (primary requirement), CISA 2025 Minimum Elements for SBOM (informational reference replacing the 2021 NTIA minimum elements), and BSI TR-03183-2 (implementation guidance for German market). Where these references differ, CRA Annex I takes precedence. SWHID reference: https://swhid.org. Reference: https://www.[bsi.bund.de](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html)/TR03183 |
 | **3.1.7** | \[GOOD PRACTICE\] For products containing physical hardware components, a Hardware Bill of Materials (HBOM) should be maintained alongside the SBOM to identify hardware components and their firmware dependencies. For machine-readable HBOM exchange, CycloneDX (ECMA-424 / CycloneDX 1.7 or later) is the recommended format; SPDX 3.x hardware profile may be used where producer and consumer tooling support it. Software-only organizations may mark this item N/A with documented rationale. | ☐ Yes   ☐ No   ☐ Partial |   | Machine-readable HBOM (CycloneDX/ECMA-424 preferred; SPDX 3.x hardware profile where supported); hardware component inventory; firmware version register. |
 | **3.1.8** | \[GOOD PRACTICE\] The organization should maintain a dependency registry with pinned versions and approved component entries to ensure SBOM reproducibility across builds. | ☐ Yes   ☐ No   ☐ Partial |   | Dependency lock files; package registry configuration; approved component list. |
 
@@ -310,7 +317,7 @@ Mechanisms for verifying software origins, tamper prevention, change tracking, a
 
 | Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
 | :---- | :---- | :---- | :---- | :---- |
-| **3.3.1** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] Components in released products should have verified source information, such as upstream repository URL, commit hash, or verified package registry coordinates, where needed to support CRA conformity evidence and supply-chain integrity. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM externalRef fields; PURL entries; reproducible-build artifacts. |
+| **3.3.1** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] Components in released products should have verified source information, such as upstream repository URL, commit hash, SWHID (ISO/IEC 18670), or verified package registry coordinates, where needed to support CRA conformity evidence and supply-chain integrity. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM externalRef fields; PURL entries; SWHID identifiers; reproducible-build artifacts. |
 | **3.3.2** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] Cryptographic checksums, such as SHA-256 or stronger, should be recorded for release artifacts where needed to support integrity evidence and release traceability. | ☐ Yes   ☐ No   ☐ Partial |   | Artifact manifest with hash values; signing key documentation. |
 | **3.3.3** | \[GOOD PRACTICE\] A change-tracking mechanism should record component additions, removals, and version updates between releases. | ☐ Yes   ☐ No   ☐ Partial |   | SBOM diff report between consecutive releases; changelog integration. |
 | **3.3.4** | \[GOOD PRACTICE\] Software signing or attestation (e.g., Sigstore, in-toto, SLSA provenance) should be applied to release artifacts. | ☐ Yes   ☐ No   ☐ Partial |   | Signing workflow; verification command for customers. SLSA framework: [slsa.dev](https://slsa.dev). |
@@ -325,9 +332,9 @@ Mechanisms for verifying software origins, tamper prevention, change tracking, a
 
  
 
-## **3.4 Secure Development Properties & Security Testing (CRA Annex I, Part I)**
+## **3.4 Secure Development Properties & Security Testing**
 
-CRA Annex I Part I mandates products are designed and produced with security by default. This subsection defines secure product design and development capabilities, not only release testing. Organizations should build security architecture design, secure feature development, threat modeling, and verification practices into the product lifecycle so authentication, least privilege, encryption, logging, data protection, secure update, and attack-surface controls are designed in from the outset. Items here supply required content for the Technical File (§7.1).
+This subsection covers the cybersecurity properties designed into the product and the testing that verifies them, rather than release testing alone. Organizations should build security architecture design, secure feature development, threat modeling, and verification practices into the product lifecycle, so that the properties required by Annex I are designed in from the outset. Items here supply content for the Technical File (§7.1).
 
  
 
@@ -344,6 +351,17 @@ CRA Annex I Part I mandates products are designed and produced with security by 
 | **3.4.9** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] A threat model must be produced for each product, covering the attack surface, threat actors, attack vectors, and mitigating controls. The threat model must be updated upon significant architectural change. | ☐ Yes   ☐ No   ☐ Partial |   | Threat model document; methodology used (e.g., STRIDE, PASTA); update history. |
 | **3.4.10** | \[CONFORMITY EVIDENCE / IMPLEMENTATION CONTROL\] A documented release security gate must exist and must be passed before any product version is placed on the EU market. The gate must verify that all critical and high security findings are resolved or formally risk-accepted. | ☐ Yes   ☐ No   ☐ Partial |   | Release gate checklist; sign-off evidence; exception log for accepted risks. |
 | **3.4.11** | \[GOOD PRACTICE\] The organization should maintain a documented secure coding standard covering input validation, authentication, session management, error handling, and cryptographic usage, and must train developers on its application. | ☐ Yes   ☐ No   ☐ Partial |   | Secure coding standard document; developer training records. |
+| **3.4.12** | \[CRA REQUIREMENT\] The product must be made available on the market without known exploitable vulnerabilities. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Vulnerability register at release with exploitability assessment; disposition records for unresolved findings; release approval. Related implementation controls: §3.4.5-§3.4.7, §3.4.10. |
+| **3.4.13** | \[CRA REQUIREMENT\] The product must protect against unauthorized access through appropriate control mechanisms, including authentication and identity or access management, and must report on possible unauthorized access. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Identity and access management design; authentication and authorization documentation; role and privilege model; unauthorized-access reports. See also §3.4.1. |
+| **3.4.14** | \[CRA REQUIREMENT\] The product must protect the confidentiality of stored, transmitted or otherwise processed data, personal or other. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Data classification map; encryption policy; record of the technical means applied. Related implementation control: §3.4.3. |
+| **3.4.15** | \[CRA REQUIREMENT\] The product must protect the integrity of stored, transmitted or otherwise processed data, personal or other, and of commands, programs and configuration, against any manipulation or modification not authorised by the user, and must report on corruptions. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Record of integrity protections for data, commands, programs and configuration; verification mechanism; corruption reporting. Related implementation controls: §3.4.3, §3.3.2; neither covers the running product. |
+| **3.4.16** | \[CRA REQUIREMENT\] The product must process only data, personal or other, that are adequate, relevant and limited to what is necessary in relation to the intended purpose of the product. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Inventory of data processed with necessity assessment; data minimisation policy. Related implementation control: §7.2.5. |
+| **3.4.17** | \[CRA REQUIREMENT\] The product must protect the availability of essential and basic functions, also after an incident, including through resilience and mitigation measures against denial-of-service attacks. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Identification of essential and basic functions; record of resilience and denial-of-service measures; availability after an incident. See also §3.4.2. |
+| **3.4.18** | \[CRA REQUIREMENT\] The product must minimise the negative impact by the product itself or connected devices on the availability of services provided by other devices or networks. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Record of outbound behaviour; assessment of effect on other devices and networks; measures limiting that effect. See also §3.4.2. |
+| **3.4.19** | \[CRA REQUIREMENT\] The product must be designed, developed and produced to reduce the impact of an incident using appropriate exploitation mitigation mechanisms and techniques. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Record of exploitation mitigation mechanisms applied, with selection rationale. Related implementation control: §3.4.4. |
+| **3.4.20** | \[CRA REQUIREMENT\] The product must provide security related information by recording and monitoring relevant internal activity, including the access to or modification of data, services or functions, with an opt-out mechanism for the user. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Definition of internal activity recorded and monitored; how the information is made available to the user; opt-out mechanism and default state. |
+| **3.4.21** | \[CRA REQUIREMENT\] The product must provide the possibility for users to securely and easily remove on a permanent basis all data and settings and, where such data can be transferred to other products or systems, must ensure that this is done in a secure manner. The applicability of this requirement to the product, and the manner in which it applies, are determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Description of the user-facing removal function; test records demonstrating permanent removal; secure transfer function where appropriate. Related implementation control: §6.1.7. |
+| **3.4.22** | \[CRA REQUIREMENT\] The manufacturer must apply effective and regular tests and reviews of the security of the product. The manner in which this requirement applies is determined by the cybersecurity risk assessment under §2.6. | ☐ Yes   ☐ No   ☐ Partial |   | Record of tests and reviews applied, their scope and frequency; findings and their resolution. Related implementation controls: §3.4.5, §3.4.6, §3.4.7. |
 
  
 
@@ -395,7 +413,7 @@ Process for continuously monitoring all identified software components in suppor
 
 | Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
 | :---- | :---- | :---- | :---- | :---- |
-| **4.1.1** | \[CRA REQUIREMENT\] During the support period, the organization must continuously monitor all identified software components contained in supported products against relevant vulnerability databases, supplier advisories, and other reliable vulnerability sources. Monitoring must be performed at a documented, risk-based frequency and at a documented, risk-based frequency; daily monitoring may be used as an organisational implementation target where automated monitoring is available. Known gaps in component coverage must be documented and addressed through supplementary identification and monitoring measures. | ☐ Yes   ☐ No   ☐ Partial |   | Tool configuration; EUVD ([euvd.enisa.europa.eu](https://euvd.enisa.europa.eu)) feed; NVD, OSV, GitHub Advisory feeds; example alert triggered by a new CVE. |
+| **4.1.1** | \[CRA REQUIREMENT\] During the support period, the organization must continuously monitor all identified software components contained in supported products against relevant vulnerability databases, supplier advisories, and other reliable vulnerability sources. Monitoring must be performed at a documented, risk-based frequency; daily monitoring may be used as an organisational implementation target where automated monitoring is available. Known gaps in component coverage must be documented and addressed through supplementary identification and monitoring measures. | ☐ Yes   ☐ No   ☐ Partial |   | Tool configuration; EUVD ([euvd.enisa.europa.eu](https://euvd.enisa.europa.eu)) feed; NVD, OSV, GitHub Advisory feeds; example alert triggered by a new CVE. |
 | **4.1.2** | \[GOOD PRACTICE\] Monitoring results should be logged and retained for audit purposes. | ☐ Yes   ☐ No   ☐ Partial |   | Scan schedule configuration; log retention policy. |
 | **4.1.3** | \[GOOD PRACTICE\] A defined intake process should triage new vulnerability alerts within a documented, risk-based SLA. | ☐ Yes   ☐ No   ☐ Partial |   | Triage SLA table in vulnerability management policy. |
 | **4.1.4** | \[GOOD PRACTICE\] Vulnerability data should be enriched with contextual scoring (e.g., EPSS, KEV catalog status) to support risk-based prioritization. A documented Patch SLA Matrix should define response timelines by severity tier. | ☐ Yes   ☐ No   ☐ Partial |   | Enrichment pipeline documentation; Patch SLA Matrix; example enriched alert record. |
@@ -537,7 +555,7 @@ This subsection applies where an organization uses legacy, unsupported, end-of-l
 
 # **Section 6: Security Updates & Support Period**
 
-CRA Article 13(2) requires manufacturers to formally document the expected support period and provide security updates throughout that period.
+CRA Article 13(8) requires manufacturers to formally document the expected support period and provide security updates throughout that period.
 
  
 
@@ -547,7 +565,7 @@ CRA Article 13(2) requires manufacturers to formally document the expected suppo
 
 | Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
 | :---- | :---- | :---- | :---- | :---- |
-| **6.1.1** | \[CRA REQUIREMENT\] The organization must define and publish the expected support period for each product with digital elements placed on the EU market. The support period must be at least five years unless the expected product lifetime is shorter. A rolling-release model is also a valid approach, provided the end of support is clearly communicated and security updates are provided throughout (CRA Art. 13(2)). | ☐ Yes   ☐ No   ☐ Partial |   | Product lifecycle documentation; public-facing support statement; legal justification if period is less than 5 years; rolling-release policy if applicable. |
+| **6.1.1** | \[CRA REQUIREMENT\] The organization must define and publish the expected support period for each product with digital elements placed on the EU market. The support period must be at least five years unless the expected product lifetime is shorter. A rolling-release model is also a valid approach, provided the end of support is clearly communicated and security updates are provided throughout (CRA Art. 13(8)). | ☐ Yes   ☐ No   ☐ Partial |   | Product lifecycle documentation; public-facing support statement; legal justification if period is less than 5 years; rolling-release policy if applicable. |
 | **6.1.2** | \[CRA REQUIREMENT\] Security updates addressing identified security issues must be disseminated without delay and, unless otherwise agreed between a manufacturer and a business user for a tailor-made product with digital elements, free of charge (CRA Annex I Part II, point (8)). Issued security updates must remain available for the period required by CRA Art. 13(9). | ☐ Yes   ☐ No   ☐ Partial |   | Patch management policy; release history showing security updates issued within support window. |
 | **6.1.3** | \[CRA REQUIREMENT\] The organization must document, implement, and test a secure software update mechanism including integrity verification of update packages, protection against rollback attacks, and automatic delivery by default where technically feasible with user opt-out capability. | ☐ Yes   ☐ No   ☐ Partial |   | Update architecture document; signing key management; rollback-prevention test records; automatic update configuration. |
 | **6.1.4** | \[CRA REQUIREMENT\] End-of-support dates and associated security implications must be communicated to customers and downstream integrators, including at least the month and year at the time of purchase in an easily accessible manner (CRA Art. 13(8), 13(19)). As good practice, where feasible, at least 12 months advance notice should be given before the final security update. | ☐ Yes   ☐ No   ☐ Partial |   | Customer communication records; EoL announcement template; advance notice evidence. |
@@ -572,10 +590,10 @@ CRA Articles 13(12), 13(13), 28, 31, and Annex VII require manufacturers to prep
 | Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
 | :---- | :---- | :---- | :---- | :---- |
 | **7.1.1** | \[CRA REQUIREMENT\] The organization must maintain a Technical File for each in-scope product containing all elements required by CRA Annex VII: product description, design documents, cybersecurity risk assessment, SDL evidence, security test results, SBOM, connections audit, EU Declaration of Conformity, and EOL declaration. | ☐ Yes   ☐ No   ☐ Partial |   | Technical File index; storage location; access control. CRA Annex VII checklist. |
-| **7.1.2** | \[CRA REQUIREMENT\] The organization must perform and maintain a documented cybersecurity risk assessment including threat modelling (attack surface, threat actors, attack vectors) with a documented methodology. The assessment must be performed before development begins and updated throughout the product lifecycle. | ☐ Yes   ☐ No   ☐ Partial |   | Risk assessment report; threat model document; update history reviewed at each major release. |
+| **7.1.2** | \[CRA REQUIREMENT\] The cybersecurity risk assessment required by §2.6, together with the clear justification for any essential requirement determined not to be applicable, must be included in the technical documentation and kept current for the version placed on the market. | ☐ Yes   ☐ No   ☐ Partial |   | Technical File index entry for the cybersecurity risk assessment and for the applicability justifications; see §2.6.2 and §2.6.6. CRA Art. 13(4); Art. 31; Annex VII. |
 | **7.1.3** | \[CRA REQUIREMENT\] The Technical File must be accessible to designated personnel and must be capable of being produced to a market surveillance authority (MSA) within the legally required timeframe. | ☐ Yes   ☐ No   ☐ Partial |   | File retrieval SLA; named custodian. |
-| **7.1.4** | \[CRA REQUIREMENT\] SBOMs included in the Technical File must be the same machine-readable artifacts generated by the CI/CD pipeline (no manual transcription). | ☐ Yes   ☐ No   ☐ Partial |   | Pipeline artifact link to Technical File storage. |
-| **7.1.5** | \[CRA REQUIREMENT\] Technical documentation must be retained for at least 10 years after placement on the market, or for the expected product lifetime or support period if longer (CRA Art. 13(13)). | ☐ Yes   ☐ No   ☐ Partial |   | Retention policy; archive location; destruction schedule. |
+| **7.1.4** | \[CRA REQUIREMENT\] SBOMs included in the Technical File must be the same machine-readable artifacts generated by the software delivery pipeline (no manual transcription). | ☐ Yes   ☐ No   ☐ Partial |   | Pipeline artifact link to Technical File storage. |
+| **7.1.5** | \[CRA REQUIREMENT\] Technical documentation must be retained for at least 10 years after market placement, or the support period if longer (CRA Art. 13(13)). | ☐ Yes   ☐ No   ☐ Partial |   | Retention policy; archive location; destruction schedule. |
 | **7.1.6** | \[GOOD PRACTICE\] The organization should maintain a documented MSA response workflow defining how a Technical File request from a market surveillance authority is received, processed, and fulfilled within the legally required timeframe. | ☐ Yes   ☐ No   ☐ Partial |   | MSA response SOP; named responsible contact; estimated fulfillment timeline. |
 
  
@@ -594,7 +612,7 @@ CRA Articles 13(12), 13(13), 28, 31, and Annex VII require manufacturers to prep
 
  
 
-## **7.3 User-Facing Documentation (CRA Art. 13(18) / Annex II)**
+## **7.3 User-Facing Documentation, EU Declaration of Conformity & CE Marking (CRA Art. 13(18), Art. 28 & 30 / Annex II)**
 
 CRA Art. 13(18) and Annex II require manufacturers to provide clear and understandable information and instructions to users. Note: CRA Art. 24 governs OSS Steward obligations, not manufacturer user-facing documentation.
 
@@ -605,11 +623,11 @@ CRA Art. 13(18) and Annex II require manufacturers to provide clear and understa
 | **7.3.1** | \[CRA REQUIREMENT\] The organization must provide information and instructions to users in a language easily understood by them, covering: intended use, cybersecurity properties, how to configure security settings, the declared end-of-support date, and how to report vulnerabilities (CRA Art. 13(18) / Annex II). | ☐ Yes   ☐ No   ☐ Partial |   | User manual or README; Annex II compliance checklist; language coverage evidence. |
 | **7.3.2** | \[CRA REQUIREMENT\] The EU DoC must be kept up-to-date and must be updated upon any significant product change affecting the conformity assessment basis. | ☐ Yes   ☐ No   ☐ Partial |   | DoC version history; update procedure documentation. |
 | **7.3.3** | \[CRA REQUIREMENT\] The CE marking (or, for software-only products distributed digitally, a digital CE marking accessible on the product website) must be affixed before EU market placement (CRA Art. 30). | ☐ Yes   ☐ No   ☐ Partial |   | CE mark placement evidence (screenshot, label photograph, or packaging proof); digital CE mark URL. |
-| **7.3.4** | \[CRA REQUIREMENT\] The EU DoC must be made available to market surveillance authorities and must be retained for at least 10 years after last placement on the EU market. | ☐ Yes   ☐ No   ☐ Partial |   | DoC storage location; access control; retention policy entry. |
+| **7.3.4** | \[CRA REQUIREMENT\] The EU DoC must be made available to market surveillance authorities and must be retained for at least 10 years after market placement, or the support period if longer (CRA Art. 13(13)). | ☐ Yes   ☐ No   ☐ Partial |   | DoC storage location; access control; retention policy entry. |
 
  
 
-## **7.4 EU Declaration of Conformity & CE Marking (CRA Art. 28 & 30\)**
+## **7.4 EU Authorized Representative**
 
  
 
@@ -620,11 +638,6 @@ CRA Art. 13(18) and Annex II require manufacturers to provide clear and understa
 | **7.4.3** | \[LEGAL REVIEW / IMPLEMENTATION CONTROL\] Where an authorised representative pathway is used, the organization must maintain the written mandate required by CRA Article 18 and confirm, through product-specific legal analysis, whether any product, packaging, documentation, or other contact-detail marking obligations apply under CRA or other applicable Union harmonisation legislation. CRA Article 18 does not itself impose an authorised-representative product-labeling requirement. | ☐ Yes   ☐ No   ☐ Partial |   | Product label or documentation showing AR details. |
 | **7.4.4** | \[CRA REQUIREMENT\] Where the AR pathway is chosen, the AR must be provided with a copy of the EU DoC and Technical File and must be empowered to act on behalf of the manufacturer in dealings with market surveillance authorities. | ☐ Yes   ☐ No   ☐ Partial |   | Document transmission record; access confirmation from AR. |
 | **7.4.5** | \[GOOD PRACTICE\] Where the AR pathway is chosen, the organization should maintain documented operational procedures governing how the AR fulfills the Art. 18(3) obligations in practice, including escalation paths and communication protocols with MSAs. | ☐ Yes   ☐ No   ☐ Partial |   | AR operational procedure document; communication protocol; escalation path. |
-
- 
-
-| Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
-| :---- | :---- | :---- | :---- | :---- |
 
  
 
@@ -734,7 +747,7 @@ The following phased model provides a structured approach to achieving self-cert
 | **8 \- Technical File & CE** | Compile Technical Files; draft EU DoC; affix CE marking; confirm AR/importer/fulfillment arrangement (§7.1-7.4). | Compliance PM | Month 6-8 |
 | **8A \- Cross-Framework** | NIS2 (§8.1); AI Act (§8.2); DORA (§8.3); Data Act (§8.4); eIDAS (§8.5). | Legal \+ CISO | Month 7-9 |
 | **8B \- Procurement** | Vendor CRA qualification (§9.1). | Legal \+ Procurement | Month 7-9 |
-| **9 \- Self-Certification** | Complete this checklist; remediate gaps; conduct internal audit (§2.4.5); file conformance claim. Total items: 170\. | CRA Program Mgr | Month 8-10 |
+| **9 \- Self-Certification** | Complete this checklist; remediate gaps; conduct internal audit (§2.4.5); file conformance claim. Total items: 193\. | CRA Program Mgr | Month 8-10 |
 | **10 \- Continuous Ops** | Annual review (§2.4); training refresh; SBOM quality; advisory cadence; annual tabletop exercise; PT1/PT3 monitoring. | All owners | Ongoing |
 
  
@@ -758,14 +771,14 @@ Upon completing all checklist items, complete the attestation below.
 | **Self-Certification Date** | \[Date\] |
 | **CRA Program Manager** | \[INSERT: Name, Title \- Signature required for formal submission\] |
 | **Next Review Date** | \[Date \- max 12 months from above\] |
-| **Items answered Yes** | \[  \] of 170 total checklist items |
+| **Items answered Yes** | \[  \] of 193 total checklist items |
 | **Items answered No/Partial** | \[  \] \- gap remediation plan attached: Yes / No |
 
  
 
  
 
-# **Appendix B \- Definitions / Glossary**
+# **Annex A \- Definitions / Glossary**
 
 The following terms are used throughout this document. Definitions align with CRA Regulation (EU) 2024/2847 Art. 3 unless otherwise noted.
 
@@ -792,7 +805,7 @@ The following terms are used throughout this document. Definitions align with CR
 
  
 
-# **Appendix A \- CRA Annex I Traceability Matrix**
+# **Annex B \- CRA Annex I Traceability Matrix**
 
 This matrix maps each CRA Annex I essential requirement to the corresponding control(s) in this document.
 
@@ -800,30 +813,38 @@ This matrix maps each CRA Annex I essential requirement to the corresponding con
 
 | CRA Annex I Requirement | Part | Control (Section Ref) | Evidence Expected |
 | :---- | :---- | :---- | :---- |
-| No known exploitable vulnerabilities at time of placing on market | Part I, §1 | 3.4.5, 3.4.6, 3.4.7 | SAST/DAST results; pentest report; vulnerability register showing zero unresolved critical findings at release |
-| Secure by default configuration | Part I, §2 | 3.4.1, 3.4.2 | Secure defaults checklist; no default credentials policy; attack surface map |
-| Protection against unauthorized access | Part I, §3 | 3.4.1, 3.4.3 | Authentication policy; TLS configuration audit; access control documentation |
-| Protection of confidentiality and integrity of data | Part I, §4 | 3.4.3 | Encryption policy; data classification map; TLS 1.2+ configuration evidence |
-| Availability protection and resilience | Part I, §5 | 3.4.2, 4.3 | Attack surface minimization evidence; incident response plan |
-| Minimization of attack surface | Part I, §6 | 3.4.2 | Port/service inventory; hardening guide; network exposure map |
-| Reduction of incident impact | Part I, §7 | 4.3, 4.4 | Escalation matrix; incident response runbook; Art. 14 RACI |
-| Security update mechanism | Part I, §8 | 6.1.2, 6.1.3 | Update architecture; signing key management; rollback-prevention test records |
-| Vulnerability disclosure policy | Part II, §1 (Annex I Part II(5)) | 4.4.7 | CVD policy URL; security.txt; SECURITY.md |
-| Handling of known vulnerabilities | Part II, §2 | 4.1, 4.2, 4.3 | Vulnerability monitoring; exploitability exchange; triage SLA; patch SLA |
-| Regular security updates | Part II, §3 | 6.1.2 | Patch release history; update delivery mechanism |
-| Coordinated vulnerability disclosure | Part II, §4 | 4.4.7, 4.4.8 | CVD policy; advisory publication records |
-| Mandatory regulatory notification (Art. 14\) | Part II, §5 | 4.4.2-4.4.6, 4.5 | SRP submission runbook; RACI; tabletop exercise or internal reporting simulation record |
-| SBOM documentation (covering at least top-level dependencies) | Part II, §6 | 3.1, 3.2 | Machine-readable SBOM; CISA 2025 minimum-element field coverage; license information fields (CISA 2025; ISO/IEC 18974/5230); file/snippet-level reference handling where applicable |
+| No known exploitable vulnerabilities at time of placing on market | Part I(2)(a) | 3.4.12, 3.4.5, 3.4.6, 3.4.7, 3.4.10 | Vulnerability register at release with exploitability assessment; finding disposition records; SAST/DAST results; pentest report; release gate sign-off |
+| Secure by default configuration | Part I(2)(b) | 3.4.1, 3.4.2 | Secure defaults checklist; no default credentials policy; attack surface map |
+| Security update mechanism | Part I(2)(c) | 6.1.2, 6.1.3 | Update architecture; signing key management; rollback-prevention test records |
+| Protection against unauthorized access | Part I(2)(d) | 3.4.1, 3.4.13 | Authentication policy; identity and access management design; role and privilege model; access control documentation; records of unauthorized-access reporting |
+| Protection of confidentiality of data | Part I(2)(e) | 3.4.14, 3.4.3 | Data classification map; encryption policy; record of the technical means applied; TLS 1.2+ configuration evidence |
+| Protection of integrity of data, commands, programs and configuration | Part I(2)(f) | 3.4.15, 3.4.3, 3.3.2 | Record of the integrity protections applied; verification mechanism for programs and configuration; corruption reporting mechanism; TLS 1.2+ configuration evidence; artifact manifest with hash values |
+| Data minimization | Part I(2)(g) | 3.4.16, 7.2.5 | Inventory of the data processed by the product with necessity assessment; data minimisation policy; telemetry data inventory; outbound connections audit log |
+| Availability protection and resilience | Part I(2)(h) | 3.4.17, 3.4.2 | Identification of the essential and basic functions; record of the resilience and denial-of-service mitigation measures applied; attack surface minimization evidence |
+| Minimization of negative impact on other devices and networks | Part I(2)(i) | 3.4.18 | Record of the outbound behaviour of the product; assessment of its effect on other devices and networks; measures applied to limit that effect |
+| Minimization of attack surface | Part I(2)(j) | 3.4.2 | Port/service inventory; hardening guide; network exposure map |
+| Exploitation mitigation | Part I(2)(k) | 3.4.19, 3.4.4 | Record of the exploitation mitigation mechanisms and techniques applied, with selection rationale; build flag configuration; language or runtime selection rationale; exception register |
+| Security-related information through recording and monitoring of internal activity | Part I(2)(l) | 3.4.20 | Definition of the internal activity recorded and monitored; description of how the recorded information is made available to the user; opt-out mechanism and its default state |
+| Secure and permanent removal of user data and settings | Part I(2)(m) | 3.4.21, 6.1.7 | Description of the user-facing removal function; test records demonstrating permanent removal; description of the secure transfer function where appropriate; data sanitization procedure |
+| SBOM documentation (covering at least top-level dependencies) | Part II(1) | 3.1, 3.2 | Machine-readable SBOM; CISA 2025 minimum-element field coverage; license information fields (CISA 2025; ISO/IEC 18974/5230); file/snippet-level reference handling where applicable |
+| Handling of known vulnerabilities | Part II(2) | 4.1, 4.2, 4.3 | Vulnerability monitoring; exploitability exchange; triage SLA; patch SLA |
+| Regular security tests and reviews | Part II(3) | 3.4.22, 3.4.5, 3.4.6, 3.4.7 | Record of the tests and reviews applied, their scope and frequency; SAST results; DAST or fuzzing output; pentest report; finding tracker |
+| Coordinated vulnerability disclosure | Part II(4) | 4.4.7, 4.4.8 | CVD policy; advisory publication records |
+| Vulnerability disclosure policy | Part II(5) | 4.4.7 | CVD policy URL; security.txt; SECURITY.md |
+| Contact address for reporting potential vulnerabilities | Part II(6) | 4.4.7 | CVD policy contact point; security.txt; identifiable reporting mechanism |
+| Secure distribution of updates | Part II(7) | 6.1.3 | Update architecture document; signing key management; integrity verification of update packages |
+| Regular security updates | Part II(8) | 6.1.2 | Patch release history; update delivery mechanism |
+| Mandatory regulatory notification (Art. 14\) | Art. 14 | 4.4.2-4.4.6, 4.5 | SRP submission runbook; RACI; tabletop exercise or internal reporting simulation record |
 | Secure development lifecycle | Part I (general) | 3.3, 3.4, 3.6, 5.3 | Build provenance; secrets management; signing; SAST/DAST; third-party software qualification; self-maintained OSS controls where applicable |
 | Risk assessment documented | CRA Art. 13(2)–(4); Annex VII | 2.6, 7.1.1, 7.1.2 | Risk assessment report; threat model; update history |
 | Technical file compiled | Annex VII | 7.1 | Technical File index; storage location; MSA retrieval SLA |
-| EU Declaration of Conformity (Module A per Annex VIII Part 1\) | Annex V \+ Annex VIII Part 1 | 7.3.1-7.3.4 | Completed DoC per Annex V; CE mark evidence; retention record |
+| EU Declaration of Conformity (Module A per Annex VIII Part 1\) | Annex V \+ Annex VIII Part 1 | 7.3.2-7.3.4 | Completed DoC per Annex V; CE mark evidence; retention record |
 
  
 
  
 
-# **Appendix C \- ISO/IEC 18974 & OWASP SAMM Cross-Reference Mapping**
+# **Annex C \- ISO/IEC 18974 & OWASP SAMM Cross-Reference Mapping**
 
 This mapping shows how ISO/IEC 18974 clauses and OWASP SAMM practices align with checklist sections. PT1/PT3 placeholder rows will be updated when final versions are published.
 
@@ -849,34 +870,22 @@ This mapping shows how ISO/IEC 18974 clauses and OWASP SAMM practices align with
 
 Community contribution: OpenSSF GCP and Eclipse ORC have offered to contribute implementation guidance for specific sections. Contributions welcome via GitHub pull request.
 
- 
-
-The working group welcomes anonymized implementation case studies from adopting organizations. If your organization has implemented this checklist and is willing to share your experience (anonymized), please contact the working group lead or open a GitHub issue at github.com/OpenChain-Project/CRA-Compliance.
-
- 
-
- 
-
-# **Annex D — External References and Adoption**
-
-The live external references and adoption register is maintained separately from this checklist to allow public references, confirmations, and community adoption evidence to be updated without changing the normative checklist content.
-
-Register: [ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
-
-Inclusion in the register means that an organization, public forum, event, or resource has referenced, used, evaluated, or relied on the OpenChain CRA Checklist. Inclusion does not imply endorsement, certification, legal approval, OpenChain membership, sponsorship, audit status, or a statement of CRA compliance.
 
 
-# **Annex E — Contributors and Reviewers**
 
-The live contributor and reviewer register is maintained separately from this checklist so attribution, organizational context, and contribution details can be updated without changing the normative checklist content.
 
-Register: [CONTRIBUTORS.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/CONTRIBUTORS.md)
+# **Annex D \- Additional Project Information**
 
-# **Annex F — Revision History**
+Supporting information related to this checklist and the associated project, including external references and adoption, contributors and reviewers, revision history, and other project resources, is maintained separately from this checklist and is available at:
 
-The revision history is maintained separately from this checklist to preserve a concise public record of authorship, review cycles, and major changes while keeping the checklist front matter aligned with OpenChain document style.
+[https://cra-compliance.openchainproject.org](https://cra-compliance.openchainproject.org)
 
-Register: [REVISION_HISTORY.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/REVISION_HISTORY.md)
+These materials may be updated independently of the checklist to reflect ongoing community activity, attribution, adoption information, and project development. Any references to organizations, events, resources, or individuals do not imply endorsement, certification, legal approval, OpenChain membership, sponsorship, audit status, or a statement of CRA compliance.
+
+OpenChain welcomes anonymized implementation case studies from adopting organizations. If your organization has implemented this checklist and is willing to share your experience (anonymized), please contact us through the resources and contact channels provided at [https://cra-compliance.openchainproject.org](https://cra-compliance.openchainproject.org).
+
+
+
 
 
 # **References & Implementation Resources**
