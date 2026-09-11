@@ -66,7 +66,7 @@ During review windows, feedback is collected through:
 **At the conclusion of the public comment period, collected issues are addressed by the Study Group through scheduled calls, GitHub review, or the mailing list.**
 
 > [!NOTE]
-> The current pre-1.0 review draft is staged on `review/open-comments-pre-v1`. The main branch remains the RC1 release baseline until approved changes are merged for Version 1.0.
+> Version 1.0 has been released. Future changes should be proposed through GitHub issues or pull requests and considered for a later release.
 
 ---
 
