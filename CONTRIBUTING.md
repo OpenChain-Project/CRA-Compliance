@@ -4,6 +4,15 @@
 > **Legacy information**
 > 
 > The contribution process will be updated for post-v1.0 contribution. Expect updates in the coming days.
+>
+> Feedback via [GitHub issues](https://github.com/OpenChain-Project/CRA-Compliance/issues) is welcome any time.
+> 
+> For active discussion and further participation, everyone is invited to join the Study Group meetings and mailing list:
+> - [Calendar](https://openchainproject.org/participate)
+>   - OpenChain Business Operations Study Group EU/ASIA on Monday 11:00 UTC (bi-weekly)
+>   - OpenChain Business Operations Study Group NA/EU (CRA Checklist focus) on Tuesday 14:00 UTC
+> - [Mailing list](https://lists.openchainproject.org/g/OpenChain-BusinessOps-Study-Group)
+
 
 The OpenChain CRA Compliance Requirements & Checklist is a community-maintained, OpenChain-aligned self-certification and readiness resource for organizations preparing for EU Cyber Resilience Act obligations.
 
