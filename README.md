@@ -24,7 +24,7 @@ The checklist covers program governance, product assessment, SBOM quality, vulne
 
 ## Checklist Structure
 
-The pre-1.0 review draft covers 9 sections and 193 checklist items:
+Version 1.0 covers 9 sections and 193 checklist items:
 
 | Section | Topic | Items |
 |---|---|---|

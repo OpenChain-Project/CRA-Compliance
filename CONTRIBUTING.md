@@ -1,11 +1,16 @@
 # OpenChain CRA Compliance Requirements & Checklist review & contribution workflow
 
+> [!IMPORTANT]
+> **Legacy information**
+> 
+> The contribution process will be updated for post-v1.0 contribution. Expect updates in the coming days.
+
 The OpenChain CRA Compliance Requirements & Checklist is a community-maintained, OpenChain-aligned self-certification and readiness resource for organizations preparing for EU Cyber Resilience Act obligations.
 
 Feedback and proposed changes are tracked through GitHub issues and pull requests. Community comments may also be submitted through the public Google Doc during review windows. The Business Operations Study Group mailing list may be used for broader discussion.
 
 For detailed information and valid channels per release phase see details below:
-- [Public Comment Phase - after RC1](#public-comment-phase---after-rc1)
+- [Public Comment Phase - after RC1](#public-comment-phase---after-rc1) (concluded)
 - [Initial Contribution Phase - before RC1](#initial-contribution-phase---before-rc1) (concluded)
 
 ## Timeline & Release schedule
