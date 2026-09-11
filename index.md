@@ -5,7 +5,6 @@ title: OpenChain CRA Compliance
 
 # OpenChain CRA Compliance
 
-> [!Important]
 > *The CRA (Regulation (EU) 2024/2847) establishes mandatory cybersecurity requirements for products with digital elements placed on the EU market. Organizations that develop, maintain, or distribute software with digital elements must ensure their products meet essential cybersecurity requirements throughout the product lifecycle.*
 > 
 > **The Cyber Resilience Act's main obligations apply from 11 December 2027, with reporting obligations already applying as of 11 September 2026.**
@@ -18,7 +17,7 @@ The OpenChain CRA Compliance Requirements & Checklist is a community-maintained,
 
 The checklist is mapped to Regulation (EU) 2024/2847 and aligned with ISO/IEC 18974, ISO/IEC 5230, and relevant SBOM guidance including BSI TR-03183. It covers governance, product assessment, SBOM quality, vulnerability handling, regulatory reporting, OSS stewardship, technical-file evidence, security updates, and supply-chain obligations.
 
-* [**Read the CRA Checklist**](CRA_Checklist_latest.md)
+* [**→ Read the CRA Checklist**](CRA_Checklist_latest.md)
 
 
 
