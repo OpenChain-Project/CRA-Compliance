@@ -883,11 +883,11 @@ Community contribution: OpenSSF GCP and Eclipse ORC have offered to contribute i
 
 Supporting information related to this checklist and the associated project, including external references and adoption, contributors and reviewers, revision history, and other project resources, is maintained separately from this checklist and is available at:
 
-https://cra-compliance.openchainproject.org
+[https://cra-compliance.openchainproject.org](https://cra-compliance.openchainproject.org)
 
 These materials may be updated independently of the checklist to reflect ongoing community activity, attribution, adoption information, and project development. Any references to organizations, events, resources, or individuals do not imply endorsement, certification, legal approval, OpenChain membership, sponsorship, audit status, or a statement of CRA compliance.
 
-OpenChain welcomes anonymized implementation case studies from adopting organizations. If your organization has implemented this checklist and is willing to share your experience (anonymized), please contact us through the resources and contact channels provided at https://cra-compliance.openchainproject.org.
+OpenChain welcomes anonymized implementation case studies from adopting organizations. If your organization has implemented this checklist and is willing to share your experience (anonymized), please contact us through the resources and contact channels provided at [https://cra-compliance.openchainproject.org](https://cra-compliance.openchainproject.org).
 
 
 
