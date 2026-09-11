@@ -9,10 +9,15 @@ Regulation (EU) 2024/2847 | ISO/IEC 18974 | ISO/IEC 5230 | BSI TR-03183
 Version: 1.0 | Date: 11 Sep 2026 | Status: released 
 License: CC-BY-4.0
 
-OpenChain CRA Compliance page: [https://cra-compliance.openchainproject.org](https://cra-compliance.openchainproject.org)
+OpenChain page: [openchainproject.org/cracompliance](https://openchainproject.org/cracompliance)  
+GitHub: [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)  
+Community comments: [Google Doc (open for comments)](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing)
 
-This document was developed as an open initiative with feedback received from OpenChain contributors. 
-See [Annex D](#annex-d---additional-project-information) for further information.
+Supporting registers and project history:
+
+* [Contributors and Reviewers](CONTRIBUTORS.md)
+* [Revision History](REVISION_HISTORY.md)
+* [External References, Use, Tooling, and Adoption](ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
 
 Completing or signing this checklist does not in itself constitute a CRA conformity assessment, an EU Declaration of Conformity, or evidence of lawful CE marking. This document is a readiness and evidence-management tool supporting the applicable conformity-assessment procedure. This document does not constitute legal advice; consult qualified legal counsel before formal regulatory submission.
 
