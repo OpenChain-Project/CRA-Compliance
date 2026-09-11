@@ -1,3 +1,12 @@
+---
+layout: subpage
+title: OpenChain CRA Compliance Requirements & Checklist
+---
+
+[Review & Contribution Workflow](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTING.md#openchain-cra-compliance-requirements--checklist-review--contribution-workflow) | [Mailing List](https://lists.openchainproject.org/g/OpenChain-BusinessOps-Study-Group)
+
+---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/OpenChain-Project/Image-Assets/master/Official/Project-Logo/Long-Logo/long-logo.png" alt="OpenChain Project" width="360">
 </p>
