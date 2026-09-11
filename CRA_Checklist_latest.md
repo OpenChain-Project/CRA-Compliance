@@ -879,7 +879,7 @@ Community contribution: OpenSSF GCP and Eclipse ORC have offered to contribute i
 
 
 
- # **Annex D - Additional Project Information**
+ # **Annex D \- Additional Project Information**
 
 Supporting information related to this checklist and the associated project, including external references and adoption, contributors and reviewers, revision history, and other project resources, is maintained separately from this checklist and is available at:
 
