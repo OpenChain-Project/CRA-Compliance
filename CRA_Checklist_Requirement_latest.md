@@ -963,11 +963,9 @@ References marked as "draft" or "pending" are informational only and non-binding
 
  
 
-●  OpenChain CRA Compliance page \- [openchainproject.org](https://openchainproject.org/cracompliance)
+●  OpenChain CRA Compliance page \- [https://cra-compliance.openchainproject.org/](https://cra-compliance.openchainproject.org/)
 
 ●  OpenChain CRA Compliance GitHub \- [github.com/OpenChain-Project/CRA-Compliance](https://github.com/OpenChain-Project/CRA-Compliance)
-
-●  Community comments Google Doc \- [Google Doc (open for comments)](https://docs.google.com/document/d/1Wog28BZ9NQhY3tN9Wc2NDml2phBDuvYu9zkXSON5z5o/edit?usp=sharing)
 
 ●  OpenSSF SBOM Everywhere SIG \- [github.com/ossf/sbom-everywhere](https://github.com/ossf/sbom-everywhere)
 
