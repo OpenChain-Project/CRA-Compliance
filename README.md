@@ -14,13 +14,13 @@ The checklist covers program governance, product assessment, SBOM quality, vulne
 
 | File | Description |
 |---|---|
-| `CRA_Checklist_Requirement_latest.md` | Release-target checklist on this branch, currently matching the pre-1.0 review draft |
-| `CRA_Checklist_Requirement_pre_v1_review.md` | Full proposed pre-1.0 review draft |
+| `CRA_Checklist_Requirement_latest.md` | Release-target checklist on this branch, currently matching the version 1.0 |
 | `CONTRIBUTING.md` | Review and contribution workflow |
 | `CONTRIBUTORS.md` | Contributor and reviewer register |
 | `REVISION_HISTORY.md` | Review cycle and major change register |
 | `ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md` | External references, use, tooling, and adoption register |
-| `versions` | Archive directory for prior checklist versions |
+| `1.0` | Archive directory for checklist version 1.0 |
+| `Pre-Release-Versions` | Archive directory for pre-release checklist versions |
 
 ## Checklist Structure
 
@@ -50,11 +50,7 @@ The pre-1.0 review draft covers 9 sections and 193 checklist items:
 
 ## Status
 
-Current pre-1.0 review branch version: **Pre-1.0 Review Draft**
-
-Current main release baseline: **RC1 (Release Candidate)**
-
-Approved changes are staged in [PR #33](https://github.com/OpenChain-Project/CRA-Compliance/pull/33) before final Version 1.0 publication.
+Current main release : **Version 1.0**
 
 ## Contribution Workflow
 
