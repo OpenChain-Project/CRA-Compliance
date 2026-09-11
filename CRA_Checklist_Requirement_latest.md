@@ -6,7 +6,8 @@
 
 Community-Maintained Self-Certification and Readiness Resource  
 Regulation (EU) 2024/2847 | ISO/IEC 18974 | ISO/IEC 5230 | BSI TR-03183  
-Version: 1.0 | Date: 11 Sep 2026 | Status: released 
+Version: 1.0 | Date: 11 Sep 2026 | Status: released
+
 License: CC-BY-4.0
 
 OpenChain CRA Compliance page: [https://cra-compliance.openchainproject.org](https://cra-compliance.openchainproject.org)
