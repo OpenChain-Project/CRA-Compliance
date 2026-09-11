@@ -3,7 +3,7 @@ layout: subpage
 title: OpenChain CRA Compliance Requirements & Checklist
 ---
 
-[Review & Contribution Workflow](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/CONTRIBUTING.md#openchain-cra-compliance-requirements--checklist-review--contribution-workflow) | [Mailing List](https://lists.openchainproject.org/g/OpenChain-BusinessOps-Study-Group)
+[↩ Latest Version](/CRA_Checklist_latest.md)
 
 ---
 
