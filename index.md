@@ -23,9 +23,9 @@ The checklist is mapped to Regulation (EU) 2024/2847 and aligned with ISO/IEC 18
 
 ### Supporting registers
 
-- [External references, use, tooling, and adoption](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
-- [Contributors and reviewers](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/CONTRIBUTORS.md)
-- [Revision history](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/REVISION_HISTORY.md)
+- [External references, use, tooling, and adoption](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
+- [Contributors and reviewers](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/CONTRIBUTORS.md)
+- [Revision history](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/REVISION_HISTORY.md)
 
 ## Project Information
 The CRA Checklist is a workstream inside the [OpenChain Business Operations Study Group](https://openchainproject.org/openchain-business-operations).

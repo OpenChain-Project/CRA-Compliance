@@ -24,9 +24,9 @@ Community comments: [Google Doc (open for comments)](https://docs.google.com/doc
 
 Supporting registers and project history:
 
-* [Contributors and Reviewers](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/CONTRIBUTORS.md)
-* [Revision History](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/REVISION_HISTORY.md)
-* [External References, Use, Tooling, and Adoption](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
+* [Contributors and Reviewers](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/CONTRIBUTORS.md)
+* [Revision History](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/REVISION_HISTORY.md)
+* [External References, Use, Tooling, and Adoption](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
 
 Completing or signing this checklist does not in itself constitute a CRA conformity assessment, an EU Declaration of Conformity, or evidence of lawful CE marking. This document is a readiness and evidence-management tool supporting the applicable conformity-assessment procedure. This document does not constitute legal advice; consult qualified legal counsel before formal regulatory submission.
 
@@ -861,7 +861,7 @@ The working group welcomes anonymized implementation case studies from adopting 
 
 The live external references and adoption register is maintained separately from this checklist to allow public references, confirmations, and community adoption evidence to be updated without changing the normative checklist content.
 
-Register: [ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
+Register: [ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md)
 
 Inclusion in the register means that an organization, public forum, event, or resource has referenced, used, evaluated, or relied on the OpenChain CRA Checklist. Inclusion does not imply endorsement, certification, legal approval, OpenChain membership, sponsorship, audit status, or a statement of CRA compliance.
 
@@ -870,13 +870,13 @@ Inclusion in the register means that an organization, public forum, event, or re
 
 The live contributor and reviewer register is maintained separately from this checklist so attribution, organizational context, and contribution details can be updated without changing the normative checklist content.
 
-Register: [CONTRIBUTORS.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/CONTRIBUTORS.md)
+Register: [CONTRIBUTORS.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/CONTRIBUTORS.md)
 
 # **Annex F — Revision History**
 
 The revision history is maintained separately from this checklist to preserve a concise public record of authorship, review cycles, and major changes while keeping the checklist front matter aligned with OpenChain document style.
 
-Register: [REVISION_HISTORY.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/review/open-comments-pre-v1/REVISION_HISTORY.md)
+Register: [REVISION_HISTORY.md](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/REVISION_HISTORY.md)
 
 
 # **References & Implementation Resources**
