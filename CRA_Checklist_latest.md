@@ -259,7 +259,7 @@ Art. 13(5) due diligence for third-party and FOSS components is addressed in §3
 
 ## **2.7 Harmonized Standards Tracking**
 
-CRA conformity depends on harmonized standards under Standardisation Request M/606, developed by ETSI, CEN, and CENELEC. As of August 2026, PT1 and PT3 drafts have been updated significantly since their public inquiry versions; final versions are not yet publicly available but are expected imminently. PT1 public inquiry draft and PT3 public inquiry draft are accessible via the NBN portal. ISO 27001 and IEC 62443 do not automatically create a presumption of CRA Annex I conformity, though they may be used as supporting evidence per EC FAQ 6.1 and Annex VIII Part 1\. Commission guidance final published version: C(2026) 5252, published 27 Jul 2026\.
+CRA conformity depends on harmonized standards under Standardisation Request M/606, developed by ETSI, CEN, and CENELEC. The Commission standardisation page states that M/606 contains 41 standards in support of the CRA. Organizations should monitor ETSI, CEN, CENELEC, STAN4CR, Commission, and Official Journal status for relevant deliverables. Drafts and public-inquiry materials may support implementation planning, but presumption of conformity arises only from applicable harmonized standards referenced for CRA purposes. ISO 27001 and IEC 62443 do not automatically create a presumption of CRA Annex I conformity, though they may be used as supporting evidence per EC FAQ 6.1 and Annex VIII Part 1\. Commission guidance final published version: C(2026) 5252, published 27 Jul 2026\.
 
  
 
@@ -466,6 +466,8 @@ Defined criteria for four operational outcomes: Immediate Remediation, Monitored
 
 Standard operating procedures for publicly disclosing fixes, providing mitigation guidance, and meeting the three-stage CRA Article 14 regulatory reporting cascade: Early Warning (24h), Full Notification (72h), and Final Report. Items marked with a deadline are required before 11 Sep 2026\.
 
+Post-launch reporting clarifications: CRA Art. 14 reporting obligations apply from 11 Sep 2026\. An actively exploited vulnerability whose active exploitation was already known to the manufacturer before that date is not retroactively reportable solely because the CRA reporting regime has started. If the manufacturer becomes aware after 11 Sep 2026 that a previously known vulnerability is actively exploited, the Art. 14 reporting obligation applies. For third-party components, mandatory notification applies where the actively exploited vulnerability is contained in the manufacturer's product with digital elements. If the vulnerable code cannot be exploited in that product, for example because it is unreachable, or has not been exploited in that product, mandatory Art. 14 reporting is not triggered for that manufacturer; vulnerability handling, upstream reporting under CRA Art. 13(6), and voluntary Art. 15 notification may still be relevant.
+
  
 
 | Ref | Requirement | Conformant? (Yes / No / Partial) | Evidence & Rationale | Guidance / Reference |
@@ -486,7 +488,7 @@ Standard operating procedures for publicly disclosing fixes, providing mitigatio
 
 ## **4.5 Art. 14 Notification RACI \- Roles & Trigger Ownership**
 
-CRA Article 14 imposes hard time-based obligations requiring pre-assigned, tested role ownership. All deadline items must be completed before 11 Sep 2026\.
+CRA Article 14 imposes hard time-based obligations requiring pre-assigned, tested role ownership. The CRA Single Reporting Platform (SRP) has been operational since 11 Sep 2026\. ENISA provides SRP FAQs, a glossary, user guidance, the AR User Manual, tutorial material, and the list of CSIRTs designated as coordinators. Initial SRP operation uses the platform interface; ENISA FAQ states that no API is provided in the initial release and that voluntary Art. 15 reporting will be introduced in a future phase.
 
  
 
@@ -495,7 +497,7 @@ CRA Article 14 imposes hard time-based obligations requiring pre-assigned, teste
 | **4.5.1** | ⚠ DEADLINE: 11 Sep 2026 \- ⚠  \[CRA REQUIREMENT\] The organization must designate a named individual (by role) as the Art. 14 Notification Owner responsible for initiating the Early Warning submission to the CRA Single Reporting Platform (SRP) within the 24-hour clock. | ☐ Yes   ☐ No   ☐ Partial |   | RACI table entry; named backup; on-call schedule. |
 | **4.5.2** | ⚠ DEADLINE: 11 Sep 2026 \- ⚠  \[CRA REQUIREMENT\] The organization must designate a named individual (by role) responsible for completing and submitting the 72-hour Full Notification to the CRA Single Reporting Platform (SRP), empowered to escalate to legal or executive if additional approvals are required. | ☐ Yes   ☐ No   ☐ Partial |   | RACI table entry; escalation path documented. |
 | **4.5.3** | ⚠ DEADLINE: 11 Sep 2026 \- ⚠  \[CRA REQUIREMENT\] The organization must designate a named individual (by role) to own the 14-day Final Report for actively exploited vulnerabilities and the one-month final report for severe incidents, coordinate post-incident review inputs, and sign off on the submission. | ☐ Yes   ☐ No   ☐ Partial |   | RACI table entry; final report review workflow. |
-| **4.5.4** | ⚠ DEADLINE: 11 Sep 2026 \- \[CRA REQUIREMENT\] The organization should maintain CRA Single Reporting Platform (SRP) readiness by ensuring EU Login access, designated primary and backup submitters, an offline notification worksheet, and a documented tabletop exercise. Manufacturers and open source software stewards should initiate CSIRT validation when a specific notification needs to be submitted, consistent with ENISA SRP guidance; validation does not prevent submission. | ☐ Yes   ☐ No   ☐ Partial |   | EU Login readiness record; primary/backup submitter assignment; offline notification worksheet; tabletop exercise or internal reporting simulation record. |
+| **4.5.4** | ⚠ DEADLINE: 11 Sep 2026 \- \[CRA REQUIREMENT\] The organization should maintain CRA Single Reporting Platform (SRP) readiness by ensuring EU Login/MFA access, Primary and Secondary Assigned Representative responsibilities, designated primary and backup submitters, platform-interface submission instructions, an offline notification worksheet, and a documented tabletop exercise. The runbook should record that no API is provided in the initial SRP release, that voluntary Art. 15 reporting is a future-phase function, and that if the SRP is temporarily unavailable the organization should submit once SRP availability is restored; if immediate communication is necessary before restoration, the designated CSIRT may be contacted directly, but the notification must still be submitted through the SRP once available. Manufacturers and open source software stewards should initiate CSIRT validation when a specific notification needs to be submitted, consistent with ENISA SRP guidance; validation does not prevent submission. | ☐ Yes   ☐ No   ☐ Partial |   | EU Login/MFA readiness record; Primary/Secondary AR assignment; platform-interface submission runbook; no-API workflow note; SRP unavailable fallback procedure; offline notification worksheet; tabletop exercise or internal reporting simulation record. |
 | **4.5.5** | \[CRA REQUIREMENT\] The organization must maintain a documented procedure recording when awareness of an incident or actively exploited vulnerability first occurred, to establish the Art. 14 reporting clock start time. | ☐ Yes   ☐ No   ☐ Partial |   | Incident log with awareness timestamp; governance documentation. |
 | **4.5.6** | \[CRA REQUIREMENT\] The Art. 14 RACI must be reviewed and re-confirmed upon any relevant personnel change and at minimum annually. | ☐ Yes   ☐ No   ☐ Partial |   | RACI version history; review record. |
 
@@ -742,7 +744,7 @@ The following phased model provides a structured approach to achieving self-cert
 
 | Phase | Key Action | Typical Owner | Target |
 | :---- | :---- | :---- | :---- |
-| **PRIORITY \- Art. 14 RACI (§4.4-4.5)** | Confirm current CRA Single Reporting Platform (SRP) registration process directly with ENISA and national CSIRT or MSA; assign named owners for 24h/72h/14-day notification stages; document severe security incident definition; complete at least one test submission or equivalent preparatory contact before the deadline. |   | **Before 11 Sep 2026 \- IMMEDIATE** |
+| **PRIORITY \- Art. 14 RACI (§4.4-4.5)** | Use current ENISA SRP guidance and the Commission CRA reporting page; assign named owners for 24h/72h/14-day notification stages; document severe security incident definition; maintain EU Login/MFA and Assigned Representative readiness; document the SRP unavailable fallback and no-API limitation; complete at least one tabletop exercise or equivalent internal reporting simulation. |   | **Operational from 11 Sep 2026 \- maintain continuously** |
 | **1 \- Scope & Categorization** | Determine organizational role using §1 applicability table; confirm PDE vs SaaS (§2.5.1); complete EU establishment determination (§2.5.2/§7.4); complete risk classification including Art. 32(5) FOSS determination (§2.5.3-2.5.9); complete cybersecurity risk assessment (§2.6). | Legal \+ CISO | Month 1-2 |
 | **2 \- Policy & Governance** | Draft and approve CRA policy (§2.1); assign responsibilities (§2.2); training (§2.3); M/606/PT1/PT3 monitoring (§2.7). | Legal \+ CISO | Month 1-3 |
 | **3 \- SBOM & SDLC** | Generate SBOMs per CRA original text covering at the very least top-level dependencies (§3.1); validate completeness including license information fields (§3.2); establish provenance signing (§3.3); implement SAST/DAST, threat modeling, release gate (§3.4); importer/distributor checklist (§3.5). | Platform Eng. | Month 2-4 |
@@ -794,7 +796,7 @@ The following terms are used throughout this document. Definitions align with CR
 | :---- | :---- |
 | **AR (Authorized Representative)** | An EU-established natural or legal person appointed by a non-EU manufacturer to act on its behalf for CRA obligations per Art. 18(3): (a) keeping DoC and Technical File available to MSAs; (b) providing MSAs with conformity information on reasoned request; (c) cooperating with MSAs on risk elimination. Note: AR is one of three options for non-EU market placement; the others are an EU importer or EU fulfillment service provider. |
 | **CRA** | Cyber Resilience Act \- Regulation (EU) 2024/2847. |
-| **CRA Single Reporting Platform (SRP)** | The platform operated by ENISA for receiving Art. 14 notifications of actively exploited vulnerabilities and severe security incidents. Note: the SRP account-registration mechanics were not yet publicly finalized as of mid-2026; organizations should confirm current process directly with ENISA and their national CSIRT or MSA. |
+| **CRA Single Reporting Platform (SRP)** | The online platform developed, operated, and maintained by ENISA for Art. 14 notifications of actively exploited vulnerabilities and severe security incidents. The SRP has been operational since 11 Sep 2026 and provides ENISA guidance, FAQs, a glossary, AR user guidance/manuals, training material, and the list of CSIRTs designated as coordinators. |
 | **CSIRT** | Computer Security Incident Response Team \- a designated national authority responsible for receiving CRA Article 14 notifications. |
 | **DoC (Declaration of Conformity)** | EU Declaration of Conformity per CRA Annex V \- required before CE marking and EU market placement. |
 | **EPSS** | Exploit Prediction Scoring System \- probability score estimating likelihood of CVE exploitation within 30 days. |
@@ -913,6 +915,14 @@ References marked as "draft" or "pending" are informational only and non-binding
 ●  CRA Compliance Matrix (independent) \- [cyberresilienceact.eu/compliance-matrix.html](https://www.cyberresilienceact.eu/compliance-matrix.html)
 
 ●  ENISA EU Vulnerability Database (EUVD) \- [euvd.enisa.europa.eu](https://euvd.enisa.europa.eu)
+
+●  ENISA CRA Single Reporting Platform (SRP) \- [enisa.europa.eu](https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp)
+
+●  ENISA CRA SRP Frequently Asked Questions \- [enisa.europa.eu](https://www.enisa.europa.eu/topics/product-security/vulnerability-services/eu-incident-response-and-cyber-crisis-management/single-reporting-platform-srp/frequently-asked-questions)
+
+●  European Commission CRA reporting obligations page \- [digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu/en/policies/cra-reporting)
+
+●  European Commission CRA standardisation page \- [digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation)
 
 ●  Commission Delegated Regulation (EU) 2026/881 \- notification dissemination delay conditions
 
