@@ -19,6 +19,8 @@ Completing or signing this checklist does not in itself constitute a CRA conform
 
 Important: All bracketed \[INSERT ...\] fields throughout this document must be completed with organization-specific information before any compliance claim or self-certification is made.
 
+Normative keyword note: All-caps requirement keywords such as MUST, MUST NOT, REQUIRED, SHALL, SHALL NOT, SHOULD, SHOULD NOT, RECOMMENDED, NOT RECOMMENDED, MAY, and OPTIONAL are interpreted according to BCP 14 (RFC 2119 and RFC 8174). Lowercase uses of these words have their ordinary plain-language meaning and should be read in context with the item's label, such as \[CRA REQUIREMENT\], \[GOOD PRACTICE\], or \[IMPLEMENTATION CONTROL\].
+
 
 # **Section 1: Introduction & Scope**
 
@@ -107,7 +109,7 @@ The table below shows which sections contain items subject to the 11 Sep 2026 Ar
 | **3.4** | Secure Development Properties | No | Yes \- 11 Dec 2027 | Partial \- SDL not fully in 18974 |
 | **3.5** | Importer & Distributor Obligations | No | Yes \- 11 Dec 2027 | No \- CRA-specific |
 | **3.6** | Third-Party Software Supply Chain Qualification | No | Yes \- 11 Dec 2027 | Partial \- supplier governance supports supply chain risk management |
-| **4.1** | Vulnerability Ingestion & Monitoring | Yes \- EUVD/KEV feeds required | No | Yes \- §3.3.1 |
+| **4.1** | Vulnerability Ingestion & Monitoring | Yes \- vulnerability monitoring required; EUVD/KEV are implementation feeds where appropriate | No | Yes \- §3.3.1 |
 | **4.2** | Risk Adjudication & Vulnerability Exchange | Yes \- exploitability informs Art. 14 | No | Yes \- §3.3.2 |
 | **4.3** | Actionable Decisions | Yes \- decisions trigger Art. 14 clock | No | Yes \- §3.3.2 |
 | **4.4** | Disclosure & Regulatory Reporting | **YES \- §4.4.2-4.4.5 11 Sep 2026** | No | Partial \- CVD only; ENISA cascade not in 18974 |
@@ -736,7 +738,7 @@ The following phased model provides a structured approach to achieving self-cert
 | **1 \- Scope & Categorization** | Determine organizational role using §1 applicability table; confirm PDE vs SaaS (§2.5.1); complete EU establishment determination (§2.5.2/§7.4); complete risk classification including Art. 32(5) FOSS determination (§2.5.3-2.5.9); complete cybersecurity risk assessment (§2.6). | Legal \+ CISO | Month 1-2 |
 | **2 \- Policy & Governance** | Draft and approve CRA policy (§2.1); assign responsibilities (§2.2); training (§2.3); M/606/PT1/PT3 monitoring (§2.7). | Legal \+ CISO | Month 1-3 |
 | **3 \- SBOM & SDLC** | Generate SBOMs per CRA original text covering at the very least top-level dependencies (§3.1); validate completeness including license information fields (§3.2); establish provenance signing (§3.3); implement SAST/DAST, threat modeling, release gate (§3.4); importer/distributor checklist (§3.5). | Platform Eng. | Month 2-4 |
-| **4 \- Vuln Pipeline** | Deploy continuous monitoring including EUVD and KEV feeds (§4.1); exploitability assessment (§4.2); decision criteria (§4.3); CVD policy (§4.4). | SecOps | Month 3-5 |
+| **4 \- Vuln Pipeline** | Deploy continuous monitoring of relevant vulnerability sources (§4.1), considering EUVD and KEV feeds where appropriate; exploitability assessment (§4.2); decision criteria (§4.3); CVD policy (§4.4). | SecOps | Month 3-5 |
 | **5 \- Vulnerability Exchange & Disclosure** | Implement exploitability exchange workflow (§4.2); integrate SRP Art. 14 reporting runbook (§4.4); train responders; run tabletop exercise (§4.5). | SecOps \+ Legal | Month 4-6 |
 | **6 \- OSS Governance** | Steward vs manufacturer determination per Art. 3(14), Recitals 18 and 19, Art. 24 (§5.1); upstream due-diligence (§5.1.6); publish SECURITY.md per Art. 24(1) (§5.2). | OSS Program | Month 5-7 |
 | **7 \- Support Period** | Define and publish support periods; document secure update mechanism; EoL comms (§6.1). | Product \+ Legal | Month 5-7 |
