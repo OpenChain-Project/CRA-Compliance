@@ -23,6 +23,7 @@ This supporting evidence register records the people and organizations that cont
 | **Shinji Sato** | [confirm] | [confirm] | [confirm] | Issue #19 scope clarification; Section 1 CRA applicability wording for organizations not deploying open-source software in the EU |
 | **Wenjun Feng** | [confirm] | Honor Device Co., Ltd. | [confirm] | Revision suggestions incorporated: §3.4 secure design/development framing; §3.6 third-party software supply-chain qualification; §5.3 self-maintained OSS; §3.1 SBOM dependency-depth/completeness and file/snippet-level reference guidance. |
 | **Xiang Shuming** | shuming.xiang@sectrend.com.cn | Shanghai Sectrend Information Technology Co., Ltd. | [confirm] | Community review contribution; details pending confirmation. |
+| **Gustavo Sánchez** | gustavo.sanchez@nemko.com | Nemko Digital | [confirm] | EUVD/KEV requirement revision |
 
 To add your name as a contributor, open a pull request or GitHub issue at github.com/OpenChain-Project/CRA-Compliance, or contact the working group lead.
 
