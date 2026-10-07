@@ -74,29 +74,18 @@ This table lists public forums, community sessions, talks, articles, or other re
 
 ## D.3 - Tooling and Workflow Use of the Checklist
 
-The organizations listed below have indicated that they use, reference, evaluate, or plan to incorporate the OpenChain CRA Compliance Requirements & Checklist in tooling, workflow, advisory, or implementation contexts. Inclusion in this section does not imply OpenChain certification, legal approval, conformity assessment, endorsement of any product or service, or confirmation of CRA compliance.
+The table below lists named tools, products, or implementation workflows associated with organizations listed in D.1 that have indicated adoption or use of the OpenChain CRA Compliance Requirements & Checklist. Inclusion in this section does not imply OpenChain certification, legal approval, conformity assessment, endorsement of any product or service, or confirmation of CRA compliance.
 
-| No. | Organization | Tooling / Workflow Context | Checklist Use / Evidence |
+| Tool / Product / Workflow Name | Company / Organization | Brief Description | Country |
 | :---- | :---- | :---- | :---- |
-| 1 | **Bitsea GmbH** | OCCTET; Curator Pro; CRA readiness consulting and tooling | Publicly describes the checklist as practical implementation guidance and discusses OCCTET and Curator Pro as complementary implementation paths. |
-| 2 | **Double Open** | Open source compliance automation; CRA compliance services | Publicly references the checklist as a practical CRA resource and reviewed v1.0 against the Regulation. |
-| 3 | **OSADL (Open Source Automation Development Lab eG)** | OSSelot; package analysis; SPDX-format package analysis; SBOM generation tooling | OSSelot publicly references the checklist in tools and documents and states that OSSelot material can serve as evidence toward CRA readiness. |
-| 4 | **PricewaterhouseCoopers GmbH (PwC Germany)** | CRA, OSS, and SBOM compliance advisory and implementation materials | Confirmed use of the checklist in client-facing CRA, OSS, and SBOM compliance implementation materials. |
-| 5 | **Interlynk** | SBOM lifecycle management platform; CRA compliance resources | Publicly references the checklist as a CRA compliance resource alongside SBOM and software supply chain standards. |
-| 6 | **Lineaje** | Software supply chain security platform; SBOM management; global regulation workflows | Publicly references the checklist in the context of global SBOM regulation and CRA readiness. |
-| 7 | **Revenera (Flexera)** | Code Insight; SBOM Insights; Software Composition Analysis | Publicly references the checklist from its software composition analysis resources. |
-| 8 | **Anchore** | Anchore Enterprise; SBOM, VEX, VDR, vulnerability management, and conformity workflows | Publicly references the checklist in EU CRA compliance guidance for SBOM management, vulnerability monitoring, VEX/VDR evidence, reporting, and conformity workflows. |
-| 9 | **sbomify** | SBOM lifecycle management and CRA compliance resources | Publicly references the OpenChain CRA Compliance resource as process and policy guidance complementary to technical SBOM requirements. |
-| 10 | **Agent Passport System** | Agent Passport evidence framework; OpenChain conformance and CRA evidence context | Publicly references the OpenChain CRA Compliance Program in an evidence framework context. |
-| 11 | **OSS Review Toolkit (ORT)** | ORT related tools documentation; SBOM, vulnerability, and open source compliance workflows | Publicly references the checklist as a community resource for CRA readiness and mapping ORT-generated SBOM and vulnerability information to evidence planning. |
-| 12 | **BearingPoint** | CRA compliance services; Forensic SCA; AI code detection; SBOM and AIBOM management; M&A risk assessments | Publicly cross-references the checklist as a structured checklist and best-practice resource supporting CRA readiness. |
-| 13 | **FOSSA** | SBOM management; software supply chain transparency and security; vulnerability management and reporting | Publicly cross-references the checklist from CRA learning and timeline resources for role-based obligations, effective dates, and CRA readiness planning. |
-| 14 | **CRACY - CRA made easY** | CRA product scope assessment; SBOM-related tooling; software composition analysis; reporting workflows | Confirmed interest in referencing the checklist; public reference link pending. |
-| 15 | **SCANOSS** | CRA compliance page; SBOM and CBOM generation; source code scanning; vulnerability and component evidence | Publicly states that SCANOSS capabilities align with the checklist as a community-developed framework supporting CRA evidence and SBOM practices. |
-| 16 | **CVD Portal / Porta Regulus B.V.** | CVD Portal; CRA Article 14 workflow automation; vulnerability disclosure and reporting readiness | Public documentation states that CVD Portal implements checklist section 4.5 requirements for Article 14 readiness. |
-| 17 | **Safionyx GmbH & Co KG** | CRA workshops; ISO/IEC 5230 and ISO/IEC 18974 advisory; SBOM practice | Publicly states that it uses the checklist as a common reference so workshops begin from an agreed list rather than a dispute about scope. |
-| 18 | **SK Telecom / BomLens** | BomLens SBOM and AI model documentation | BomLens documentation links to the checklist for broader CRA readiness processes, including governance, vulnerability handling, technical-file evidence, and security updates. |
-| 19 | **norxs** | Functional safety and cybersecurity engineering; CRA Article 14 reporting guidance | Publicly references the OpenChain CRA compliance framework in Article 14 reporting guidance and confirmed interest in following the CRA Working Group activity. |
-| 20 | **Sun Square Co., Ltd.** | Cybersecurity advisory; CRA checklist technical contribution | Confirmed completion of a technical contribution to the checklist and stated that it is comfortable referencing the checklist as a community resource supporting CRA implementation. |
-| 21 | **Nemko Digital** | Digital trust, AI governance, regulatory compliance, and CRA readiness services | Confirmed organization name, location, and website for inclusion in Annex D as an adopter of the checklist. |
-| 22 | **Open Source Wishlist** | CRA Practitioner Playbook | Public CRA Practitioner Playbook draws on the checklist, uses checklist item 5.1.5 in guidance on manufacturer and steward roles, and links directly to the v1.0 checklist. |
+| OCCTET; Curator Pro | **Bitsea GmbH** | CRA readiness and open source compliance tooling used as implementation paths alongside the checklist. | Germany |
+| OSSelot; package-analysis | **OSADL (Open Source Automation Development Lab eG)** | OSS license curation, SPDX-format package analysis, OSS disclosure file, and SBOM generation tooling. | Germany |
+| PwC OSS Compliance Tooling; METUS Security | **PricewaterhouseCoopers GmbH (PwC Germany)** | OSS compliance and security scanning tooling, SBOM creation support, and threat and risk analysis tooling. | Germany |
+| Interlynk SBOM platform | **Interlynk** | SBOM lifecycle management platform and CRA compliance resource workflow. | United States |
+| Lineaje software supply chain security platform | **Lineaje** | Software supply chain security and SBOM management platform for global regulatory workflows. | United States |
+| Code Insight; SBOM Insights | **Revenera (Flexera)** | Software Composition Analysis and SBOM tooling for CRA readiness and compliance workflows. | United States |
+| Anchore Enterprise | **Anchore** | SBOM, VEX, VDR, vulnerability management, reporting, and conformity evidence workflows. | United States |
+| sbomify | **sbomify** | SBOM lifecycle management platform and compliance resource workflow. | United Kingdom |
+| OSS Review Toolkit (ORT) | **OSS Review Toolkit (ORT)** | Open source compliance toolkit supporting SBOM, vulnerability, and evidence planning workflows. | International |
+| Forensic SCA; AI code detection; SBOM and AIBOM generation and management | **BearingPoint** | CRA compliance service workflows covering software composition analysis, AI code detection, SBOM, and AIBOM evidence. | Germany |
+| FOSSA platform | **FOSSA** | Software supply chain compliance platform for SBOM management, vulnerability management, and CRA readiness resources. | United States |
