@@ -15,7 +15,7 @@ This supporting evidence register records the people and organizations that cont
 | **Ummo Schwarting** | uschwarting@deloitte.de | Deloitte Germany | umm0 | VEX/CSAF status vocabulary; §4.2.3 format-native rewrite |
 | **Adrian O'Sullivan** | adrian.osullivan@huawei.com | Huawei | aosull01 | §7.2.1 SBOM may wording correction |
 | **Marcel Kurzmann** | [confirm] | Bosch | [confirm] | Evidence & Rationale column; hyperlinks throughout |
-| **Ryan Tao** | [confirm] | [confirm] | [confirm] | §3.1.1 SBOM wording; §3.1.5 actively exploited CVE correction |
+| **Ryan Tao** | taoye@grandall.com.cn | Grandall Law Firm | AttorneyTao | §3.1.1 SBOM wording; §3.1.5 actively exploited CVE correction |
 | **Mary (Meixia) Wang** | [confirm] | Linux Foundation | [confirm] | Column order; title; OpenChain CRA website page; community announcement |
 | **eaglei15** | [confirm] | [confirm] | eaglei15 | §4.2.3 CycloneDX false_positive VEX status contribution (GitHub PR #3) |
 | **SZ Lin林上智** | szlin@sunsquare.tech | Sun Square | szlin | CRA legal-basis corrections; Article 18 authorised-representative framing; Article 25 correction; importer/distributor applicability; statutory vs implementation-control classification |
