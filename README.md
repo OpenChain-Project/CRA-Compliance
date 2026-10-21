@@ -21,6 +21,7 @@ The checklist covers program governance, product assessment, SBOM quality, vulne
 | `ANNEX_D_EXTERNAL_REFERENCES_AND_ADOPTION.md` | External references, use, tooling, and adoption register |
 | `1.0` | Archive directory for checklist version 1.0 |
 | `Pre-Release-Versions` | Archive directory for pre-release checklist versions |
+| [`case-studies`](case-studies/) | Case study template and approved examples of checklist use |
 
 ## Checklist Structure
 
