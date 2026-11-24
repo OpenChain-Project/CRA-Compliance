@@ -99,3 +99,11 @@ The table below lists named tools, products, or implementation workflows associa
 | Forensic SCA; AI code detection; SBOM and AIBOM generation and management | **BearingPoint** | CRA compliance service workflows covering software composition analysis, AI code detection, SBOM, and AIBOM evidence. | Germany |
 | FOSSA platform | **FOSSA** | Software supply chain compliance platform for SBOM management, vulnerability management, and CRA readiness resources. | United States |
 | ReARM release and SBOM / xBOM governance platform | **Reliza** | Release and SBOM / xBOM governance platform; ReARM EU CRA documentation references the OpenChain CRA checklist. | Canada |
+
+## D.4 - Public Use Cases and Checklist Mappings
+
+This section lists public materials describing how tools or workflows relate to the OpenChain CRA Compliance Requirements & Checklist. Inclusion records the published material and does not represent an OpenChain assessment of a product or a claim of CRA conformity.
+
+| No. | Organization / Product | Description | Country | Basis / Status | Public Reference |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | **Reliza (ReARM)** | ReARM's EU CRA use-case page describes workflows for release SBOMs, vulnerability handling, artifact distribution, and due-diligence evidence. Its OpenChain mapping page relates ReARM capabilities to checklist themes including governance, SBOM lifecycle, vulnerability handling, and technical documentation and evidence. | Canada | `public-reference`; `tooling-reference` | [EU CRA use case](https://rearmhq.com/use-cases/eu-cra/); [OpenChain CRA Checklist mapping](https://rearmhq.com/use-cases/openchain-cra-mapping/) |
